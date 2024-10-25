@@ -1,0 +1,11 @@
+easel/02_index/hisat2/hisat2.index/hisat2.2.ht2
+easel/02_index/hisat2/hisat2.index/hisat2.1.ht2
+easel/02_index/hisat2/hisat2.index/hisat2.4.ht2
+easel/02_index/hisat2/hisat2.index/hisat2.6.ht2
+easel/02_index/hisat2/hisat2.index/hisat2.5.ht2
+easel/01_reads/trimmed_reads/SRR6134108_trimmed_1.fastq.gz
+easel/01_reads/trimmed_reads/SRR6134108_trimmed_2.fastq.gz
+easel/08_functional_annotation/unfiltered/final_results/annotated_gene_ontology_terms.tsv
+easel/08_functional_annotation/unfiltered/gene_family/EggNOG/processed/eggnog_annotated_gene_ontology_terms.tsv
+easel/08_functional_annotation/pfam/pfam.domtblout
+easel/metrics/busco/genome/logs/miniprot_align_embryophyta_odb10_out.log
