@@ -1,0 +1,1202 @@
+* [Thu Oct 24 18:51:46 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/get_top_longest_fasta_entries.pl /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.cds 5000 5000 > /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.cds.top_longest_5000
+* [Thu Oct 24 18:51:49 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/exclude_similar_proteins.pl /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.cds.top_longest_5000 > /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.cds.top_longest_5000.nr
+-skipping training candidate: MSTRG.19734.1.p1, not unique enough
+-skipping training candidate: MSTRG.19734.2.p1, not unique enough
+-skipping training candidate: MSTRG.7840.2.p1, not unique enough
+-skipping training candidate: MSTRG.7840.1.p1, not unique enough
+-skipping training candidate: MSTRG.13560.2.p1, not unique enough
+-skipping training candidate: MSTRG.1976.2.p1, not unique enough
+-skipping training candidate: MSTRG.7811.2.p1, not unique enough
+-skipping training candidate: MSTRG.17626.2.p1, not unique enough
+-skipping training candidate: MSTRG.17626.1.p1, not unique enough
+-skipping training candidate: MSTRG.13314.3.p1, not unique enough
+-skipping training candidate: MSTRG.13314.1.p1, not unique enough
+-skipping training candidate: MSTRG.3688.2.p1, not unique enough
+-skipping training candidate: MSTRG.2803.1.p1, not unique enough
+-skipping training candidate: MSTRG.2803.2.p1, not unique enough
+-skipping training candidate: MSTRG.1047.1.p1, not unique enough
+-skipping training candidate: MSTRG.12856.3.p1, not unique enough
+-skipping training candidate: MSTRG.10009.1.p1, not unique enough
+-skipping training candidate: MSTRG.12856.2.p1, not unique enough
+-skipping training candidate: MSTRG.18092.1.p1, not unique enough
+-skipping training candidate: MSTRG.19821.1.p1, not unique enough
+-skipping training candidate: MSTRG.2612.1.p1, not unique enough
+-skipping training candidate: MSTRG.7840.5.p1, not unique enough
+-skipping training candidate: MSTRG.7840.4.p1, not unique enough
+-skipping training candidate: MSTRG.3364.1.p1, not unique enough
+-skipping training candidate: MSTRG.14580.2.p1, not unique enough
+-skipping training candidate: MSTRG.3867.2.p1, not unique enough
+-skipping training candidate: MSTRG.4980.1.p1, not unique enough
+-skipping training candidate: MSTRG.12602.2.p1, not unique enough
+-skipping training candidate: MSTRG.3499.5.p1, not unique enough
+-skipping training candidate: MSTRG.12672.2.p1, not unique enough
+-skipping training candidate: MSTRG.6378.1.p1, not unique enough
+-skipping training candidate: MSTRG.6378.2.p1, not unique enough
+-skipping training candidate: MSTRG.1005.1.p1, not unique enough
+-skipping training candidate: MSTRG.16058.2.p1, not unique enough
+-skipping training candidate: MSTRG.14652.3.p1, not unique enough
+-skipping training candidate: MSTRG.14652.2.p1, not unique enough
+-skipping training candidate: MSTRG.5068.2.p1, not unique enough
+-skipping training candidate: MSTRG.17034.1.p1, not unique enough
+-skipping training candidate: MSTRG.9470.2.p1, not unique enough
+-skipping training candidate: MSTRG.139.1.p1, not unique enough
+-skipping training candidate: MSTRG.10372.1.p1, not unique enough
+-skipping training candidate: MSTRG.11213.1.p1, not unique enough
+-skipping training candidate: MSTRG.439.2.p1, not unique enough
+-skipping training candidate: MSTRG.3592.1.p1, not unique enough
+-skipping training candidate: MSTRG.7908.2.p1, not unique enough
+-skipping training candidate: MSTRG.3592.3.p1, not unique enough
+-skipping training candidate: MSTRG.4031.1.p1, not unique enough
+-skipping training candidate: MSTRG.18976.2.p1, not unique enough
+-skipping training candidate: MSTRG.19094.1.p1, not unique enough
+-skipping training candidate: MSTRG.3499.7.p1, not unique enough
+-skipping training candidate: MSTRG.3499.8.p1, not unique enough
+-skipping training candidate: MSTRG.20523.1.p1, not unique enough
+-skipping training candidate: MSTRG.9999.1.p1, not unique enough
+-skipping training candidate: MSTRG.2431.1.p1, not unique enough
+-skipping training candidate: MSTRG.15792.2.p1, not unique enough
+-skipping training candidate: MSTRG.12134.1.p1, not unique enough
+-skipping training candidate: MSTRG.18933.2.p1, not unique enough
+-skipping training candidate: MSTRG.15878.1.p1, not unique enough
+-skipping training candidate: MSTRG.7601.1.p1, not unique enough
+-skipping training candidate: MSTRG.20961.2.p1, not unique enough
+-skipping training candidate: MSTRG.13780.1.p1, not unique enough
+-skipping training candidate: MSTRG.21118.1.p1, not unique enough
+-skipping training candidate: MSTRG.21132.1.p1, not unique enough
+-skipping training candidate: MSTRG.20934.1.p1, not unique enough
+-skipping training candidate: MSTRG.5115.1.p1, not unique enough
+-skipping training candidate: MSTRG.1335.1.p1, not unique enough
+-skipping training candidate: MSTRG.3688.3.p1, not unique enough
+-skipping training candidate: MSTRG.12206.2.p1, not unique enough
+-skipping training candidate: MSTRG.20499.1.p1, not unique enough
+-skipping training candidate: MSTRG.15394.1.p1, not unique enough
+-skipping training candidate: MSTRG.6084.2.p1, not unique enough
+-skipping training candidate: MSTRG.17196.2.p1, not unique enough
+-skipping training candidate: MSTRG.823.2.p1, not unique enough
+-skipping training candidate: MSTRG.18248.1.p1, not unique enough
+-skipping training candidate: MSTRG.15301.2.p1, not unique enough
+-skipping training candidate: MSTRG.19700.2.p1, not unique enough
+-skipping training candidate: MSTRG.9627.1.p1, not unique enough
+-skipping training candidate: MSTRG.7164.2.p1, not unique enough
+-skipping training candidate: MSTRG.4342.1.p1, not unique enough
+-skipping training candidate: MSTRG.11907.1.p1, not unique enough
+-skipping training candidate: MSTRG.8826.1.p1, not unique enough
+-skipping training candidate: MSTRG.2251.2.p1, not unique enough
+-skipping training candidate: MSTRG.2251.1.p1, not unique enough
+-skipping training candidate: MSTRG.7730.3.p1, not unique enough
+-skipping training candidate: MSTRG.7730.1.p1, not unique enough
+-skipping training candidate: MSTRG.13218.1.p1, not unique enough
+-skipping training candidate: MSTRG.16211.1.p1, not unique enough
+-skipping training candidate: MSTRG.13147.2.p1, not unique enough
+-skipping training candidate: MSTRG.16227.2.p1, not unique enough
+-skipping training candidate: MSTRG.9498.1.p1, not unique enough
+-skipping training candidate: MSTRG.18550.1.p1, not unique enough
+-skipping training candidate: MSTRG.4102.1.p1, not unique enough
+-skipping training candidate: MSTRG.8677.2.p1, not unique enough
+-skipping training candidate: MSTRG.3711.2.p1, not unique enough
+-skipping training candidate: MSTRG.17655.1.p1, not unique enough
+-skipping training candidate: MSTRG.1152.1.p1, not unique enough
+-skipping training candidate: MSTRG.15904.2.p1, not unique enough
+-skipping training candidate: MSTRG.9975.1.p1, not unique enough
+-skipping training candidate: MSTRG.13950.3.p1, not unique enough
+-skipping training candidate: MSTRG.13950.2.p1, not unique enough
+-skipping training candidate: MSTRG.2568.2.p1, not unique enough
+-skipping training candidate: MSTRG.14584.1.p1, not unique enough
+-skipping training candidate: MSTRG.11508.2.p1, not unique enough
+-skipping training candidate: MSTRG.15333.2.p1, not unique enough
+-skipping training candidate: MSTRG.6979.2.p1, not unique enough
+-skipping training candidate: MSTRG.10007.2.p1, not unique enough
+-skipping training candidate: MSTRG.10007.1.p1, not unique enough
+-skipping training candidate: MSTRG.16370.2.p1, not unique enough
+-skipping training candidate: MSTRG.443.1.p1, not unique enough
+-skipping training candidate: MSTRG.16185.1.p1, not unique enough
+-skipping training candidate: MSTRG.8437.1.p1, not unique enough
+-skipping training candidate: MSTRG.2395.1.p1, not unique enough
+-skipping training candidate: MSTRG.15575.1.p1, not unique enough
+-skipping training candidate: MSTRG.4602.1.p1, not unique enough
+-skipping training candidate: MSTRG.20738.1.p1, not unique enough
+-skipping training candidate: MSTRG.4971.1.p1, not unique enough
+-skipping training candidate: MSTRG.8546.1.p1, not unique enough
+-skipping training candidate: MSTRG.13864.1.p1, not unique enough
+-skipping training candidate: MSTRG.8546.2.p1, not unique enough
+-skipping training candidate: MSTRG.7982.1.p1, not unique enough
+-skipping training candidate: MSTRG.5930.1.p1, not unique enough
+-skipping training candidate: MSTRG.5930.2.p1, not unique enough
+-skipping training candidate: MSTRG.4315.2.p1, not unique enough
+-skipping training candidate: MSTRG.5762.2.p1, not unique enough
+-skipping training candidate: MSTRG.4767.2.p1, not unique enough
+-skipping training candidate: MSTRG.2608.2.p1, not unique enough
+-skipping training candidate: MSTRG.8164.1.p1, not unique enough
+-skipping training candidate: MSTRG.1364.2.p1, not unique enough
+-skipping training candidate: MSTRG.1364.1.p1, not unique enough
+-skipping training candidate: MSTRG.5216.2.p1, not unique enough
+-skipping training candidate: MSTRG.16162.1.p1, not unique enough
+-skipping training candidate: MSTRG.787.1.p1, not unique enough
+-skipping training candidate: MSTRG.16209.2.p1, not unique enough
+-skipping training candidate: MSTRG.5697.1.p1, not unique enough
+-skipping training candidate: MSTRG.12563.1.p1, not unique enough
+-skipping training candidate: MSTRG.17215.2.p1, not unique enough
+-skipping training candidate: MSTRG.18473.6.p1, not unique enough
+-skipping training candidate: MSTRG.3577.1.p1, not unique enough
+-skipping training candidate: MSTRG.20905.2.p1, not unique enough
+-skipping training candidate: MSTRG.2880.1.p1, not unique enough
+-skipping training candidate: MSTRG.303.2.p1, not unique enough
+-skipping training candidate: MSTRG.9398.1.p1, not unique enough
+-skipping training candidate: MSTRG.9398.2.p1, not unique enough
+-skipping training candidate: MSTRG.14061.1.p1, not unique enough
+-skipping training candidate: MSTRG.14913.3.p1, not unique enough
+-skipping training candidate: MSTRG.14913.2.p1, not unique enough
+-skipping training candidate: MSTRG.18656.2.p1, not unique enough
+-skipping training candidate: MSTRG.12173.1.p1, not unique enough
+-skipping training candidate: MSTRG.2259.1.p1, not unique enough
+-skipping training candidate: MSTRG.18358.1.p1, not unique enough
+-skipping training candidate: MSTRG.9398.5.p1, not unique enough
+-skipping training candidate: MSTRG.9398.4.p1, not unique enough
+-skipping training candidate: MSTRG.505.1.p1, not unique enough
+-skipping training candidate: MSTRG.2695.7.p1, not unique enough
+-skipping training candidate: MSTRG.2695.5.p1, not unique enough
+-skipping training candidate: MSTRG.2695.3.p1, not unique enough
+-skipping training candidate: MSTRG.1625.2.p1, not unique enough
+-skipping training candidate: MSTRG.5949.2.p1, not unique enough
+-skipping training candidate: MSTRG.11225.2.p1, not unique enough
+-skipping training candidate: MSTRG.3335.1.p1, not unique enough
+-skipping training candidate: MSTRG.2276.2.p1, not unique enough
+-skipping training candidate: MSTRG.6514.2.p1, not unique enough
+-skipping training candidate: MSTRG.16104.2.p1, not unique enough
+-skipping training candidate: MSTRG.5225.1.p1, not unique enough
+-skipping training candidate: MSTRG.9051.1.p1, not unique enough
+-skipping training candidate: MSTRG.17886.1.p1, not unique enough
+-skipping training candidate: MSTRG.6800.1.p1, not unique enough
+-skipping training candidate: MSTRG.14911.2.p1, not unique enough
+-skipping training candidate: MSTRG.16104.1.p1, not unique enough
+-skipping training candidate: MSTRG.13935.3.p1, not unique enough
+-skipping training candidate: MSTRG.3824.1.p1, not unique enough
+-skipping training candidate: MSTRG.7936.1.p1, not unique enough
+-skipping training candidate: MSTRG.14286.3.p1, not unique enough
+-skipping training candidate: MSTRG.2695.4.p1, not unique enough
+-skipping training candidate: MSTRG.2695.1.p1, not unique enough
+-skipping training candidate: MSTRG.2695.2.p1, not unique enough
+-skipping training candidate: MSTRG.2240.1.p1, not unique enough
+-skipping training candidate: MSTRG.2240.3.p1, not unique enough
+-skipping training candidate: MSTRG.17593.2.p1, not unique enough
+-skipping training candidate: MSTRG.19118.1.p1, not unique enough
+-skipping training candidate: MSTRG.5233.3.p1, not unique enough
+-skipping training candidate: MSTRG.6511.2.p1, not unique enough
+-skipping training candidate: MSTRG.6511.4.p1, not unique enough
+-skipping training candidate: MSTRG.6511.1.p1, not unique enough
+-skipping training candidate: MSTRG.5392.1.p1, not unique enough
+-skipping training candidate: MSTRG.7813.1.p1, not unique enough
+-skipping training candidate: MSTRG.765.2.p1, not unique enough
+-skipping training candidate: MSTRG.12761.2.p1, not unique enough
+-skipping training candidate: MSTRG.3174.2.p1, not unique enough
+-skipping training candidate: MSTRG.3009.1.p1, not unique enough
+-skipping training candidate: MSTRG.8210.1.p1, not unique enough
+-skipping training candidate: MSTRG.977.2.p1, not unique enough
+-skipping training candidate: MSTRG.977.3.p1, not unique enough
+-skipping training candidate: MSTRG.20445.2.p1, not unique enough
+-skipping training candidate: MSTRG.1234.1.p1, not unique enough
+-skipping training candidate: MSTRG.1234.2.p1, not unique enough
+-skipping training candidate: MSTRG.11596.3.p1, not unique enough
+-skipping training candidate: MSTRG.11596.2.p1, not unique enough
+-skipping training candidate: MSTRG.12807.2.p1, not unique enough
+-skipping training candidate: MSTRG.14993.1.p1, not unique enough
+-skipping training candidate: MSTRG.5084.1.p1, not unique enough
+-skipping training candidate: MSTRG.8968.2.p1, not unique enough
+-skipping training candidate: MSTRG.13161.2.p1, not unique enough
+-skipping training candidate: MSTRG.8558.2.p1, not unique enough
+-skipping training candidate: MSTRG.8083.2.p1, not unique enough
+-skipping training candidate: MSTRG.10800.1.p1, not unique enough
+-skipping training candidate: MSTRG.1582.2.p1, not unique enough
+-skipping training candidate: MSTRG.876.2.p1, not unique enough
+-skipping training candidate: MSTRG.8968.3.p1, not unique enough
+-skipping training candidate: MSTRG.12553.3.p1, not unique enough
+-skipping training candidate: MSTRG.12553.2.p1, not unique enough
+-skipping training candidate: MSTRG.6905.1.p1, not unique enough
+-skipping training candidate: MSTRG.15134.2.p1, not unique enough
+-skipping training candidate: MSTRG.3302.2.p1, not unique enough
+-skipping training candidate: MSTRG.12119.2.p1, not unique enough
+-skipping training candidate: MSTRG.11358.2.p1, not unique enough
+-skipping training candidate: MSTRG.14305.1.p1, not unique enough
+-skipping training candidate: MSTRG.3695.2.p1, not unique enough
+-skipping training candidate: MSTRG.15471.3.p1, not unique enough
+-skipping training candidate: MSTRG.1210.3.p1, not unique enough
+-skipping training candidate: MSTRG.19318.2.p1, not unique enough
+-skipping training candidate: MSTRG.18090.2.p1, not unique enough
+-skipping training candidate: MSTRG.8161.1.p1, not unique enough
+-skipping training candidate: MSTRG.216.2.p1, not unique enough
+-skipping training candidate: MSTRG.15471.1.p1, not unique enough
+-skipping training candidate: MSTRG.5542.2.p1, not unique enough
+-skipping training candidate: MSTRG.7878.1.p1, not unique enough
+-skipping training candidate: MSTRG.8315.2.p1, not unique enough
+-skipping training candidate: MSTRG.13416.1.p1, not unique enough
+-skipping training candidate: MSTRG.18567.1.p1, not unique enough
+-skipping training candidate: MSTRG.12830.2.p1, not unique enough
+-skipping training candidate: MSTRG.12830.1.p1, not unique enough
+-skipping training candidate: MSTRG.12211.1.p1, not unique enough
+-skipping training candidate: MSTRG.16146.1.p1, not unique enough
+-skipping training candidate: MSTRG.19975.2.p1, not unique enough
+-skipping training candidate: MSTRG.16682.1.p1, not unique enough
+-skipping training candidate: MSTRG.3256.1.p1, not unique enough
+-skipping training candidate: MSTRG.1709.2.p1, not unique enough
+-skipping training candidate: MSTRG.18131.2.p1, not unique enough
+-skipping training candidate: MSTRG.3181.2.p1, not unique enough
+-skipping training candidate: MSTRG.14818.4.p1, not unique enough
+-skipping training candidate: MSTRG.14818.1.p1, not unique enough
+-skipping training candidate: MSTRG.1709.3.p1, not unique enough
+-skipping training candidate: MSTRG.3106.2.p1, not unique enough
+-skipping training candidate: MSTRG.6256.2.p1, not unique enough
+-skipping training candidate: MSTRG.6013.1.p1, not unique enough
+-skipping training candidate: MSTRG.3372.1.p1, not unique enough
+-skipping training candidate: MSTRG.13949.2.p1, not unique enough
+-skipping training candidate: MSTRG.8132.2.p1, not unique enough
+-skipping training candidate: MSTRG.18309.1.p1, not unique enough
+-skipping training candidate: MSTRG.18978.2.p1, not unique enough
+-skipping training candidate: MSTRG.15811.2.p1, not unique enough
+-skipping training candidate: MSTRG.16476.2.p1, not unique enough
+-skipping training candidate: MSTRG.2793.2.p1, not unique enough
+-skipping training candidate: MSTRG.8315.3.p1, not unique enough
+-skipping training candidate: MSTRG.5247.3.p1, not unique enough
+-skipping training candidate: MSTRG.937.1.p1, not unique enough
+-skipping training candidate: MSTRG.19205.2.p1, not unique enough
+-skipping training candidate: MSTRG.20092.1.p1, not unique enough
+-skipping training candidate: MSTRG.7688.1.p1, not unique enough
+-skipping training candidate: MSTRG.13536.3.p1, not unique enough
+-skipping training candidate: MSTRG.13536.2.p1, not unique enough
+-skipping training candidate: MSTRG.7959.2.p1, not unique enough
+-skipping training candidate: MSTRG.13170.1.p1, not unique enough
+-skipping training candidate: MSTRG.13170.3.p1, not unique enough
+-skipping training candidate: MSTRG.13170.2.p1, not unique enough
+-skipping training candidate: MSTRG.3005.2.p1, not unique enough
+-skipping training candidate: MSTRG.1513.1.p1, not unique enough
+-skipping training candidate: MSTRG.6622.2.p1, not unique enough
+-skipping training candidate: MSTRG.15644.2.p1, not unique enough
+-skipping training candidate: MSTRG.1513.3.p1, not unique enough
+-skipping training candidate: MSTRG.4327.2.p1, not unique enough
+-skipping training candidate: MSTRG.13168.3.p1, not unique enough
+-skipping training candidate: MSTRG.13168.2.p1, not unique enough
+-skipping training candidate: MSTRG.13416.2.p1, not unique enough
+-skipping training candidate: MSTRG.2936.1.p1, not unique enough
+-skipping training candidate: MSTRG.6126.2.p1, not unique enough
+-skipping training candidate: MSTRG.5683.2.p1, not unique enough
+-skipping training candidate: MSTRG.7498.1.p1, not unique enough
+-skipping training candidate: MSTRG.9747.2.p1, not unique enough
+-skipping training candidate: MSTRG.17409.2.p1, not unique enough
+-skipping training candidate: MSTRG.9459.1.p1, not unique enough
+-skipping training candidate: MSTRG.14364.3.p1, not unique enough
+-skipping training candidate: MSTRG.14364.4.p1, not unique enough
+-skipping training candidate: MSTRG.14364.1.p1, not unique enough
+-skipping training candidate: MSTRG.20929.2.p1, not unique enough
+-skipping training candidate: MSTRG.562.2.p1, not unique enough
+-skipping training candidate: MSTRG.526.1.p1, not unique enough
+-skipping training candidate: MSTRG.2444.1.p1, not unique enough
+-skipping training candidate: MSTRG.14159.1.p1, not unique enough
+-skipping training candidate: MSTRG.6622.3.p1, not unique enough
+-skipping training candidate: MSTRG.19432.2.p1, not unique enough
+-skipping training candidate: MSTRG.20044.2.p1, not unique enough
+-skipping training candidate: MSTRG.5683.3.p1, not unique enough
+-skipping training candidate: MSTRG.4352.1.p1, not unique enough
+-skipping training candidate: MSTRG.14670.4.p1, not unique enough
+-skipping training candidate: MSTRG.18239.2.p1, not unique enough
+-skipping training candidate: MSTRG.1260.1.p1, not unique enough
+-skipping training candidate: MSTRG.1260.3.p1, not unique enough
+-skipping training candidate: MSTRG.18471.2.p1, not unique enough
+-skipping training candidate: MSTRG.5795.1.p1, not unique enough
+-skipping training candidate: MSTRG.5216.1.p1, not unique enough
+-skipping training candidate: MSTRG.21123.1.p1, not unique enough
+-skipping training candidate: MSTRG.11688.2.p1, not unique enough
+-skipping training candidate: MSTRG.14870.2.p1, not unique enough
+-skipping training candidate: MSTRG.21123.3.p1, not unique enough
+-skipping training candidate: MSTRG.3072.2.p1, not unique enough
+-skipping training candidate: MSTRG.18248.4.p1, not unique enough
+-skipping training candidate: MSTRG.18831.1.p1, not unique enough
+-skipping training candidate: MSTRG.6804.1.p1, not unique enough
+-skipping training candidate: MSTRG.8473.1.p1, not unique enough
+-skipping training candidate: MSTRG.20114.1.p1, not unique enough
+-skipping training candidate: MSTRG.18831.2.p1, not unique enough
+-skipping training candidate: MSTRG.4975.1.p1, not unique enough
+-skipping training candidate: MSTRG.20114.3.p1, not unique enough
+-skipping training candidate: MSTRG.11858.1.p1, not unique enough
+-skipping training candidate: MSTRG.5849.1.p1, not unique enough
+-skipping training candidate: MSTRG.5849.2.p1, not unique enough
+-skipping training candidate: MSTRG.5849.3.p1, not unique enough
+-skipping training candidate: MSTRG.13434.2.p1, not unique enough
+-skipping training candidate: MSTRG.9052.3.p1, not unique enough
+-skipping training candidate: MSTRG.13002.2.p1, not unique enough
+-skipping training candidate: MSTRG.6017.1.p1, not unique enough
+-skipping training candidate: MSTRG.5683.4.p1, not unique enough
+-skipping training candidate: MSTRG.9604.4.p1, not unique enough
+-skipping training candidate: MSTRG.13414.3.p1, not unique enough
+-skipping training candidate: MSTRG.13414.2.p1, not unique enough
+-skipping training candidate: MSTRG.18616.2.p1, not unique enough
+-skipping training candidate: MSTRG.12459.3.p1, not unique enough
+-skipping training candidate: MSTRG.3942.2.p1, not unique enough
+-skipping training candidate: MSTRG.12459.2.p1, not unique enough
+-skipping training candidate: MSTRG.6406.1.p1, not unique enough
+-skipping training candidate: MSTRG.16190.2.p1, not unique enough
+-skipping training candidate: MSTRG.677.1.p1, not unique enough
+-skipping training candidate: MSTRG.3731.4.p1, not unique enough
+-skipping training candidate: MSTRG.3135.2.p1, not unique enough
+-skipping training candidate: MSTRG.3731.3.p1, not unique enough
+-skipping training candidate: MSTRG.7099.1.p1, not unique enough
+-skipping training candidate: MSTRG.1155.2.p1, not unique enough
+-skipping training candidate: MSTRG.6549.1.p1, not unique enough
+-skipping training candidate: MSTRG.13992.1.p1, not unique enough
+-skipping training candidate: MSTRG.13395.2.p1, not unique enough
+-skipping training candidate: MSTRG.9077.1.p1, not unique enough
+-skipping training candidate: MSTRG.8938.2.p1, not unique enough
+-skipping training candidate: MSTRG.19236.1.p1, not unique enough
+-skipping training candidate: MSTRG.19236.2.p1, not unique enough
+-skipping training candidate: MSTRG.5088.2.p1, not unique enough
+-skipping training candidate: MSTRG.3005.1.p1, not unique enough
+-skipping training candidate: MSTRG.10699.1.p1, not unique enough
+-skipping training candidate: MSTRG.3731.1.p1, not unique enough
+-skipping training candidate: MSTRG.16786.1.p1, not unique enough
+-skipping training candidate: MSTRG.19363.3.p1, not unique enough
+-skipping training candidate: MSTRG.10833.2.p1, not unique enough
+-skipping training candidate: MSTRG.529.1.p1, not unique enough
+-skipping training candidate: MSTRG.9549.1.p1, not unique enough
+-skipping training candidate: MSTRG.1469.1.p1, not unique enough
+-skipping training candidate: MSTRG.7550.1.p1, not unique enough
+-skipping training candidate: MSTRG.7550.3.p1, not unique enough
+-skipping training candidate: MSTRG.14670.3.p1, not unique enough
+-skipping training candidate: MSTRG.6559.1.p1, not unique enough
+-skipping training candidate: MSTRG.9745.2.p1, not unique enough
+-skipping training candidate: MSTRG.16279.2.p1, not unique enough
+-skipping training candidate: MSTRG.16279.3.p1, not unique enough
+-skipping training candidate: MSTRG.13873.1.p1, not unique enough
+-skipping training candidate: MSTRG.2547.1.p1, not unique enough
+-skipping training candidate: MSTRG.10582.2.p1, not unique enough
+-skipping training candidate: MSTRG.13320.2.p1, not unique enough
+-skipping training candidate: MSTRG.9.2.p1, not unique enough
+-skipping training candidate: MSTRG.10714.3.p1, not unique enough
+-skipping training candidate: MSTRG.10714.4.p1, not unique enough
+-skipping training candidate: MSTRG.12688.1.p1, not unique enough
+-skipping training candidate: MSTRG.6582.2.p1, not unique enough
+-skipping training candidate: MSTRG.12894.2.p1, not unique enough
+-skipping training candidate: MSTRG.14544.2.p1, not unique enough
+-skipping training candidate: MSTRG.19219.1.p1, not unique enough
+-skipping training candidate: MSTRG.5067.2.p1, not unique enough
+-skipping training candidate: MSTRG.5067.1.p1, not unique enough
+-skipping training candidate: MSTRG.5392.2.p1, not unique enough
+-skipping training candidate: MSTRG.10658.1.p1, not unique enough
+-skipping training candidate: MSTRG.16818.1.p1, not unique enough
+-skipping training candidate: MSTRG.10439.2.p1, not unique enough
+-skipping training candidate: MSTRG.19301.2.p1, not unique enough
+-skipping training candidate: MSTRG.5278.2.p1, not unique enough
+-skipping training candidate: MSTRG.7485.2.p1, not unique enough
+-skipping training candidate: MSTRG.13633.5.p1, not unique enough
+-skipping training candidate: MSTRG.13633.2.p1, not unique enough
+-skipping training candidate: MSTRG.13633.4.p1, not unique enough
+-skipping training candidate: MSTRG.3362.1.p1, not unique enough
+-skipping training candidate: MSTRG.6962.1.p1, not unique enough
+-skipping training candidate: MSTRG.6962.3.p1, not unique enough
+-skipping training candidate: MSTRG.2480.1.p1, not unique enough
+-skipping training candidate: MSTRG.5674.2.p1, not unique enough
+-skipping training candidate: MSTRG.14170.1.p1, not unique enough
+-skipping training candidate: MSTRG.6354.1.p1, not unique enough
+-skipping training candidate: MSTRG.197.2.p1, not unique enough
+-skipping training candidate: MSTRG.1421.1.p1, not unique enough
+-skipping training candidate: MSTRG.20672.2.p1, not unique enough
+-skipping training candidate: MSTRG.10816.2.p1, not unique enough
+-skipping training candidate: MSTRG.16962.1.p1, not unique enough
+-skipping training candidate: MSTRG.12037.1.p1, not unique enough
+-skipping training candidate: MSTRG.6549.4.p1, not unique enough
+-skipping training candidate: MSTRG.6549.3.p1, not unique enough
+-skipping training candidate: MSTRG.15046.2.p1, not unique enough
+-skipping training candidate: MSTRG.16079.2.p1, not unique enough
+-skipping training candidate: MSTRG.17523.2.p1, not unique enough
+-skipping training candidate: MSTRG.868.1.p1, not unique enough
+-skipping training candidate: MSTRG.2695.6.p1, not unique enough
+-skipping training candidate: MSTRG.10083.2.p1, not unique enough
+-skipping training candidate: MSTRG.13011.3.p1, not unique enough
+-skipping training candidate: MSTRG.2246.2.p1, not unique enough
+-skipping training candidate: MSTRG.2246.3.p1, not unique enough
+-skipping training candidate: MSTRG.2756.2.p1, not unique enough
+-skipping training candidate: MSTRG.15479.2.p1, not unique enough
+-skipping training candidate: MSTRG.8406.1.p1, not unique enough
+-skipping training candidate: MSTRG.9519.2.p1, not unique enough
+-skipping training candidate: MSTRG.6603.1.p1, not unique enough
+-skipping training candidate: MSTRG.16164.1.p1, not unique enough
+-skipping training candidate: MSTRG.12508.2.p1, not unique enough
+-skipping training candidate: MSTRG.14670.2.p1, not unique enough
+-skipping training candidate: MSTRG.1170.1.p1, not unique enough
+-skipping training candidate: MSTRG.1170.3.p1, not unique enough
+-skipping training candidate: MSTRG.7273.2.p1, not unique enough
+-skipping training candidate: MSTRG.3353.2.p1, not unique enough
+-skipping training candidate: MSTRG.3887.1.p1, not unique enough
+-skipping training candidate: MSTRG.8080.1.p1, not unique enough
+-skipping training candidate: MSTRG.11716.2.p1, not unique enough
+-skipping training candidate: MSTRG.20738.3.p1, not unique enough
+-skipping training candidate: MSTRG.11427.2.p1, not unique enough
+-skipping training candidate: MSTRG.15492.1.p1, not unique enough
+-skipping training candidate: MSTRG.19868.2.p1, not unique enough
+-skipping training candidate: MSTRG.2580.2.p1, not unique enough
+-skipping training candidate: MSTRG.17495.1.p1, not unique enough
+-skipping training candidate: MSTRG.18365.1.p1, not unique enough
+-skipping training candidate: MSTRG.10097.1.p1, not unique enough
+-skipping training candidate: MSTRG.17589.1.p1, not unique enough
+-skipping training candidate: MSTRG.18946.1.p1, not unique enough
+-skipping training candidate: MSTRG.417.1.p1, not unique enough
+-skipping training candidate: MSTRG.13453.2.p1, not unique enough
+-skipping training candidate: MSTRG.18672.1.p1, not unique enough
+-skipping training candidate: MSTRG.15150.1.p1, not unique enough
+-skipping training candidate: MSTRG.5494.2.p1, not unique enough
+-skipping training candidate: MSTRG.5797.1.p1, not unique enough
+-skipping training candidate: MSTRG.868.5.p1, not unique enough
+-skipping training candidate: MSTRG.18764.1.p1, not unique enough
+-skipping training candidate: MSTRG.6545.2.p1, not unique enough
+-skipping training candidate: MSTRG.20318.2.p1, not unique enough
+-skipping training candidate: MSTRG.9353.2.p1, not unique enough
+-skipping training candidate: MSTRG.2756.3.p1, not unique enough
+-skipping training candidate: MSTRG.8226.2.p1, not unique enough
+-skipping training candidate: MSTRG.20809.2.p1, not unique enough
+-skipping training candidate: MSTRG.10714.2.p1, not unique enough
+-skipping training candidate: MSTRG.15632.1.p1, not unique enough
+-skipping training candidate: MSTRG.5338.1.p1, not unique enough
+-skipping training candidate: MSTRG.601.2.p1, not unique enough
+-skipping training candidate: MSTRG.1404.1.p1, not unique enough
+-skipping training candidate: MSTRG.10468.3.p1, not unique enough
+-skipping training candidate: MSTRG.10468.2.p1, not unique enough
+-skipping training candidate: MSTRG.8663.2.p1, not unique enough
+-skipping training candidate: MSTRG.17034.3.p1, not unique enough
+-skipping training candidate: MSTRG.9872.2.p1, not unique enough
+-skipping training candidate: MSTRG.10113.1.p1, not unique enough
+-skipping training candidate: MSTRG.9845.2.p1, not unique enough
+-skipping training candidate: MSTRG.14286.1.p1, not unique enough
+-skipping training candidate: MSTRG.6820.1.p1, not unique enough
+-skipping training candidate: MSTRG.7284.1.p1, not unique enough
+-skipping training candidate: MSTRG.12530.1.p1, not unique enough
+-skipping training candidate: MSTRG.13286.2.p1, not unique enough
+-skipping training candidate: MSTRG.13286.1.p1, not unique enough
+-skipping training candidate: MSTRG.2071.1.p1, not unique enough
+-skipping training candidate: MSTRG.2369.2.p1, not unique enough
+-skipping training candidate: MSTRG.7180.2.p1, not unique enough
+-skipping training candidate: MSTRG.14150.1.p1, not unique enough
+-skipping training candidate: MSTRG.2071.2.p1, not unique enough
+-skipping training candidate: MSTRG.7.2.p1, not unique enough
+-skipping training candidate: MSTRG.4189.1.p1, not unique enough
+-skipping training candidate: MSTRG.13935.2.p1, not unique enough
+-skipping training candidate: MSTRG.1872.2.p1, not unique enough
+-skipping training candidate: MSTRG.1872.3.p1, not unique enough
+-skipping training candidate: MSTRG.19646.5.p1, not unique enough
+-skipping training candidate: MSTRG.9465.3.p1, not unique enough
+-skipping training candidate: MSTRG.9742.1.p1, not unique enough
+-skipping training candidate: MSTRG.14818.3.p1, not unique enough
+-skipping training candidate: MSTRG.868.3.p1, not unique enough
+-skipping training candidate: MSTRG.868.2.p1, not unique enough
+-skipping training candidate: MSTRG.11681.2.p1, not unique enough
+-skipping training candidate: MSTRG.11681.1.p1, not unique enough
+-skipping training candidate: MSTRG.3043.1.p1, not unique enough
+-skipping training candidate: MSTRG.13342.2.p1, not unique enough
+-skipping training candidate: MSTRG.20589.1.p1, not unique enough
+-skipping training candidate: MSTRG.2807.1.p1, not unique enough
+-skipping training candidate: MSTRG.3933.2.p1, not unique enough
+-skipping training candidate: MSTRG.3933.1.p1, not unique enough
+-skipping training candidate: MSTRG.13536.4.p1, not unique enough
+-skipping training candidate: MSTRG.18119.1.p1, not unique enough
+-skipping training candidate: MSTRG.21068.2.p1, not unique enough
+-skipping training candidate: MSTRG.3152.1.p1, not unique enough
+-skipping training candidate: MSTRG.4189.2.p1, not unique enough
+-skipping training candidate: MSTRG.16204.1.p1, not unique enough
+-skipping training candidate: MSTRG.14921.1.p1, not unique enough
+-skipping training candidate: MSTRG.16415.1.p1, not unique enough
+-skipping training candidate: MSTRG.12731.1.p1, not unique enough
+-skipping training candidate: MSTRG.18975.1.p1, not unique enough
+-skipping training candidate: MSTRG.14735.3.p1, not unique enough
+-skipping training candidate: MSTRG.11149.2.p1, not unique enough
+-skipping training candidate: MSTRG.18248.3.p1, not unique enough
+-skipping training candidate: MSTRG.18282.2.p1, not unique enough
+-skipping training candidate: MSTRG.20281.2.p1, not unique enough
+-skipping training candidate: MSTRG.20281.3.p1, not unique enough
+-skipping training candidate: MSTRG.9657.2.p1, not unique enough
+-skipping training candidate: MSTRG.12224.3.p1, not unique enough
+-skipping training candidate: MSTRG.12224.1.p1, not unique enough
+-skipping training candidate: MSTRG.20674.1.p1, not unique enough
+-skipping training candidate: MSTRG.8369.2.p1, not unique enough
+-skipping training candidate: MSTRG.6181.2.p1, not unique enough
+-skipping training candidate: MSTRG.4120.3.p1, not unique enough
+-skipping training candidate: MSTRG.6721.2.p1, not unique enough
+-skipping training candidate: MSTRG.8362.2.p1, not unique enough
+-skipping training candidate: MSTRG.8040.2.p1, not unique enough
+-skipping training candidate: MSTRG.14423.1.p1, not unique enough
+-skipping training candidate: MSTRG.14996.3.p1, not unique enough
+-skipping training candidate: MSTRG.14996.1.p1, not unique enough
+-skipping training candidate: MSTRG.17727.2.p1, not unique enough
+-skipping training candidate: MSTRG.4970.1.p1, not unique enough
+-skipping training candidate: MSTRG.212.1.p1, not unique enough
+-skipping training candidate: MSTRG.1432.2.p1, not unique enough
+-skipping training candidate: MSTRG.18788.1.p1, not unique enough
+-skipping training candidate: MSTRG.1348.1.p1, not unique enough
+-skipping training candidate: MSTRG.3457.2.p1, not unique enough
+-skipping training candidate: MSTRG.11637.2.p1, not unique enough
+-skipping training candidate: MSTRG.11637.5.p1, not unique enough
+-skipping training candidate: MSTRG.11637.1.p1, not unique enough
+-skipping training candidate: MSTRG.15000.1.p1, not unique enough
+-skipping training candidate: MSTRG.15705.1.p1, not unique enough
+-skipping training candidate: MSTRG.18109.2.p1, not unique enough
+-skipping training candidate: MSTRG.18109.3.p1, not unique enough
+-skipping training candidate: MSTRG.14012.6.p1, not unique enough
+-skipping training candidate: MSTRG.15492.3.p1, not unique enough
+-skipping training candidate: MSTRG.2893.1.p1, not unique enough
+-skipping training candidate: MSTRG.11430.2.p1, not unique enough
+-skipping training candidate: MSTRG.16576.1.p1, not unique enough
+-skipping training candidate: MSTRG.6836.1.p1, not unique enough
+-skipping training candidate: MSTRG.13246.2.p1, not unique enough
+-skipping training candidate: MSTRG.15473.1.p1, not unique enough
+-skipping training candidate: MSTRG.7407.2.p1, not unique enough
+-skipping training candidate: MSTRG.9279.1.p1, not unique enough
+-skipping training candidate: MSTRG.6131.1.p1, not unique enough
+-skipping training candidate: MSTRG.6569.1.p1, not unique enough
+-skipping training candidate: MSTRG.7629.2.p1, not unique enough
+-skipping training candidate: MSTRG.14253.1.p1, not unique enough
+-skipping training candidate: MSTRG.19646.3.p1, not unique enough
+-skipping training candidate: MSTRG.19646.2.p1, not unique enough
+-skipping training candidate: MSTRG.15371.2.p1, not unique enough
+-skipping training candidate: MSTRG.4235.2.p1, not unique enough
+-skipping training candidate: MSTRG.4235.4.p1, not unique enough
+-skipping training candidate: MSTRG.4235.1.p1, not unique enough
+-skipping training candidate: MSTRG.5204.1.p1, not unique enough
+-skipping training candidate: MSTRG.5240.1.p1, not unique enough
+-skipping training candidate: MSTRG.5529.1.p1, not unique enough
+-skipping training candidate: MSTRG.13162.2.p1, not unique enough
+-skipping training candidate: MSTRG.13162.1.p1, not unique enough
+-skipping training candidate: MSTRG.1585.2.p1, not unique enough
+-skipping training candidate: MSTRG.1585.3.p1, not unique enough
+-skipping training candidate: MSTRG.10232.2.p1, not unique enough
+-skipping training candidate: MSTRG.19646.1.p1, not unique enough
+-skipping training candidate: MSTRG.5846.1.p1, not unique enough
+-skipping training candidate: MSTRG.5846.2.p1, not unique enough
+-skipping training candidate: MSTRG.5881.3.p1, not unique enough
+-skipping training candidate: MSTRG.11244.1.p1, not unique enough
+-skipping training candidate: MSTRG.14015.2.p1, not unique enough
+-skipping training candidate: MSTRG.17515.1.p1, not unique enough
+-skipping training candidate: MSTRG.16455.1.p1, not unique enough
+-skipping training candidate: MSTRG.19646.4.p1, not unique enough
+-skipping training candidate: MSTRG.515.1.p1, not unique enough
+-skipping training candidate: MSTRG.13993.2.p1, not unique enough
+-skipping training candidate: MSTRG.934.1.p1, not unique enough
+-skipping training candidate: MSTRG.5881.2.p1, not unique enough
+-skipping training candidate: MSTRG.5881.4.p1, not unique enough
+-skipping training candidate: MSTRG.5881.1.p1, not unique enough
+-skipping training candidate: MSTRG.20849.2.p1, not unique enough
+-skipping training candidate: MSTRG.9522.2.p1, not unique enough
+-skipping training candidate: MSTRG.5752.2.p1, not unique enough
+-skipping training candidate: MSTRG.9442.2.p1, not unique enough
+-skipping training candidate: MSTRG.17068.1.p1, not unique enough
+-skipping training candidate: MSTRG.1181.1.p1, not unique enough
+-skipping training candidate: MSTRG.2673.1.p1, not unique enough
+-skipping training candidate: MSTRG.7007.2.p1, not unique enough
+-skipping training candidate: MSTRG.15705.3.p1, not unique enough
+-skipping training candidate: MSTRG.20710.2.p1, not unique enough
+-skipping training candidate: MSTRG.308.1.p1, not unique enough
+-skipping training candidate: MSTRG.8758.1.p1, not unique enough
+-skipping training candidate: MSTRG.2528.1.p1, not unique enough
+-skipping training candidate: MSTRG.13412.2.p1, not unique enough
+-skipping training candidate: MSTRG.1460.2.p1, not unique enough
+-skipping training candidate: MSTRG.6684.2.p1, not unique enough
+-skipping training candidate: MSTRG.14359.1.p1, not unique enough
+-skipping training candidate: MSTRG.19428.2.p1, not unique enough
+-skipping training candidate: MSTRG.21124.2.p1, not unique enough
+-skipping training candidate: MSTRG.6249.2.p1, not unique enough
+-skipping training candidate: MSTRG.1119.4.p1, not unique enough
+-skipping training candidate: MSTRG.1119.3.p1, not unique enough
+-skipping training candidate: MSTRG.10667.2.p1, not unique enough
+-skipping training candidate: MSTRG.19293.1.p1, not unique enough
+-skipping training candidate: MSTRG.19293.3.p1, not unique enough
+-skipping training candidate: MSTRG.11277.3.p1, not unique enough
+-skipping training candidate: MSTRG.11277.4.p1, not unique enough
+-skipping training candidate: MSTRG.11277.1.p1, not unique enough
+-skipping training candidate: MSTRG.14060.1.p1, not unique enough
+-skipping training candidate: MSTRG.1119.2.p1, not unique enough
+-skipping training candidate: MSTRG.2958.1.p1, not unique enough
+-skipping training candidate: MSTRG.6063.3.p1, not unique enough
+-skipping training candidate: MSTRG.8027.2.p1, not unique enough
+-skipping training candidate: MSTRG.11391.2.p1, not unique enough
+-skipping training candidate: MSTRG.10113.2.p2, not unique enough
+-skipping training candidate: MSTRG.18552.1.p1, not unique enough
+-skipping training candidate: MSTRG.13098.2.p1, not unique enough
+-skipping training candidate: MSTRG.3117.3.p1, not unique enough
+-skipping training candidate: MSTRG.2958.3.p1, not unique enough
+-skipping training candidate: MSTRG.18543.2.p1, not unique enough
+-skipping training candidate: MSTRG.1139.1.p1, not unique enough
+-skipping training candidate: MSTRG.1139.2.p1, not unique enough
+-skipping training candidate: MSTRG.14093.2.p1, not unique enough
+-skipping training candidate: MSTRG.7767.1.p1, not unique enough
+-skipping training candidate: MSTRG.7767.3.p1, not unique enough
+-skipping training candidate: MSTRG.11506.3.p1, not unique enough
+-skipping training candidate: MSTRG.11506.2.p1, not unique enough
+-skipping training candidate: MSTRG.14580.1.p1, not unique enough
+-skipping training candidate: MSTRG.13546.2.p1, not unique enough
+-skipping training candidate: MSTRG.17809.1.p1, not unique enough
+-skipping training candidate: MSTRG.5587.2.p1, not unique enough
+-skipping training candidate: MSTRG.9465.1.p1, not unique enough
+-skipping training candidate: MSTRG.9721.2.p1, not unique enough
+-skipping training candidate: MSTRG.9721.1.p1, not unique enough
+-skipping training candidate: MSTRG.10898.2.p1, not unique enough
+-skipping training candidate: MSTRG.16454.2.p1, not unique enough
+-skipping training candidate: MSTRG.16819.2.p1, not unique enough
+-skipping training candidate: MSTRG.3801.1.p1, not unique enough
+-skipping training candidate: MSTRG.9349.2.p1, not unique enough
+-skipping training candidate: MSTRG.12801.2.p1, not unique enough
+-skipping training candidate: MSTRG.4523.2.p1, not unique enough
+-skipping training candidate: MSTRG.8269.1.p1, not unique enough
+-skipping training candidate: MSTRG.13009.2.p1, not unique enough
+-skipping training candidate: MSTRG.15649.1.p1, not unique enough
+-skipping training candidate: MSTRG.2953.2.p1, not unique enough
+-skipping training candidate: MSTRG.2476.2.p1, not unique enough
+-skipping training candidate: MSTRG.1139.4.p1, not unique enough
+-skipping training candidate: MSTRG.1781.1.p1, not unique enough
+-skipping training candidate: MSTRG.18120.2.p1, not unique enough
+-skipping training candidate: MSTRG.20898.2.p1, not unique enough
+-skipping training candidate: MSTRG.14179.1.p1, not unique enough
+-skipping training candidate: MSTRG.5946.1.p1, not unique enough
+-skipping training candidate: MSTRG.7019.1.p1, not unique enough
+-skipping training candidate: MSTRG.20436.2.p1, not unique enough
+-skipping training candidate: MSTRG.11061.1.p1, not unique enough
+-skipping training candidate: MSTRG.10221.1.p1, not unique enough
+-skipping training candidate: MSTRG.14235.1.p1, not unique enough
+-skipping training candidate: MSTRG.16854.1.p1, not unique enough
+-skipping training candidate: MSTRG.1943.1.p1, not unique enough
+-skipping training candidate: MSTRG.1943.4.p1, not unique enough
+-skipping training candidate: MSTRG.1943.2.p1, not unique enough
+-skipping training candidate: MSTRG.1978.1.p1, not unique enough
+-skipping training candidate: MSTRG.19973.2.p1, not unique enough
+-skipping training candidate: MSTRG.20236.1.p1, not unique enough
+-skipping training candidate: MSTRG.20236.7.p1, not unique enough
+-skipping training candidate: MSTRG.20236.3.p1, not unique enough
+-skipping training candidate: MSTRG.20236.5.p1, not unique enough
+-skipping training candidate: MSTRG.20236.2.p1, not unique enough
+-skipping training candidate: MSTRG.20236.4.p1, not unique enough
+-skipping training candidate: MSTRG.3117.2.p1, not unique enough
+-skipping training candidate: MSTRG.11149.3.p1, not unique enough
+-skipping training candidate: MSTRG.10405.2.p1, not unique enough
+-skipping training candidate: MSTRG.12629.2.p1, not unique enough
+-skipping training candidate: MSTRG.17115.1.p1, not unique enough
+-skipping training candidate: MSTRG.1638.1.p1, not unique enough
+-skipping training candidate: MSTRG.18373.1.p1, not unique enough
+-skipping training candidate: MSTRG.18373.3.p1, not unique enough
+-skipping training candidate: MSTRG.18373.2.p1, not unique enough
+-skipping training candidate: MSTRG.12827.2.p1, not unique enough
+-skipping training candidate: MSTRG.14015.3.p1, not unique enough
+-skipping training candidate: MSTRG.16075.1.p1, not unique enough
+-skipping training candidate: MSTRG.17170.1.p1, not unique enough
+-skipping training candidate: MSTRG.19033.2.p1, not unique enough
+-skipping training candidate: MSTRG.12224.4.p1, not unique enough
+-skipping training candidate: MSTRG.7056.1.p1, not unique enough
+-skipping training candidate: MSTRG.7056.2.p1, not unique enough
+-skipping training candidate: MSTRG.8704.2.p1, not unique enough
+-skipping training candidate: MSTRG.368.1.p1, not unique enough
+-skipping training candidate: MSTRG.12656.2.p1, not unique enough
+-skipping training candidate: MSTRG.14004.2.p1, not unique enough
+-skipping training candidate: MSTRG.14004.3.p1, not unique enough
+-skipping training candidate: MSTRG.14004.6.p1, not unique enough
+-skipping training candidate: MSTRG.14004.1.p1, not unique enough
+-skipping training candidate: MSTRG.9052.2.p1, not unique enough
+-skipping training candidate: MSTRG.14004.5.p1, not unique enough
+-skipping training candidate: MSTRG.151.2.p1, not unique enough
+-skipping training candidate: MSTRG.3499.3.p1, not unique enough
+-skipping training candidate: MSTRG.3499.2.p1, not unique enough
+-skipping training candidate: MSTRG.3499.1.p1, not unique enough
+-skipping training candidate: MSTRG.3499.4.p1, not unique enough
+-skipping training candidate: MSTRG.4349.2.p1, not unique enough
+-skipping training candidate: MSTRG.10085.2.p1, not unique enough
+-skipping training candidate: MSTRG.10085.3.p1, not unique enough
+-skipping training candidate: MSTRG.10085.4.p1, not unique enough
+-skipping training candidate: MSTRG.10996.1.p1, not unique enough
+-skipping training candidate: MSTRG.10834.2.p1, not unique enough
+-skipping training candidate: MSTRG.7489.2.p1, not unique enough
+-skipping training candidate: MSTRG.7548.1.p1, not unique enough
+-skipping training candidate: MSTRG.11634.1.p1, not unique enough
+-skipping training candidate: MSTRG.7722.1.p1, not unique enough
+-skipping training candidate: MSTRG.14582.2.p1, not unique enough
+-skipping training candidate: MSTRG.2927.1.p1, not unique enough
+-skipping training candidate: MSTRG.14968.2.p1, not unique enough
+-skipping training candidate: MSTRG.14968.1.p1, not unique enough
+-skipping training candidate: MSTRG.8002.1.p1, not unique enough
+-skipping training candidate: MSTRG.10638.1.p1, not unique enough
+-skipping training candidate: MSTRG.12173.3.p1, not unique enough
+-skipping training candidate: MSTRG.14555.2.p1, not unique enough
+-skipping training candidate: MSTRG.1204.1.p1, not unique enough
+-skipping training candidate: MSTRG.382.2.p1, not unique enough
+-skipping training candidate: MSTRG.3332.3.p1, not unique enough
+-skipping training candidate: MSTRG.11119.1.p1, not unique enough
+-skipping training candidate: MSTRG.1007.2.p1, not unique enough
+-skipping training candidate: MSTRG.1200.2.p1, not unique enough
+-skipping training candidate: MSTRG.7374.4.p1, not unique enough
+-skipping training candidate: MSTRG.7374.1.p1, not unique enough
+-skipping training candidate: MSTRG.13090.3.p1, not unique enough
+-skipping training candidate: MSTRG.14226.1.p1, not unique enough
+-skipping training candidate: MSTRG.16135.2.p1, not unique enough
+-skipping training candidate: MSTRG.2772.1.p1, not unique enough
+-skipping training candidate: MSTRG.6898.1.p1, not unique enough
+-skipping training candidate: MSTRG.7383.1.p1, not unique enough
+-skipping training candidate: MSTRG.7233.1.p1, not unique enough
+-skipping training candidate: MSTRG.9855.1.p1, not unique enough
+-skipping training candidate: MSTRG.13235.4.p1, not unique enough
+-skipping training candidate: MSTRG.13235.3.p1, not unique enough
+-skipping training candidate: MSTRG.701.2.p1, not unique enough
+-skipping training candidate: MSTRG.16605.1.p1, not unique enough
+-skipping training candidate: MSTRG.1974.2.p1, not unique enough
+-skipping training candidate: MSTRG.1974.3.p1, not unique enough
+-skipping training candidate: MSTRG.2152.2.p1, not unique enough
+-skipping training candidate: MSTRG.10161.2.p1, not unique enough
+-skipping training candidate: MSTRG.13235.5.p1, not unique enough
+-skipping training candidate: MSTRG.16533.1.p1, not unique enough
+-skipping training candidate: MSTRG.17648.2.p1, not unique enough
+-skipping training candidate: MSTRG.2314.1.p1, not unique enough
+-skipping training candidate: MSTRG.12228.1.p1, not unique enough
+-skipping training candidate: MSTRG.5619.1.p1, not unique enough
+-skipping training candidate: MSTRG.1459.2.p1, not unique enough
+-skipping training candidate: MSTRG.17243.2.p1, not unique enough
+-skipping training candidate: MSTRG.2561.1.p1, not unique enough
+-skipping training candidate: MSTRG.9134.2.p1, not unique enough
+-skipping training candidate: MSTRG.12555.2.p1, not unique enough
+-skipping training candidate: MSTRG.12769.1.p1, not unique enough
+-skipping training candidate: MSTRG.5321.1.p1, not unique enough
+-skipping training candidate: MSTRG.11277.5.p1, not unique enough
+-skipping training candidate: MSTRG.13969.1.p1, not unique enough
+-skipping training candidate: MSTRG.20251.2.p1, not unique enough
+-skipping training candidate: MSTRG.3832.1.p1, not unique enough
+-skipping training candidate: MSTRG.1082.1.p1, not unique enough
+-skipping training candidate: MSTRG.4120.2.p1, not unique enough
+-skipping training candidate: MSTRG.18172.1.p1, not unique enough
+-skipping training candidate: MSTRG.20634.1.p1, not unique enough
+-skipping training candidate: MSTRG.12269.1.p1, not unique enough
+-skipping training candidate: MSTRG.12263.2.p1, not unique enough
+-skipping training candidate: MSTRG.6088.2.p1, not unique enough
+-skipping training candidate: MSTRG.10174.1.p1, not unique enough
+-skipping training candidate: MSTRG.20502.2.p1, not unique enough
+-skipping training candidate: MSTRG.13527.1.p1, not unique enough
+-skipping training candidate: MSTRG.20454.1.p1, not unique enough
+-skipping training candidate: MSTRG.10158.1.p1, not unique enough
+-skipping training candidate: MSTRG.12730.2.p1, not unique enough
+-skipping training candidate: MSTRG.13387.2.p1, not unique enough
+-skipping training candidate: MSTRG.13385.1.p1, not unique enough
+-skipping training candidate: MSTRG.17648.1.p1, not unique enough
+-skipping training candidate: MSTRG.19975.3.p1, not unique enough
+-skipping training candidate: MSTRG.13527.3.p1, not unique enough
+-skipping training candidate: MSTRG.3490.2.p1, not unique enough
+-skipping training candidate: MSTRG.7393.2.p1, not unique enough
+-skipping training candidate: MSTRG.19785.2.p1, not unique enough
+-skipping training candidate: MSTRG.18809.1.p1, not unique enough
+-skipping training candidate: MSTRG.2344.2.p1, not unique enough
+-skipping training candidate: MSTRG.6187.3.p1, not unique enough
+-skipping training candidate: MSTRG.8585.2.p1, not unique enough
+-skipping training candidate: MSTRG.16488.2.p1, not unique enough
+-skipping training candidate: MSTRG.9028.2.p1, not unique enough
+-skipping training candidate: MSTRG.12621.2.p1, not unique enough
+-skipping training candidate: MSTRG.14605.2.p1, not unique enough
+-skipping training candidate: MSTRG.14605.3.p1, not unique enough
+-skipping training candidate: MSTRG.13235.6.p1, not unique enough
+-skipping training candidate: MSTRG.1650.2.p1, not unique enough
+-skipping training candidate: MSTRG.15494.2.p1, not unique enough
+-skipping training candidate: MSTRG.18818.1.p1, not unique enough
+-skipping training candidate: MSTRG.15298.1.p1, not unique enough
+-skipping training candidate: MSTRG.1650.5.p1, not unique enough
+-skipping training candidate: MSTRG.3332.2.p1, not unique enough
+-skipping training candidate: MSTRG.4020.1.p1, not unique enough
+-skipping training candidate: MSTRG.6353.2.p1, not unique enough
+-skipping training candidate: MSTRG.13741.1.p1, not unique enough
+-skipping training candidate: MSTRG.14332.1.p1, not unique enough
+-skipping training candidate: MSTRG.19117.2.p1, not unique enough
+-skipping training candidate: MSTRG.12559.2.p1, not unique enough
+-skipping training candidate: MSTRG.16135.1.p1, not unique enough
+-skipping training candidate: MSTRG.1400.3.p1, not unique enough
+-skipping training candidate: MSTRG.591.1.p1, not unique enough
+-skipping training candidate: MSTRG.1538.3.p1, not unique enough
+-skipping training candidate: MSTRG.1227.2.p1, not unique enough
+-skipping training candidate: MSTRG.11718.3.p1, not unique enough
+-skipping training candidate: MSTRG.11718.1.p1, not unique enough
+-skipping training candidate: MSTRG.13741.2.p1, not unique enough
+-skipping training candidate: MSTRG.13544.2.p1, not unique enough
+-skipping training candidate: MSTRG.1538.1.p1, not unique enough
+-skipping training candidate: MSTRG.1538.4.p1, not unique enough
+-skipping training candidate: MSTRG.3231.1.p1, not unique enough
+-skipping training candidate: MSTRG.10973.2.p1, not unique enough
+-skipping training candidate: MSTRG.19392.2.p1, not unique enough
+-skipping training candidate: MSTRG.2551.1.p1, not unique enough
+-skipping training candidate: MSTRG.4486.2.p1, not unique enough
+-skipping training candidate: MSTRG.4486.1.p1, not unique enough
+-skipping training candidate: MSTRG.8582.2.p1, not unique enough
+-skipping training candidate: MSTRG.10570.2.p1, not unique enough
+-skipping training candidate: MSTRG.10570.4.p1, not unique enough
+-skipping training candidate: MSTRG.15425.1.p1, not unique enough
+-skipping training candidate: MSTRG.19318.2.p2, not unique enough
+-skipping training candidate: MSTRG.18987.1.p1, not unique enough
+-skipping training candidate: MSTRG.12107.3.p1, not unique enough
+-skipping training candidate: MSTRG.12107.1.p1, not unique enough
+-skipping training candidate: MSTRG.13235.1.p1, not unique enough
+-skipping training candidate: MSTRG.13235.2.p1, not unique enough
+-skipping training candidate: MSTRG.15985.2.p1, not unique enough
+-skipping training candidate: MSTRG.4481.1.p1, not unique enough
+-skipping training candidate: MSTRG.10905.2.p1, not unique enough
+-skipping training candidate: MSTRG.675.2.p1, not unique enough
+-skipping training candidate: MSTRG.1311.2.p1, not unique enough
+-skipping training candidate: MSTRG.5518.1.p1, not unique enough
+-skipping training candidate: MSTRG.10430.2.p1, not unique enough
+-skipping training candidate: MSTRG.19437.2.p1, not unique enough
+-skipping training candidate: MSTRG.5939.1.p1, not unique enough
+-skipping training candidate: MSTRG.9575.1.p1, not unique enough
+-skipping training candidate: MSTRG.13797.1.p1, not unique enough
+-skipping training candidate: MSTRG.5247.2.p1, not unique enough
+-skipping training candidate: MSTRG.6344.1.p1, not unique enough
+-skipping training candidate: MSTRG.10644.2.p1, not unique enough
+-skipping training candidate: MSTRG.14675.2.p1, not unique enough
+-skipping training candidate: MSTRG.20541.2.p1, not unique enough
+-skipping training candidate: MSTRG.1746.1.p1, not unique enough
+-skipping training candidate: MSTRG.9061.1.p1, not unique enough
+-skipping training candidate: MSTRG.10871.2.p1, not unique enough
+-skipping training candidate: MSTRG.609.1.p1, not unique enough
+-skipping training candidate: MSTRG.609.2.p1, not unique enough
+-skipping training candidate: MSTRG.1462.3.p1, not unique enough
+-skipping training candidate: MSTRG.12964.1.p1, not unique enough
+-skipping training candidate: MSTRG.18473.5.p1, not unique enough
+-skipping training candidate: MSTRG.18473.2.p1, not unique enough
+-skipping training candidate: MSTRG.945.2.p1, not unique enough
+-skipping training candidate: MSTRG.17839.1.p1, not unique enough
+-skipping training candidate: MSTRG.623.1.p1, not unique enough
+-skipping training candidate: MSTRG.6768.2.p1, not unique enough
+-skipping training candidate: MSTRG.16151.2.p1, not unique enough
+-skipping training candidate: MSTRG.20860.1.p1, not unique enough
+-skipping training candidate: MSTRG.15833.2.p1, not unique enough
+-skipping training candidate: MSTRG.842.2.p1, not unique enough
+-skipping training candidate: MSTRG.11457.2.p1, not unique enough
+-skipping training candidate: MSTRG.17406.1.p1, not unique enough
+-skipping training candidate: MSTRG.2739.2.p1, not unique enough
+-skipping training candidate: MSTRG.9510.2.p1, not unique enough
+-skipping training candidate: MSTRG.15368.2.p1, not unique enough
+-skipping training candidate: MSTRG.6496.1.p1, not unique enough
+-skipping training candidate: MSTRG.9705.1.p1, not unique enough
+-skipping training candidate: MSTRG.10617.1.p1, not unique enough
+-skipping training candidate: MSTRG.13740.3.p1, not unique enough
+-skipping training candidate: MSTRG.13740.4.p1, not unique enough
+-skipping training candidate: MSTRG.15705.4.p1, not unique enough
+-skipping training candidate: MSTRG.17815.1.p1, not unique enough
+-skipping training candidate: MSTRG.1227.3.p1, not unique enough
+-skipping training candidate: MSTRG.7489.3.p1, not unique enough
+-skipping training candidate: MSTRG.12224.2.p1, not unique enough
+-skipping training candidate: MSTRG.13740.1.p1, not unique enough
+-skipping training candidate: MSTRG.15485.2.p1, not unique enough
+-skipping training candidate: MSTRG.19923.2.p1, not unique enough
+-skipping training candidate: MSTRG.2719.1.p1, not unique enough
+-skipping training candidate: MSTRG.3135.4.p1, not unique enough
+-skipping training candidate: MSTRG.4469.2.p1, not unique enough
+-skipping training candidate: MSTRG.4361.1.p1, not unique enough
+-skipping training candidate: MSTRG.6870.1.p1, not unique enough
+-skipping training candidate: MSTRG.7440.2.p1, not unique enough
+-skipping training candidate: MSTRG.7313.2.p1, not unique enough
+-skipping training candidate: MSTRG.10485.1.p1, not unique enough
+-skipping training candidate: MSTRG.11890.1.p1, not unique enough
+-skipping training candidate: MSTRG.20677.1.p1, not unique enough
+-skipping training candidate: MSTRG.766.2.p1, not unique enough
+-skipping training candidate: MSTRG.460.2.p1, not unique enough
+-skipping training candidate: MSTRG.4221.2.p1, not unique enough
+-skipping training candidate: MSTRG.13387.3.p1, not unique enough
+-skipping training candidate: MSTRG.20661.2.p1, not unique enough
+-skipping training candidate: MSTRG.12123.1.p1, not unique enough
+-skipping training candidate: MSTRG.12304.2.p1, not unique enough
+-skipping training candidate: MSTRG.17399.2.p1, not unique enough
+-skipping training candidate: MSTRG.16367.2.p1, not unique enough
+-skipping training candidate: MSTRG.7374.2.p1, not unique enough
+-skipping training candidate: MSTRG.9871.1.p1, not unique enough
+-skipping training candidate: MSTRG.9871.3.p1, not unique enough
+-skipping training candidate: MSTRG.12079.2.p1, not unique enough
+-skipping training candidate: MSTRG.16159.1.p1, not unique enough
+-skipping training candidate: MSTRG.18755.3.p1, not unique enough
+-skipping training candidate: MSTRG.706.1.p1, not unique enough
+-skipping training candidate: MSTRG.1054.2.p1, not unique enough
+-skipping training candidate: MSTRG.4823.1.p1, not unique enough
+-skipping training candidate: MSTRG.4823.2.p1, not unique enough
+-skipping training candidate: MSTRG.5496.2.p1, not unique enough
+-skipping training candidate: MSTRG.7313.3.p1, not unique enough
+-skipping training candidate: MSTRG.11407.2.p1, not unique enough
+-skipping training candidate: MSTRG.6549.5.p1, not unique enough
+-skipping training candidate: MSTRG.9755.2.p1, not unique enough
+-skipping training candidate: MSTRG.21126.2.p1, not unique enough
+-skipping training candidate: MSTRG.21126.1.p1, not unique enough
+-skipping training candidate: MSTRG.21150.1.p1, not unique enough
+-skipping training candidate: MSTRG.6620.4.p1, not unique enough
+-skipping training candidate: MSTRG.6620.1.p1, not unique enough
+-skipping training candidate: MSTRG.6620.2.p1, not unique enough
+-skipping training candidate: MSTRG.7637.1.p1, not unique enough
+-skipping training candidate: MSTRG.16274.2.p1, not unique enough
+-skipping training candidate: MSTRG.15525.2.p1, not unique enough
+-skipping training candidate: MSTRG.19363.3.p2, not unique enough
+-skipping training candidate: MSTRG.20413.2.p1, not unique enough
+-skipping training candidate: MSTRG.20363.2.p1, not unique enough
+-skipping training candidate: MSTRG.2621.1.p1, not unique enough
+-skipping training candidate: MSTRG.4596.2.p1, not unique enough
+-skipping training candidate: MSTRG.6194.2.p1, not unique enough
+-skipping training candidate: MSTRG.7477.1.p1, not unique enough
+-skipping training candidate: MSTRG.1600.1.p1, not unique enough
+-skipping training candidate: MSTRG.1600.3.p1, not unique enough
+-skipping training candidate: MSTRG.12258.1.p1, not unique enough
+-skipping training candidate: MSTRG.3699.2.p1, not unique enough
+-skipping training candidate: MSTRG.6146.2.p1, not unique enough
+-skipping training candidate: MSTRG.10834.3.p1, not unique enough
+-skipping training candidate: MSTRG.12297.2.p1, not unique enough
+-skipping training candidate: MSTRG.13789.1.p1, not unique enough
+-skipping training candidate: MSTRG.17523.3.p1, not unique enough
+-skipping training candidate: MSTRG.8532.1.p1, not unique enough
+-skipping training candidate: MSTRG.10452.2.p1, not unique enough
+-skipping training candidate: MSTRG.14028.1.p1, not unique enough
+-skipping training candidate: MSTRG.21036.1.p1, not unique enough
+-skipping training candidate: MSTRG.4783.1.p1, not unique enough
+-skipping training candidate: MSTRG.1498.2.p1, not unique enough
+-skipping training candidate: MSTRG.9589.1.p1, not unique enough
+-skipping training candidate: MSTRG.11632.1.p1, not unique enough
+-skipping training candidate: MSTRG.11774.2.p1, not unique enough
+-skipping training candidate: MSTRG.713.2.p1, not unique enough
+-skipping training candidate: MSTRG.7537.2.p1, not unique enough
+-skipping training candidate: MSTRG.458.2.p1, not unique enough
+-skipping training candidate: MSTRG.2324.2.p1, not unique enough
+-skipping training candidate: MSTRG.2324.1.p1, not unique enough
+-skipping training candidate: MSTRG.4780.1.p1, not unique enough
+-skipping training candidate: MSTRG.4887.1.p1, not unique enough
+-skipping training candidate: MSTRG.7031.2.p1, not unique enough
+-skipping training candidate: MSTRG.11644.3.p1, not unique enough
+-skipping training candidate: MSTRG.11644.2.p1, not unique enough
+-skipping training candidate: MSTRG.20276.2.p1, not unique enough
+-skipping training candidate: MSTRG.1974.2.p2, not unique enough
+-skipping training candidate: MSTRG.5006.1.p1, not unique enough
+-skipping training candidate: MSTRG.5006.2.p1, not unique enough
+-skipping training candidate: MSTRG.16963.2.p1, not unique enough
+-skipping training candidate: MSTRG.4236.1.p1, not unique enough
+-skipping training candidate: MSTRG.5387.1.p1, not unique enough
+-skipping training candidate: MSTRG.18615.1.p1, not unique enough
+-skipping training candidate: MSTRG.11479.1.p1, not unique enough
+-skipping training candidate: MSTRG.11898.2.p1, not unique enough
+-skipping training candidate: MSTRG.11898.3.p1, not unique enough
+-skipping training candidate: MSTRG.17466.2.p1, not unique enough
+-skipping training candidate: MSTRG.19550.1.p1, not unique enough
+-skipping training candidate: MSTRG.3848.2.p1, not unique enough
+-skipping training candidate: MSTRG.3848.1.p1, not unique enough
+-skipping training candidate: MSTRG.4887.3.p1, not unique enough
+-skipping training candidate: MSTRG.6608.1.p1, not unique enough
+-skipping training candidate: MSTRG.13861.2.p1, not unique enough
+-skipping training candidate: MSTRG.19926.2.p1, not unique enough
+-skipping training candidate: MSTRG.7505.2.p1, not unique enough
+-skipping training candidate: MSTRG.12161.1.p1, not unique enough
+-skipping training candidate: MSTRG.12161.2.p1, not unique enough
+-skipping training candidate: MSTRG.13835.1.p1, not unique enough
+-skipping training candidate: MSTRG.18496.1.p1, not unique enough
+-skipping training candidate: MSTRG.1791.2.p1, not unique enough
+-skipping training candidate: MSTRG.7536.1.p1, not unique enough
+-skipping training candidate: MSTRG.7273.1.p1, not unique enough
+-skipping training candidate: MSTRG.7180.1.p1, not unique enough
+-skipping training candidate: MSTRG.9489.2.p1, not unique enough
+-skipping training candidate: MSTRG.10406.1.p1, not unique enough
+-skipping training candidate: MSTRG.12532.1.p1, not unique enough
+-skipping training candidate: MSTRG.14012.9.p1, not unique enough
+-skipping training candidate: MSTRG.19570.2.p1, not unique enough
+-skipping training candidate: MSTRG.19108.2.p1, not unique enough
+-skipping training candidate: MSTRG.19926.1.p1, not unique enough
+-skipping training candidate: MSTRG.1740.1.p1, not unique enough
+-skipping training candidate: MSTRG.6671.2.p1, not unique enough
+-skipping training candidate: MSTRG.19334.1.p1, not unique enough
+-skipping training candidate: MSTRG.2630.4.p1, not unique enough
+-skipping training candidate: MSTRG.2630.1.p1, not unique enough
+-skipping training candidate: MSTRG.2630.3.p1, not unique enough
+-skipping training candidate: MSTRG.2630.5.p1, not unique enough
+-skipping training candidate: MSTRG.9589.2.p1, not unique enough
+-skipping training candidate: MSTRG.11774.2.p2, not unique enough
+-skipping training candidate: MSTRG.14735.1.p1, not unique enough
+-skipping training candidate: MSTRG.18964.1.p1, not unique enough
+-skipping training candidate: MSTRG.1974.3.p2, not unique enough
+-skipping training candidate: MSTRG.14884.2.p1, not unique enough
+-skipping training candidate: MSTRG.14884.1.p1, not unique enough
+-skipping training candidate: MSTRG.2328.2.p1, not unique enough
+-skipping training candidate: MSTRG.13620.1.p1, not unique enough
+-skipping training candidate: MSTRG.13897.2.p1, not unique enough
+-skipping training candidate: MSTRG.15109.1.p1, not unique enough
+-skipping training candidate: MSTRG.19403.1.p1, not unique enough
+-skipping training candidate: MSTRG.21126.4.p1, not unique enough
+-skipping training candidate: MSTRG.16801.1.p1, not unique enough
+-skipping training candidate: MSTRG.14329.2.p1, not unique enough
+-skipping training candidate: MSTRG.14883.2.p1, not unique enough
+-skipping training candidate: MSTRG.16124.2.p1, not unique enough
+-skipping training candidate: MSTRG.19209.1.p1, not unique enough
+-skipping training candidate: MSTRG.18805.2.p1, not unique enough
+-skipping training candidate: MSTRG.205.2.p1, not unique enough
+-skipping training candidate: MSTRG.4315.3.p1, not unique enough
+-skipping training candidate: MSTRG.14606.1.p1, not unique enough
+-skipping training candidate: MSTRG.17805.2.p1, not unique enough
+-skipping training candidate: MSTRG.20454.3.p1, not unique enough
+-skipping training candidate: MSTRG.4396.1.p1, not unique enough
+-skipping training candidate: MSTRG.10396.2.p1, not unique enough
+-skipping training candidate: MSTRG.13977.2.p1, not unique enough
+-skipping training candidate: MSTRG.17294.1.p1, not unique enough
+-skipping training candidate: MSTRG.2256.1.p1, not unique enough
+-skipping training candidate: MSTRG.10487.2.p1, not unique enough
+-skipping training candidate: MSTRG.13861.3.p1, not unique enough
+-skipping training candidate: MSTRG.15806.2.p1, not unique enough
+-skipping training candidate: MSTRG.14987.2.p1, not unique enough
+-skipping training candidate: MSTRG.16490.2.p1, not unique enough
+-skipping training candidate: MSTRG.18964.3.p1, not unique enough
+
+	-redundancy-minimized set includes 3967 / 5000 = 79.34%
+
+* [Thu Oct 24 18:51:57 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/get_top_longest_fasta_entries.pl /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.cds.top_longest_5000.nr 500 > /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.cds.top_500_longest
+PCT_GC: 43.8
+* [Thu Oct 24 18:51:58 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/seq_n_baseprobs_to_loglikelihood_vals.pl /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.cds.top_500_longest /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/base_freqs.dat > /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/hexamer.scores
+* [Thu Oct 24 18:52:02 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/score_CDS_likelihood_all_6_frames.pl /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.cds /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/hexamer.scores > /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.cds.scores
+* [Thu Oct 24 18:55:21 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/select_best_ORFs_per_transcript.pl --gff3_file /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.gff3 --cds_scores /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.cds.scores  --min_length_auto_accept 645  --single_best_orf  > /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.cds.best_candidates.gff3 
+Selecting best orfs
+* [Thu Oct 24 18:55:26 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/train_start_PWM.pl --transcripts entap_outfiles/transcriptomes/stringtie2_transcripts.fa --selected_orfs /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.cds.top_500_longest --out_prefix /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement
+Training start codon pattern recognition* [Thu Oct 24 18:55:26 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/PWM/build_atgPWM_+-.pl  --transcripts entap_outfiles/transcriptomes/stringtie2_transcripts.fa  --selected_orfs /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.cds.top_500_longest  --out_prefix /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement --pwm_left 20 --pwm_right 10 
+* [Thu Oct 24 18:55:29 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/PWM/feature_scoring.+-.pl  --features_plus /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.+.features  --features_minus /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.-.features  --atg_position 20  > /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.feature.scores
+-round: 1
+-round: 2
+-round: 3
+-round: 4
+-round: 5
+* [Thu Oct 24 18:55:52 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/PWM/feature_scores_to_ROC.pl /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.feature.scores > /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.feature.scores.roc
+-parsing scores
+* [Thu Oct 24 18:55:57 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/PWM/plot_ROC.Rscript /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.feature.scores.roc || :
+Error: package or namespace load failed for ‘ggplot2’:
+ package ‘glue’ was installed before R 4.0.0: please re-install it
+Execution halted
+* [Thu Oct 24 18:55:59 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/PWM/compute_AUC.pl /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.feature.scores.roc
+Error: package or namespace load failed for ‘ggplot2’:
+ package ‘glue’ was installed before R 4.0.0: please re-install it
+Execution halted
+* [Thu Oct 24 18:55:59 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/PWM/make_seqLogo.Rscript /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.+.pwm || :
+Loading required package: grid
+* [Thu Oct 24 18:56:00 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/PWM/make_seqLogo.Rscript /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.-.pwm || :
+Loading required package: grid
+* [Thu Oct 24 18:56:00 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/PWM/deplete_feature_noise.pl  --features_plus /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.+.features  --pwm_minus /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.-.pwm  --out_prefix /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.enhanced
+num features: 366	num_incorporate: 109
+-feature swap of score: 0.686988057246289 instead of -2.08269775888172
+-feature swap of score: -0.398785618307385 instead of -2.12856016544916
+-feature swap of score: 1.58362186830938 instead of -2.00749049256422
+-feature swap of score: -0.801879368730639 instead of -2.19164695934231
+-feature swap of score: -1.73936685556868 instead of -1.78713983548889
+-feature swap of score: 0.184505834833722 instead of -1.71192167552085
+-feature swap of score: 1.06712736750851 instead of -1.43173713597276
+-feature swap of score: 1.83820197858359 instead of -1.28458350479954
+-feature swap of score: -1.19558017149226 instead of -1.38322964143964
+-feature swap of score: 1.93601917809627 instead of -1.34890452625762
+-feature swap of score: 2.22983783146547 instead of -1.19438562911951
+-feature swap of score: 2.00851806327559 instead of -1.06525727845777
+-feature swap of score: 1.3199033372717 instead of -1.17786933745825
+-feature swap of score: 1.46052437140799 instead of -1.08256525092308
+-feature swap of score: 1.64559413313149 instead of -1.29938086336565
+-feature swap of score: 0.834186049886008 instead of -1.06918070192625
+-feature swap of score: -0.756332479945422 instead of -0.854622091966371
+-feature swap of score: 0.207373286199008 instead of -0.847742897016906
+-feature swap of score: -0.142559272933986 instead of -0.836848302857837
+-feature swap of score: -0.704905639197909 instead of -0.878429087520271
+-feature swap of score: 3.14270931752968 instead of -0.655027184747702
+-feature swap of score: 2.56665275792332 instead of -1.19981622176318
+-feature swap of score: 0.801924110817777 instead of -1.46647357074449
+-feature swap of score: 3.97639743968414 instead of -0.583713208462132
+-feature swap of score: 0.874224126624197 instead of -0.57937231681672
+-feature swap of score: 1.50933568676158 instead of -0.71557537279808
+-feature swap of score: -0.357521162013686 instead of -0.701418469510218
+-feature swap of score: -0.119063117490491 instead of -0.661889107356544
+-feature swap of score: 1.0750056448634 instead of -0.628372422775263
+-feature swap of score: 1.71998222820262 instead of -0.635976019484545
+-feature swap of score: 0.311174576419113 instead of -0.603535416225184
+-feature swap of score: 2.28067239649791 instead of -0.566317008136993
+-feature swap of score: 1.27704710379229 instead of -0.525099300165524
+-feature swap of score: 3.61817915153366 instead of -0.531214072224016
+-feature swap of score: 0.409108375315641 instead of -0.19450880063632
+-feature swap of score: 4.18020820162902 instead of -0.269547139105584
+-feature swap of score: 1.32155100393062 instead of -0.260708057571313
+-feature swap of score: 1.28376607371661 instead of -0.432231159993138
+-feature swap of score: 1.71825015452073 instead of -0.376089249657317
+-feature swap of score: 0.403990904401461 instead of -0.338176673773596
+-feature swap of score: 1.78515985225028 instead of -0.251628391784355
+-feature swap of score: 1.91911563492262 instead of -0.328181950325194
+-feature swap of score: 0.00916570362551078 instead of -0.218182271175521
+-feature swap of score: 1.09546908899933 instead of -0.155943655560031
+-feature swap of score: 3.21281224516532 instead of -0.184230885757531
+-feature swap of score: 1.30812120574267 instead of -0.171528740575436
+-feature swap of score: 2.40085663649963 instead of -0.210979483570051
+-feature swap of score: 2.45793272323182 instead of -0.239681057612049
+-feature swap of score: 0.232783470971933 instead of -0.315979445570021
+-feature swap of score: 0.72517079970613 instead of -0.2034120282188
+-feature swap of score: 2.85558201699143 instead of 0.16099197854854
+-feature swap of score: 0.935078435138083 instead of 0.234241819343609
+-feature swap of score: 1.52946081670507 instead of 0.215378425802989
+-feature swap of score: 3.66311297550991 instead of 0.257241221342982
+-feature swap of score: 6.16762964698574 instead of 0.201163450640128
+-feature swap of score: 4.08593961735419 instead of 0.0495721081738341
+-feature swap of score: 3.82083556112385 instead of 0.367333553432458
+-feature swap of score: 1.31934736772013 instead of 0.440566672054357
+-feature swap of score: 3.52527366018833 instead of 0.126447484092806
+-feature swap of score: 3.7643327235184 instead of 0.367866930490036
+-feature swap of score: 1.10776547779784 instead of 0.417872540173484
+-feature swap of score: 3.45321658967491 instead of 0.430376066246123
+-feature swap of score: 2.90244969298938 instead of 0.584309658780524
+-feature swap of score: 4.25733726809503 instead of 0.432750307175401
+-feature swap of score: 3.51931082001522 instead of 0.556933470380113
+-feature swap of score: 1.94626579657596 instead of 0.452478380227801
+-feature swap of score: 0.625274858650721 instead of 0.292587005986593
+-feature swap of score: 2.94426669048041 instead of 0.57686696886121
+-feature swap of score: 5.16741956170014 instead of 0.312021902444523
+-feature swap of score: 8.23453787480225 instead of 0.930710714706324
+-feature swap of score: 0.715090303597771 instead of 0.702085822078234
+-feature swap of score: 1.73528897564392 instead of 0.827696119410513
+-feature swap of score: 4.61726914359884 instead of 0.736104642716205
+-feature swap of score: 0.352914300886096 instead of 0.157122296782027
+-feature swap of score: 4.93560017878513 instead of 0.530186721624123
+-feature swap of score: 2.09836006607865 instead of 0.721872380906896
+-feature swap of score: 1.93781059130932 instead of 0.579246016922519
+-feature swap of score: 3.24824734051096 instead of 0.385604580403535
+-feature swap of score: 3.62142323347151 instead of 0.072222597990939
+-feature swap of score: 1.45055232514984 instead of 0.561876513997404
+-feature swap of score: 6.36098108525056 instead of 1.00595690895057
+-feature swap of score: 1.28382240047134 instead of 0.964555994242123
+-feature swap of score: 2.65751433028957 instead of 0.890736753132098
+-feature swap of score: 3.38814913545927 instead of 0.99217809813587
+-feature swap of score: 1.97778074109721 instead of 1.0192099219323
+-feature swap of score: 2.65871774831571 instead of 1.08892754708436
+-feature swap of score: 2.84492177694197 instead of 1.25254145229313
+-feature swap of score: 2.14919602579936 instead of 1.16384579941613
+-feature swap of score: 1.83081283132865 instead of 1.12664834555283
+-feature swap of score: 5.58499251608223 instead of 1.16842763449116
+-feature swap of score: 5.02574880995918 instead of 1.23571345869233
+-feature swap of score: 4.13388760602036 instead of 1.19475115613788
+-feature swap of score: 3.35643538295645 instead of 1.38781752402898
+-feature swap of score: 3.79716483014417 instead of 1.74563124123026
+-feature swap of score: 2.0366687222704 instead of 1.81988768635015
+-feature swap of score: 1.88453165821634 instead of 1.76482141988626
+-feature swap of score: 2.43442091465001 instead of 1.53596637813972
+-feature swap of score: 2.14008352920388 instead of 1.5514549835075
+-feature swap of score: 4.23035766112526 instead of 1.67525077366795
+-feature swap of score: 4.56931659424311 instead of 1.56216308939182
+-feature swap of score: 5.42455697356879 instead of 1.777498756242
+-feature swap of score: 3.90989389607796 instead of 0.867833707484148
+-num feature swaps: 102
+* [Thu Oct 24 18:56:01 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/PWM/feature_scoring.+-.pl  --features_plus /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.enhanced.+.features  --features_minus /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.-.features  --atg_position 20  > /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.enhanced.feature.scores
+-round: 1
+-round: 2
+-round: 3
+-round: 4
+-round: 5
+* [Thu Oct 24 18:56:22 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/PWM/feature_scores_to_ROC.pl /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.enhanced.feature.scores > /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.enhanced.feature.scores.roc
+-parsing scores
+* [Thu Oct 24 18:56:27 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/PWM/plot_ROC.Rscript /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.enhanced.feature.scores.roc || :
+Error: package or namespace load failed for ‘ggplot2’:
+ package ‘glue’ was installed before R 4.0.0: please re-install it
+Execution halted
+* [Thu Oct 24 18:56:27 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/PWM/compute_AUC.pl /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.enhanced.feature.scores.roc
+Error: package or namespace load failed for ‘ggplot2’:
+ package ‘glue’ was installed before R 4.0.0: please re-install it
+Execution halted
+* [Thu Oct 24 18:56:28 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/PWM/make_seqLogo.Rscript /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/start_refinement.enhanced.+.pwm || :
+Loading required package: grid
+* [Thu Oct 24 18:56:28 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/start_codon_refinement.pl --transcripts entap_outfiles/transcriptomes/stringtie2_transcripts.fa --gff3_file /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.cds.best_candidates.gff3 --workdir /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir > /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.cds.best_candidates.gff3.revised_starts.gff3
+Refining start codon selections.
+-number of revised start positions: 2463
+* [Thu Oct 24 18:56:34 2024] Running CMD: cp /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/longest_orfs.cds.best_candidates.gff3.revised_starts.gff3 /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder.gff3
+copying output to final output file: /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder.gff3* [Thu Oct 24 18:56:34 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/gff3_file_to_bed.pl /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder.gff3 > /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder.bed
+Making bed file: /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder.bed
+* [Thu Oct 24 18:56:37 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/gff3_file_to_proteins.pl --gff3 /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder.gff3 --fasta entap_outfiles/transcriptomes/stringtie2_transcripts.fa  --genetic_code Universal > /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder.pep
+Making pep file: /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder.pep
+* [Thu Oct 24 18:56:44 2024] Running CMD: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/gff3_file_to_proteins.pl --gff3 /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder.gff3 --fasta entap_outfiles/transcriptomes/stringtie2_transcripts.fa --seqType CDS  --genetic_code Universal > /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder.cds
+Making cds file: /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder.cds
+transdecoder is finished.  See output files /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder.*
+
+

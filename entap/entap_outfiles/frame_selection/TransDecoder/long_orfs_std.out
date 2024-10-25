@@ -1,0 +1,2 @@
+CMD: mkdir -p /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir
+CMD: touch /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/__checkpoints_longorfs/TD.longorfs.ok

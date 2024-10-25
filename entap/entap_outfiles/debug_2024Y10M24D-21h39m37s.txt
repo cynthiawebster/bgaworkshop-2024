@@ -1,0 +1,372 @@
+Thu Oct 24 21:39:37 2024: Start - EnTAP
+Thu Oct 24 21:39:37 2024: Printing user input...
+Thu Oct 24 21:39:37 2024: ------------------------------------------------------
+EnTAP Run Information - Execution
+------------------------------------------------------
+Current EnTAP Version: 2.0.0
+Start time: Thu Oct 24 21:39:37 2024
+
+Working directory has been set to: entap_outfiles
+User Inputs:
+out-dir: entap_outfiles
+config: false
+runP: true
+runN: false
+overwrite: false
+resume: true
+run-ini: entap_run.params
+entap-ini: entap_config.ini
+input: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/jcinerea/04_assembly/stringtie2/stringtie2_transcripts.fa
+database: /isg/shared/databases/Diamond/Uniprot/uniprot_sprot.fa.2.0.6.dmnd,
+graph: false
+no-trim: false
+threads: 12
+state: +
+no-check: false
+output-format: 1,3,4,7,
+api-taxon: 
+entap-db-bin: /core/labs/Wegrzyn/databases/entap/bin/entap_database.bin
+entap-db-sql: /core/labs/Wegrzyn/databases/entap/databases/entap_database.db
+entap-graph: /usr/local/bin/entap_graphing.py
+data-generate: false
+data-type: 0,
+fpkm: 0.500000
+align: 
+single-end: false
+rsem-calculate-expression: rsem-calculate-expression
+rsem-sam-validator: rsem-sam-validator
+rsem-prepare-reference: rsem-prepare-reference
+convert-sam-for-rsem: convert-sam-for-rsem
+transdecoder-long-exe: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/TransDecoder.LongOrfs
+transdecoder-predict-exe: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/TransDecoder.Predict
+transdecoder-m: 100
+transdecoder-no-refine-starts: false
+diamond-exe: diamond
+taxon: juglans
+qcoverage: 50.000000
+tcoverage: 50.000000
+contam: bacteria,
+e-value: 0.000010
+uninformative: conserved,predicted,unknown,unnamed,hypothetical,putative,unidentified,uncharacterized,uncultured,uninformative,
+diamond-sensitivity: very-sensitive
+ontology_source: 0,
+eggnog-map-exe: /core/labs/Wegrzyn/easel/updates/entap/dev/test8/EnTAP/libs/eggnog-mapper-2.1.12/emapper.py
+eggnog-map-data: /core/labs/Wegrzyn/databases/entap/databases
+eggnog-map-dmnd: /core/labs/Wegrzyn/databases/entap/bin/eggnog_proteins.dmnd
+eggnog-contaminant: true
+eggnog-dbmem: true
+eggnog-sensitivity: more-sensitive
+interproscan-exe: interproscan.sh
+interproscan-db: 
+hgt-donor: 
+hgt-recipient: 
+hgt-gff: 
+
+
+Thu Oct 24 21:39:37 2024: User has input a database at: /isg/shared/databases/Diamond/Uniprot/uniprot_sprot.fa.2.0.6.dmnd
+Thu Oct 24 21:39:37 2024: Verifying EnTAP database...
+Thu Oct 24 21:39:37 2024: Reading serialized database from: /core/labs/Wegrzyn/databases/entap/bin/entap_database.bin
+ Of type: 2
+Thu Oct 24 21:39:50 2024: Success!
+Thu Oct 24 21:39:50 2024: Spawn Object - QueryData
+Thu Oct 24 21:39:50 2024: Generating transcriptome mappings...
+Thu Oct 24 21:39:50 2024: Transcriptome Lines - START
+Thu Oct 24 21:39:50 2024: >MSTRG.1857.1 MSTRG.1857
+Thu Oct 24 21:39:50 2024: TGGCAACACTCTGATTTGATCATAAACACTACAGCCCCCATCAATTTCATTCGAAATTCCCTCGGAATGGCtcaaaaaagcaagattttgatcatcggagccactggatacatcgggaaattcctagtggaggcaagcgtGAAAGATGGACACTCAACTTTTGCATTGGTCAGAGAAAGCACAGCTTCTAGTCCTGATAAGTCCGAACTCATTGAGAGCTTCAAGAGCTCTGGAGTGACACTCCTTTATGGAGACATCTATAATCATGAGAGCTTGGTGAAGGCAATCAAGCAAGTTGATGCAGTGATCTCTGCAGTTGGGTTTCAACAACTGGGTGATCAGGTGAAGATTATTGCTGCCATCAAAGAAGCTGGAAATATCAAGAGATTCCTCCCATCGGAGTTTGGAACGGATGTGGATCGTTTCCATGCAGTGGAGCCAGCTGCAAGCCTCTTTGCTCTTAAGGCTAGCATCCGGCGATCAATCGAGGCCGCAGGAATTCCATATACCTACATCGTGTCCAATGCCTTTGCTGGGTCTTTCTTGACAAAACTTGGACAGGTAGGTGCTACAGCTCCTCCAAGAGACAAAGTTTTAGTACTTGGCGATGGAAATATTAAAGCAATTTTTGTCAAGgaagaagatattgctatatacaccataaaagcagcggatgatccgagaaccttgaacaagatcctctatatgagaccccctgctaacattttgtccttcaatgagattgtcgccctgtgggagaagaagatcagcaagaccctggagaagatttatattctagaagaCCAACTTCTTGAGAAAATCCAGGAATCTCCAGCCCCCACAAACATCATTCTATCCATCGGACAATCTGTGTTAGTGAAGGGAGATTGTACAAATTATGTGATTGATGCTTCTTTTGGAGTGGAGGCTTCTGAGATCTATCCAGAGGTGAAATACACAACTGTGAAGGAATACCTCGATCGGCTTGTCTAAACTTGGACATTTGTTTGTGGCAATATGTTCTGTTTACAGCGTACAATAAATATAAGAACTTGTGAAGTCTCCGTGGTCTGTGTACTGTGCATGGCGCTTGCTACTTTTCATTTGTGGCCTTATTTATATATTTGTCATATAAACCCTTGTGCTGGAACCTTTGTACTGTTGTATCAATCTTAAGA
+Thu Oct 24 21:39:50 2024: >MSTRG.1735.2 MSTRG.1735
+Thu Oct 24 21:39:50 2024: TGTAAAGAAAAATCATGTCTTCCCCGAGCAAACGCCGAGAGATGGACTTGATGAAACTGATGATTGGCGACTACAAGGTAGAGATGATCAATGATGGCATGCAAGAGTTCTATGTTGATTTCCATGGACCCAGTGAGAGTCCTTATCATGGAGGTGTGTGGAGGATAAGAGTTGAGTTACCAGATGCTTATCCATATAAATCTCCCTCCATAGGCTTCGTTAATAAGATCTACCACCCAAACGTTGATGAGATGTCAGGTTCAGTTTGTTTAGATGTTATTAATCAAAGCTGGAGCCCCATGTTTGATCTTGTAAATGTGTTTGAAGTATTCCTACCACAACTTCTGCTGTACCCCAATCCATCAGACCCTTTGAATGGAGAGGCTGCAGCTTTGATGATGCGTGACCGAGCTGCTTATGAACAAAGAGTTAAAGAATACCGCGAGAAGTATGCGAAGCCGGAAGACATTGGAGCTGCCCCAGAAGAAAAATCTAGTGATGAGGAGCTGAGTGAAGATGAATCTGATTCCAGTGATGAGCAAGTGGCAGGAAAAGCAGATCCATAGTTGTTGTATATGTTTTAGCTTTGTTAAATTCAACCGCAACTCCAAAGAATATAGAGACTTTGTTTATTGATTACAGCCTCTATTGTTTATAGCCGTTCTTTCCTTTGGCAGAACAGATTGATCATTCTATGCTTTCATTTGAATATATC
+Thu Oct 24 21:39:50 2024: >MSTRG.1735.1 MSTRG.1735
+Thu Oct 24 21:39:50 2024: TGTAAAGAAAAATCATGTCTTCCCCGAGCAAACGCCGAGAGATGGACTTGATGAAACTGATGATTGGCGACTACAAGGTAGAGATGATCAATGATGGCATGCAAGAGTTCTATGTTGATTTCCATGGACCCAGTGAGAGTCCTTATCATGGAGGTGTGTGGAGGATAAGAGTTGAGTTACCAGATGCTTATCCATATAAATCTCCCTCCATAGGCTTCGTTAATAAGATCTACCACCCAAACGTTGATGAGATGTCAGGTTCAGTTTGTTTAGATGTTATTAATCAAAGCTGGAGCCCCATGTTTGATCTTGTAAATGTGTTTGAAGTATTCCTACCACAACTTCTGCTGTACCCCAATCCATCAGACCCTTTGAATGGAGAGGCTGCAGCTTTGATGATGCGTGACCGAGCTGCTTATGAACAAAGAGTTAAAGAATACCGCGAGAAGTATGCGAAGCCGGAAGACATTGGAGCTGCCCCAGAAGAAAAATCTAGTGATGAGGAGCTGAGTGAAGATGAATCTGATTCCAGTGATGAGCAAGTGGCAGGAAAAGCAGATCCATAGGTGTTGGTGGGCTGTCCTTTAAACTCTCTCTCTAGTTGTTGTATATGTTTTAGCTTTGTTAAATTCAACCGCAACTCCAAAGAATATAGAGACTTTGTTTATTGATTACAGCCTCTATTGTTTATAGCCGTTCTTTCCTTTGGCAGAACAGATTGATCATTCTATGCTTTCATTTGAATATATC
+Thu Oct 24 21:39:50 2024: >MSTRG.1901.1 MSTRG.1901
+Thu Oct 24 21:39:50 2024: GTAACTCTTTCCCTCTAGTACCATTAGAAACCCTTGCAAAACCCCTTCTCCGTACAAATCTTGCGCTTCCCATCTCAGCTTTTGTTGCACTTGAAGATGATGCTCAAGTCTGCTTCCTTGGGACGAAATTACAGCACAGGTAACGGCGAGTTTATCGGCACTCTCGCCGTGAGCGCCGGCGAAGTCGACCTCCGAGCTTCCGTGTCCGACGACGCTTCCGCTTGTTCGCCCACCTTTGGCATACTCTCTTTCGCCGTTGAGAAACCCGGTTCCTTCTCCATCGACTACGATGTCCCAAAGAAGGATGTTCGGTTTCAGTTCACGAAGAATTTAAATATGCTAGAGAGACCGTTGAGCTTGACTTACACTCACGTGATGAGCGAGAACCGGACTTTACTGAATGGAACACTTGAGCTTGATTCAGCTAACAAACTGTCGGCTAATTATGCATTTTATTCTGGGAACTGCAAGTTGAAATATAGCTATGCGCATGGAGGGACAACATTGGAGCCATGCTATGACTTTGGAAATAAGTCTTTGGACTTGGCAGCATCTCAGAGGTTTCTTGAGGGCAATTTGATCGGGGCATCGTATAAGACATCAAGCAAGACTTTGGGATTGGAGTGGTCCTCAAATTCCAAGCACAACAAAAATTTAAGATTCAAGGTGTCAGCATTACTTGAGTTGGCAAAGGGATTGACATGCCGATCCTAAATGCTGAGAGCATCTGGGACTTTTCGCTTTAATATTTCCACCTACTGTTGAGATCTTTATATGAAAAAGTAACTTCCTTTAGTTAAAATGTACCGAGACATTGCTTTCAAATAATCGTATTGGTTTGAATTTCTGCAGCGGAATCATTGCCATCCCCTACTTCCATCACTGACAGACAATCACTGACT
+Thu Oct 24 21:39:50 2024: >MSTRG.1887.1 MSTRG.1887
+Thu Oct 24 21:39:50 2024: Transcriptome Lines - END
+Thu Oct 24 21:39:51 2024: Success!
+Thu Oct 24 21:39:51 2024: Verifying input flag taxon
+Thu Oct 24 21:39:51 2024: Verified species: juglans
+Thu Oct 24 21:39:51 2024: Verifying input flag contam
+Thu Oct 24 21:39:51 2024: Verified species: bacteria
+Thu Oct 24 21:39:51 2024: Verifying input flag eggnog-contaminant
+Thu Oct 24 21:39:51 2024: Verifying input flag fpkm
+Thu Oct 24 21:39:51 2024: Verifying input flag qcoverage
+Thu Oct 24 21:39:51 2024: Verifying input flag tcoverage
+Thu Oct 24 21:39:51 2024: Verifying input flag ontology_source
+Thu Oct 24 21:39:51 2024: Verifying input flag level
+Thu Oct 24 21:39:51 2024: Verifying input flag frame-selection
+Thu Oct 24 21:39:51 2024: Verifying input flag transdecoder-m
+Thu Oct 24 21:39:51 2024: Determining if we want to run expression analysis
+Thu Oct 24 21:39:51 2024: NO, no alignment file specified from user
+Thu Oct 24 21:39:51 2024: Determining if we want to run frame selection...
+Thu Oct 24 21:39:51 2024: YES, run frame selection
+Thu Oct 24 21:39:51 2024: Determining if we want to run horizontal gene transfer analysis...
+Thu Oct 24 21:39:51 2024:     No, INPUT_FLAG_HGT_DONOR_DATABASES not input
+Thu Oct 24 21:39:51 2024:     No, INPUT_FLAG_HGT_RECIPIENT_DATABASES not input
+Thu Oct 24 21:39:51 2024:     No, INPUT_FLAG_HGT_GFF not input
+Thu Oct 24 21:39:51 2024: Verifying software...
+Thu Oct 24 21:39:51 2024: Verifying that Transdecoder is executable
+Thu Oct 24 21:39:51 2024: Testing TransDecoder.LongOrfs executable...
+Thu Oct 24 21:39:51 2024: Executing command: 
+/core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/TransDecoder.LongOrfs --version
+Thu Oct 24 21:39:51 2024: 
+Std Err:
+
+Thu Oct 24 21:39:51 2024: Testing TransDecoder.Predict executable...
+Thu Oct 24 21:39:51 2024: Executing command: 
+/core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/TransDecoder.Predict --version
+Thu Oct 24 21:39:52 2024: 
+Std Err:
+
+Thu Oct 24 21:39:52 2024: Success! TransDecoder paths verified
+Thu Oct 24 21:39:52 2024: Executing command: 
+diamond --version
+Thu Oct 24 21:39:52 2024: 
+Std Err:
+
+Thu Oct 24 21:39:52 2024: Verifying EggNOG-mapper inputs...
+Thu Oct 24 21:39:52 2024: Executing command: 
+/core/labs/Wegrzyn/easel/updates/entap/dev/test8/EnTAP/libs/eggnog-mapper-2.1.12/emapper.py --version
+Thu Oct 24 21:39:53 2024: 
+Std Err:
+
+Thu Oct 24 21:39:53 2024: Success!
+Thu Oct 24 21:39:53 2024: Executing command: 
+diamond --version
+Thu Oct 24 21:39:53 2024: 
+Std Err:
+
+Thu Oct 24 21:39:53 2024: Success!
+Thu Oct 24 21:39:53 2024: Success! Input verified
+Thu Oct 24 21:39:54 2024: Killing Object - EntapDatabase
+Thu Oct 24 21:39:57 2024: Killing Object - QueryData
+Thu Oct 24 21:39:57 2024: QuerySequence data freed
+Thu Oct 24 21:39:57 2024: EnTAP Executing...
+Thu Oct 24 21:39:57 2024: verifying state...
+Thu Oct 24 21:39:57 2024: verifying state...
+Thu Oct 24 21:39:57 2024: Success!
+Thu Oct 24 21:39:57 2024: Spawn Object - QueryData
+Thu Oct 24 21:39:57 2024: Generating transcriptome mappings...
+Thu Oct 24 21:39:57 2024: Transcriptome Lines - START
+Thu Oct 24 21:39:57 2024: >MSTRG.1857.1 MSTRG.1857
+Thu Oct 24 21:39:57 2024: TGGCAACACTCTGATTTGATCATAAACACTACAGCCCCCATCAATTTCATTCGAAATTCCCTCGGAATGGCtcaaaaaagcaagattttgatcatcggagccactggatacatcgggaaattcctagtggaggcaagcgtGAAAGATGGACACTCAACTTTTGCATTGGTCAGAGAAAGCACAGCTTCTAGTCCTGATAAGTCCGAACTCATTGAGAGCTTCAAGAGCTCTGGAGTGACACTCCTTTATGGAGACATCTATAATCATGAGAGCTTGGTGAAGGCAATCAAGCAAGTTGATGCAGTGATCTCTGCAGTTGGGTTTCAACAACTGGGTGATCAGGTGAAGATTATTGCTGCCATCAAAGAAGCTGGAAATATCAAGAGATTCCTCCCATCGGAGTTTGGAACGGATGTGGATCGTTTCCATGCAGTGGAGCCAGCTGCAAGCCTCTTTGCTCTTAAGGCTAGCATCCGGCGATCAATCGAGGCCGCAGGAATTCCATATACCTACATCGTGTCCAATGCCTTTGCTGGGTCTTTCTTGACAAAACTTGGACAGGTAGGTGCTACAGCTCCTCCAAGAGACAAAGTTTTAGTACTTGGCGATGGAAATATTAAAGCAATTTTTGTCAAGgaagaagatattgctatatacaccataaaagcagcggatgatccgagaaccttgaacaagatcctctatatgagaccccctgctaacattttgtccttcaatgagattgtcgccctgtgggagaagaagatcagcaagaccctggagaagatttatattctagaagaCCAACTTCTTGAGAAAATCCAGGAATCTCCAGCCCCCACAAACATCATTCTATCCATCGGACAATCTGTGTTAGTGAAGGGAGATTGTACAAATTATGTGATTGATGCTTCTTTTGGAGTGGAGGCTTCTGAGATCTATCCAGAGGTGAAATACACAACTGTGAAGGAATACCTCGATCGGCTTGTCTAAACTTGGACATTTGTTTGTGGCAATATGTTCTGTTTACAGCGTACAATAAATATAAGAACTTGTGAAGTCTCCGTGGTCTGTGTACTGTGCATGGCGCTTGCTACTTTTCATTTGTGGCCTTATTTATATATTTGTCATATAAACCCTTGTGCTGGAACCTTTGTACTGTTGTATCAATCTTAAGA
+Thu Oct 24 21:39:57 2024: >MSTRG.1735.2 MSTRG.1735
+Thu Oct 24 21:39:57 2024: TGTAAAGAAAAATCATGTCTTCCCCGAGCAAACGCCGAGAGATGGACTTGATGAAACTGATGATTGGCGACTACAAGGTAGAGATGATCAATGATGGCATGCAAGAGTTCTATGTTGATTTCCATGGACCCAGTGAGAGTCCTTATCATGGAGGTGTGTGGAGGATAAGAGTTGAGTTACCAGATGCTTATCCATATAAATCTCCCTCCATAGGCTTCGTTAATAAGATCTACCACCCAAACGTTGATGAGATGTCAGGTTCAGTTTGTTTAGATGTTATTAATCAAAGCTGGAGCCCCATGTTTGATCTTGTAAATGTGTTTGAAGTATTCCTACCACAACTTCTGCTGTACCCCAATCCATCAGACCCTTTGAATGGAGAGGCTGCAGCTTTGATGATGCGTGACCGAGCTGCTTATGAACAAAGAGTTAAAGAATACCGCGAGAAGTATGCGAAGCCGGAAGACATTGGAGCTGCCCCAGAAGAAAAATCTAGTGATGAGGAGCTGAGTGAAGATGAATCTGATTCCAGTGATGAGCAAGTGGCAGGAAAAGCAGATCCATAGTTGTTGTATATGTTTTAGCTTTGTTAAATTCAACCGCAACTCCAAAGAATATAGAGACTTTGTTTATTGATTACAGCCTCTATTGTTTATAGCCGTTCTTTCCTTTGGCAGAACAGATTGATCATTCTATGCTTTCATTTGAATATATC
+Thu Oct 24 21:39:57 2024: >MSTRG.1735.1 MSTRG.1735
+Thu Oct 24 21:39:57 2024: TGTAAAGAAAAATCATGTCTTCCCCGAGCAAACGCCGAGAGATGGACTTGATGAAACTGATGATTGGCGACTACAAGGTAGAGATGATCAATGATGGCATGCAAGAGTTCTATGTTGATTTCCATGGACCCAGTGAGAGTCCTTATCATGGAGGTGTGTGGAGGATAAGAGTTGAGTTACCAGATGCTTATCCATATAAATCTCCCTCCATAGGCTTCGTTAATAAGATCTACCACCCAAACGTTGATGAGATGTCAGGTTCAGTTTGTTTAGATGTTATTAATCAAAGCTGGAGCCCCATGTTTGATCTTGTAAATGTGTTTGAAGTATTCCTACCACAACTTCTGCTGTACCCCAATCCATCAGACCCTTTGAATGGAGAGGCTGCAGCTTTGATGATGCGTGACCGAGCTGCTTATGAACAAAGAGTTAAAGAATACCGCGAGAAGTATGCGAAGCCGGAAGACATTGGAGCTGCCCCAGAAGAAAAATCTAGTGATGAGGAGCTGAGTGAAGATGAATCTGATTCCAGTGATGAGCAAGTGGCAGGAAAAGCAGATCCATAGGTGTTGGTGGGCTGTCCTTTAAACTCTCTCTCTAGTTGTTGTATATGTTTTAGCTTTGTTAAATTCAACCGCAACTCCAAAGAATATAGAGACTTTGTTTATTGATTACAGCCTCTATTGTTTATAGCCGTTCTTTCCTTTGGCAGAACAGATTGATCATTCTATGCTTTCATTTGAATATATC
+Thu Oct 24 21:39:57 2024: >MSTRG.1901.1 MSTRG.1901
+Thu Oct 24 21:39:57 2024: GTAACTCTTTCCCTCTAGTACCATTAGAAACCCTTGCAAAACCCCTTCTCCGTACAAATCTTGCGCTTCCCATCTCAGCTTTTGTTGCACTTGAAGATGATGCTCAAGTCTGCTTCCTTGGGACGAAATTACAGCACAGGTAACGGCGAGTTTATCGGCACTCTCGCCGTGAGCGCCGGCGAAGTCGACCTCCGAGCTTCCGTGTCCGACGACGCTTCCGCTTGTTCGCCCACCTTTGGCATACTCTCTTTCGCCGTTGAGAAACCCGGTTCCTTCTCCATCGACTACGATGTCCCAAAGAAGGATGTTCGGTTTCAGTTCACGAAGAATTTAAATATGCTAGAGAGACCGTTGAGCTTGACTTACACTCACGTGATGAGCGAGAACCGGACTTTACTGAATGGAACACTTGAGCTTGATTCAGCTAACAAACTGTCGGCTAATTATGCATTTTATTCTGGGAACTGCAAGTTGAAATATAGCTATGCGCATGGAGGGACAACATTGGAGCCATGCTATGACTTTGGAAATAAGTCTTTGGACTTGGCAGCATCTCAGAGGTTTCTTGAGGGCAATTTGATCGGGGCATCGTATAAGACATCAAGCAAGACTTTGGGATTGGAGTGGTCCTCAAATTCCAAGCACAACAAAAATTTAAGATTCAAGGTGTCAGCATTACTTGAGTTGGCAAAGGGATTGACATGCCGATCCTAAATGCTGAGAGCATCTGGGACTTTTCGCTTTAATATTTCCACCTACTGTTGAGATCTTTATATGAAAAAGTAACTTCCTTTAGTTAAAATGTACCGAGACATTGCTTTCAAATAATCGTATTGGTTTGAATTTCTGCAGCGGAATCATTGCCATCCCCTACTTCCATCACTGACAGACAATCACTGACT
+Thu Oct 24 21:39:57 2024: >MSTRG.1887.1 MSTRG.1887
+Thu Oct 24 21:39:57 2024: Transcriptome Lines - END
+Thu Oct 24 21:39:57 2024: Deleting file at: entap_outfiles/transcriptomes/stringtie2_transcripts.fa
+Thu Oct 24 21:39:58 2024: Success!
+Thu Oct 24 21:39:58 2024: Determining if we want to run horizontal gene transfer analysis...
+Thu Oct 24 21:39:58 2024:     No, INPUT_FLAG_HGT_DONOR_DATABASES not input
+Thu Oct 24 21:39:58 2024:     No, INPUT_FLAG_HGT_RECIPIENT_DATABASES not input
+Thu Oct 24 21:39:58 2024:     No, INPUT_FLAG_HGT_GFF not input
+Thu Oct 24 21:39:58 2024: Spawn Object - GraphingManager
+Thu Oct 24 21:39:58 2024: Executing command: 
+python /usr/local/bin/entap_graphing.py -g -1
+Thu Oct 24 21:39:59 2024: 
+Std Err:
+
+Thu Oct 24 21:39:59 2024: Graphing is NOT supported
+Thu Oct 24 21:39:59 2024: Reading serialized database from: /core/labs/Wegrzyn/databases/entap/bin/entap_database.bin
+ Of type: 2
+Thu Oct 24 21:40:10 2024: STATE - EXPRESSION FILTERING
+Thu Oct 24 21:40:10 2024: Determining if we want to run expression analysis
+Thu Oct 24 21:40:10 2024: NO, no alignment file specified from user
+Thu Oct 24 21:40:10 2024: No alignment file specified, skipping expression analysis
+Thu Oct 24 21:40:10 2024: verifying state...
+Thu Oct 24 21:40:10 2024: STATE - FRAME SELECTION
+Thu Oct 24 21:40:10 2024: Determining if we want to run frame selection...
+Thu Oct 24 21:40:10 2024: YES, run frame selection
+Thu Oct 24 21:40:10 2024: Continuing with frame selection process...
+Thu Oct 24 21:40:10 2024: Spawn Object - FrameSelection
+Thu Oct 24 21:40:10 2024: Deleting file at: entap_outfiles/frame_selection/TransDecoder/processed/transdecoder_partial_genes.fnn
+Thu Oct 24 21:40:10 2024: Deleting file at: entap_outfiles/frame_selection/TransDecoder/processed/transdecoder_partial_genes.faa
+Thu Oct 24 21:40:10 2024: Deleting file at: entap_outfiles/frame_selection/TransDecoder/processed/transdecoder_internal_genes.fnn
+Thu Oct 24 21:40:10 2024: Deleting file at: entap_outfiles/frame_selection/TransDecoder/processed/transdecoder_sequences_removed.fnn
+Thu Oct 24 21:40:10 2024: Deleting file at: entap_outfiles/frame_selection/TransDecoder/processed/transdecoder_internal_genes.faa
+Thu Oct 24 21:40:10 2024: Deleting file at: entap_outfiles/frame_selection/TransDecoder/processed/transdecoder_complete_genes.fnn
+Thu Oct 24 21:40:11 2024: Deleting file at: entap_outfiles/frame_selection/TransDecoder/processed/transdecoder_complete_genes.faa
+Thu Oct 24 21:40:11 2024: Spawn Object - ModTransdecoder
+Thu Oct 24 21:40:11 2024: Checking if TransDecoder files exist from a previous run...
+Thu Oct 24 21:40:11 2024: Beginning to parse TransDecoder output...
+Thu Oct 24 21:40:11 2024: Success! TransDecoder files parsed
+Thu Oct 24 21:40:11 2024: Beginning to calculate Frame Selection statistics...
+Thu Oct 24 21:40:12 2024: Beginning to calculate statistics...
+Thu Oct 24 21:40:12 2024: Success! Frame Selection statistics completed
+Thu Oct 24 21:40:12 2024: Success! TransDecoder data parsed and stats calculated
+Thu Oct 24 21:40:12 2024: Killing object - ModTransdecoder
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/transcriptomes/stringtie2_transcripts_frame_selected.fasta
+Thu Oct 24 21:40:12 2024: Protein transcriptome generated to: entap_outfiles/transcriptomes/stringtie2_transcripts_frame_selected.fasta
+Thu Oct 24 21:40:12 2024: verifying state...
+Thu Oct 24 21:40:12 2024: Beginning to copy final transcriptome to be used...
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/transcriptomes/stringtie2_transcripts_final.fasta
+Thu Oct 24 21:40:12 2024: FINAL transcriptome generated to: entap_outfiles/transcriptomes/stringtie2_transcripts_final.fasta
+Thu Oct 24 21:40:12 2024: verifying state...
+Thu Oct 24 21:40:12 2024: STATE - SIMILARITY SEARCH
+Thu Oct 24 21:40:12 2024: Spawn Object - SimilaritySearch
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_unselected_hits.tsv
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_without_contam.tsv
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/unannotated.fnn
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated.tsv
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/unannotated.faa
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated.fnn
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_contam.tsv
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_contam.fnn
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_contam.faa
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_without_contam_gene_ontology_terms.tsv
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_contam_gene_ontology_terms.tsv
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_without_contam.faa
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_without_contam.fnn
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_gene_ontology_terms.tsv
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated.faa
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_unselected_hits.tsv
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated_without_contam.tsv
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/overall_results/unannotated.fnn
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated.tsv
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/overall_results/unannotated.faa
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated.fnn
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated_contam.tsv
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated_contam.fnn
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated_contam.faa
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated_without_contam_gene_ontology_terms.tsv
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated_contam_gene_ontology_terms.tsv
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated_without_contam.faa
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated_without_contam.fnn
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated_gene_ontology_terms.tsv
+Thu Oct 24 21:40:12 2024: Deleting file at: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated.faa
+Thu Oct 24 21:40:12 2024: Spawn Object - ModDiamond: DIAMOND
+Thu Oct 24 21:40:12 2024: Verifying previous execution of database: /isg/shared/databases/Diamond/Uniprot/uniprot_sprot.fa.2.0.6.dmnd...
+Thu Oct 24 21:40:12 2024: File for database uniprot_sprot exists, skipping...
+entap_outfiles/similarity_search/DIAMOND/blastp_stringtie2_transcripts_final_uniprot_sprot.out
+Thu Oct 24 21:40:12 2024: Success! Verified files for DIAMOND, continuing...
+Thu Oct 24 21:40:12 2024: Beginning to filter individual DIAMOND files...
+Thu Oct 24 21:40:12 2024: DIAMOND file located at entap_outfiles/similarity_search/DIAMOND/blastp_stringtie2_transcripts_final_uniprot_sprot.out being parsed
+Thu Oct 24 21:40:12 2024: Database file at entap_outfiles/similarity_search/DIAMOND/blastp_stringtie2_transcripts_final_uniprot_sprot.out
+Determined to be UniProt
+Thu Oct 24 21:40:15 2024: File parsed, calculating statistics and writing output...
+Thu Oct 24 21:40:15 2024: Alignment file started: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_contam
+Thu Oct 24 21:40:15 2024: Alignment file started: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated
+Thu Oct 24 21:40:15 2024: Alignment file started: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_without_contam
+Thu Oct 24 21:40:15 2024: Alignment file started: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_unselected_hits
+Thu Oct 24 21:40:15 2024: Alignment file started: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/unannotated
+Thu Oct 24 21:40:18 2024: Alignment file ended: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_contam
+Thu Oct 24 21:40:18 2024: Alignment file ended: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated
+Thu Oct 24 21:40:18 2024: Alignment file ended: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_without_contam
+Thu Oct 24 21:40:19 2024: Alignment file ended: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_unselected_hits
+Thu Oct 24 21:40:19 2024: Alignment file ended: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/unannotated
+Thu Oct 24 21:40:19 2024: Success!
+Thu Oct 24 21:40:19 2024: Calculating overall Similarity Searching statistics...
+Thu Oct 24 21:40:19 2024: Alignment file started: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated_contam
+Thu Oct 24 21:40:19 2024: Alignment file started: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated
+Thu Oct 24 21:40:19 2024: Alignment file started: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated_without_contam
+Thu Oct 24 21:40:19 2024: Alignment file started: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_unselected_hits
+Thu Oct 24 21:40:19 2024: Alignment file started: entap_outfiles/similarity_search/DIAMOND/overall_results/unannotated
+Thu Oct 24 21:40:21 2024: Alignment file ended: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated_contam
+Thu Oct 24 21:40:21 2024: Alignment file ended: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated
+Thu Oct 24 21:40:21 2024: Alignment file ended: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated_without_contam
+Thu Oct 24 21:40:21 2024: Alignment file ended: entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_unselected_hits
+Thu Oct 24 21:40:21 2024: Alignment file ended: entap_outfiles/similarity_search/DIAMOND/overall_results/unannotated
+Thu Oct 24 21:40:21 2024: Success!
+Thu Oct 24 21:40:21 2024: verifying state...
+Thu Oct 24 21:40:21 2024: STATE - GENE ONTOLOGY
+Thu Oct 24 21:40:21 2024: Spawn Object - Ontology
+Thu Oct 24 21:40:21 2024: Overwrite was unselected, verifying output files...
+Thu Oct 24 21:40:21 2024: No Eggnog-mapper output files found, running...
+Thu Oct 24 21:40:21 2024: Running EggNOG-mapper from beginning...
+Thu Oct 24 21:40:21 2024: Executing command: 
+/core/labs/Wegrzyn/easel/updates/entap/dev/test8/EnTAP/libs/eggnog-mapper-2.1.12/emapper.py --cpu 12 --dmnd_db /core/labs/Wegrzyn/databases/entap/bin/eggnog_proteins.dmnd --no_file_comments -i entap_outfiles/transcriptomes/stringtie2_transcripts_final.fasta --sensmode more-sensitive --dbmem --output_dir entap_outfiles/gene_family/EggNOG --data_dir /core/labs/Wegrzyn/databases/entap/databases -o blastp_stringtie2_transcripts -m diamond 
+Thu Oct 24 22:07:32 2024: 
+Std Err:
+[1;32mFunctional annotation of hits...[0m
+[1;34mTime to load the DB into memory: 125.10836744308472[0m
+500 125.87064456939697 3.97 q/s (% mem usage: 28.30, % mem avail: 71.74)
+1000 126.5698823928833 7.90 q/s (% mem usage: 28.30, % mem avail: 71.74)
+1500 127.27082443237305 11.79 q/s (% mem usage: 28.30, % mem avail: 71.74)
+2000 127.94876217842102 15.63 q/s (% mem usage: 28.30, % mem avail: 71.74)
+2500 128.6572539806366 19.43 q/s (% mem usage: 28.30, % mem avail: 71.74)
+3000 129.33112931251526 23.20 q/s (% mem usage: 28.30, % mem avail: 71.74)
+3500 130.03961968421936 26.91 q/s (% mem usage: 28.30, % mem avail: 71.74)
+4000 130.75213646888733 30.59 q/s (% mem usage: 28.30, % mem avail: 71.74)
+4500 131.4422800540924 34.24 q/s (% mem usage: 28.30, % mem avail: 71.74)
+5000 132.17427277565002 37.83 q/s (% mem usage: 28.30, % mem avail: 71.74)
+5500 132.86097955703735 41.40 q/s (% mem usage: 28.30, % mem avail: 71.74)
+6000 133.57444739341736 44.92 q/s (% mem usage: 28.30, % mem avail: 71.74)
+6500 134.27619433403015 48.41 q/s (% mem usage: 28.30, % mem avail: 71.74)
+7000 134.99341821670532 51.85 q/s (% mem usage: 28.30, % mem avail: 71.74)
+7500 135.70377612113953 55.27 q/s (% mem usage: 28.30, % mem avail: 71.74)
+8000 136.42362570762634 58.64 q/s (% mem usage: 28.30, % mem avail: 71.74)
+8500 137.14891839027405 61.98 q/s (% mem usage: 28.30, % mem avail: 71.74)
+9000 137.82561135292053 65.30 q/s (% mem usage: 28.30, % mem avail: 71.74)
+9500 138.56745624542236 68.56 q/s (% mem usage: 28.30, % mem avail: 71.74)
+10000 139.26621317863464 71.80 q/s (% mem usage: 28.30, % mem avail: 71.74)
+10500 139.96757555007935 75.02 q/s (% mem usage: 28.30, % mem avail: 71.74)
+11000 140.63413286209106 78.22 q/s (% mem usage: 28.30, % mem avail: 71.74)
+11500 141.3409960269928 81.36 q/s (% mem usage: 28.30, % mem avail: 71.75)
+12000 142.0644941329956 84.47 q/s (% mem usage: 28.30, % mem avail: 71.74)
+12500 142.757408618927 87.56 q/s (% mem usage: 28.30, % mem avail: 71.74)
+13000 143.48789262771606 90.60 q/s (% mem usage: 28.30, % mem avail: 71.74)
+13500 144.17774057388306 93.63 q/s (% mem usage: 28.30, % mem avail: 71.74)
+14000 144.90902137756348 96.61 q/s (% mem usage: 28.30, % mem avail: 71.74)
+14500 145.60100984573364 99.59 q/s (% mem usage: 28.30, % mem avail: 71.74)
+15000 146.33235621452332 102.51 q/s (% mem usage: 28.30, % mem avail: 71.74)
+15500 147.03789949417114 105.41 q/s (% mem usage: 28.30, % mem avail: 71.74)
+16000 147.7674844264984 108.28 q/s (% mem usage: 28.30, % mem avail: 71.73)
+16500 148.47467684745789 111.13 q/s (% mem usage: 28.30, % mem avail: 71.73)
+17000 149.17977213859558 113.96 q/s (% mem usage: 28.30, % mem avail: 71.75)
+17500 149.84418869018555 116.79 q/s (% mem usage: 28.30, % mem avail: 71.75)
+18000 150.5568699836731 119.56 q/s (% mem usage: 28.30, % mem avail: 71.75)
+18500 151.2332730293274 122.33 q/s (% mem usage: 28.30, % mem avail: 71.75)
+19000 151.93543767929077 125.05 q/s (% mem usage: 28.30, % mem avail: 71.73)
+19500 152.6521384716034 127.74 q/s (% mem usage: 28.30, % mem avail: 71.73)
+20000 153.36194515228271 130.41 q/s (% mem usage: 28.30, % mem avail: 71.75)
+20500 154.0731987953186 133.05 q/s (% mem usage: 28.30, % mem avail: 71.75)
+21000 154.7680733203888 135.69 q/s (% mem usage: 28.30, % mem avail: 71.75)
+21500 155.52251648902893 138.24 q/s (% mem usage: 28.30, % mem avail: 71.75)
+22000 156.22061848640442 140.83 q/s (% mem usage: 28.30, % mem avail: 71.74)
+22500 156.91526579856873 143.39 q/s (% mem usage: 28.30, % mem avail: 71.75)
+22782 157.97719407081604 144.21 q/s (% mem usage: 28.20, % mem avail: 71.77)
+
+Thu Oct 24 22:07:32 2024: 
+Printing to files:
+Std Out: entap_outfiles/gene_family/EggNOG/blastp_stringtie2_transcripts__std.out
+Std Err: entap_outfiles/gene_family/EggNOG/blastp_stringtie2_transcripts__std.err
+Thu Oct 24 22:07:32 2024: Success! EggNOG execution complete
+Thu Oct 24 22:07:32 2024: Beginning to parse eggnog mapper results...
+Thu Oct 24 22:07:32 2024: Eggnog file located at entap_outfiles/gene_family/EggNOG/blastp_stringtie2_transcripts.emapper.annotations being filtered
+Thu Oct 24 22:07:32 2024: Alignment file started: entap_outfiles/gene_family/EggNOG/processed/eggnog_annotated
+Thu Oct 24 22:07:32 2024: Alignment file started: entap_outfiles/gene_family/EggNOG/processed/eggnog_contaminants
+Thu Oct 24 22:07:39 2024: Killing object - EggNOG Database
+Thu Oct 24 22:07:40 2024: Alignment file ended: entap_outfiles/gene_family/EggNOG/processed/eggnog_annotated
+Thu Oct 24 22:07:40 2024: Alignment file ended: entap_outfiles/gene_family/EggNOG/processed/eggnog_contaminants
+Thu Oct 24 22:07:40 2024: Success! Printing output files
+Thu Oct 24 22:07:40 2024: Success! Computing overall statistics...
+Thu Oct 24 22:07:40 2024: Success! EggNOG results parsed
+Thu Oct 24 22:07:40 2024: Killing object - ModEggnog
+Thu Oct 24 22:07:40 2024: verifying state...
+Thu Oct 24 22:07:40 2024: STATE - HORIZONTAL GENE TRANSFER
+Thu Oct 24 22:07:40 2024: Determining if we want to run horizontal gene transfer analysis...
+Thu Oct 24 22:07:40 2024:     No, INPUT_FLAG_HGT_DONOR_DATABASES not input
+Thu Oct 24 22:07:40 2024:     No, INPUT_FLAG_HGT_RECIPIENT_DATABASES not input
+Thu Oct 24 22:07:40 2024:     No, INPUT_FLAG_HGT_GFF not input
+Thu Oct 24 22:07:40 2024: User has not input required flags for HGT analysis, skipping...
+Thu Oct 24 22:07:40 2024: verifying state...
+Thu Oct 24 22:07:40 2024: Pipeline finished! Calculating final statistics...
+Thu Oct 24 22:07:41 2024: Alignment file started: entap_outfiles/final_results/annotated
+Thu Oct 24 22:07:41 2024: Alignment file started: entap_outfiles/final_results/unannotated
+Thu Oct 24 22:07:41 2024: Alignment file started: entap_outfiles/final_results/annotated_contam
+Thu Oct 24 22:07:41 2024: Alignment file started: entap_outfiles/final_results/annotated_without_contam
+Thu Oct 24 22:07:41 2024: Alignment file started: entap_outfiles/final_results/entap_results
+Thu Oct 24 22:07:50 2024: Alignment file ended: entap_outfiles/final_results/annotated
+Thu Oct 24 22:07:50 2024: Alignment file ended: entap_outfiles/final_results/annotated_contam
+Thu Oct 24 22:07:51 2024: Alignment file ended: entap_outfiles/final_results/annotated_without_contam
+Thu Oct 24 22:07:51 2024: Alignment file ended: entap_outfiles/final_results/entap_results
+Thu Oct 24 22:07:51 2024: Alignment file ended: entap_outfiles/final_results/unannotated
+Thu Oct 24 22:07:51 2024: Killing Object - QueryData
+Thu Oct 24 22:07:52 2024: QuerySequence data freed
+Thu Oct 24 22:07:52 2024: Killing Object - GraphingManager
+Thu Oct 24 22:07:52 2024: Killing Object - EntapDatabase
+Thu Oct 24 22:07:55 2024: End - EnTAP
+Thu Oct 24 22:07:55 2024: Killing object - FileSystem
+Thu Oct 24 22:07:55 2024: Killing object - UserInput

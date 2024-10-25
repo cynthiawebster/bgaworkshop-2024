@@ -1,0 +1,1 @@
+/core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/util/compute_base_probs.pl entap_outfiles/transcriptomes/stringtie2_transcripts.fa 0 > /core/labs/Wegrzyn/easel/easel-nf/workshop_bga2024/entap/v2/entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder_dir/base_freqs.dat

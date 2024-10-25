@@ -1,0 +1,360 @@
+------------------------------------------------------
+EnTAP Run Information - Execution
+------------------------------------------------------
+Current EnTAP Version: 2.0.0
+Start time: Thu Oct 24 21:39:37 2024
+
+Working directory has been set to: entap_outfiles
+User Inputs:
+out-dir: entap_outfiles
+config: false
+runP: true
+runN: false
+overwrite: false
+resume: true
+run-ini: entap_run.params
+entap-ini: entap_config.ini
+input: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/jcinerea/04_assembly/stringtie2/stringtie2_transcripts.fa
+database: /isg/shared/databases/Diamond/Uniprot/uniprot_sprot.fa.2.0.6.dmnd,
+graph: false
+no-trim: false
+threads: 12
+state: +
+no-check: false
+output-format: 1,3,4,7,
+api-taxon: 
+entap-db-bin: /core/labs/Wegrzyn/databases/entap/bin/entap_database.bin
+entap-db-sql: /core/labs/Wegrzyn/databases/entap/databases/entap_database.db
+entap-graph: /usr/local/bin/entap_graphing.py
+data-generate: false
+data-type: 0,
+fpkm: 0.500000
+align: 
+single-end: false
+rsem-calculate-expression: rsem-calculate-expression
+rsem-sam-validator: rsem-sam-validator
+rsem-prepare-reference: rsem-prepare-reference
+convert-sam-for-rsem: convert-sam-for-rsem
+transdecoder-long-exe: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/TransDecoder.LongOrfs
+transdecoder-predict-exe: /core/labs/Wegrzyn/software/EnTAP_v1.2.1/libs/TransDecoder-TransDecoder-v5.7.1/TransDecoder.Predict
+transdecoder-m: 100
+transdecoder-no-refine-starts: false
+diamond-exe: diamond
+taxon: juglans
+qcoverage: 50.000000
+tcoverage: 50.000000
+contam: bacteria,
+e-value: 0.000010
+uninformative: conserved,predicted,unknown,unnamed,hypothetical,putative,unidentified,uncharacterized,uncultured,uninformative,
+diamond-sensitivity: very-sensitive
+ontology_source: 0,
+eggnog-map-exe: /core/labs/Wegrzyn/easel/updates/entap/dev/test8/EnTAP/libs/eggnog-mapper-2.1.12/emapper.py
+eggnog-map-data: /core/labs/Wegrzyn/databases/entap/databases
+eggnog-map-dmnd: /core/labs/Wegrzyn/databases/entap/bin/eggnog_proteins.dmnd
+eggnog-contaminant: true
+eggnog-dbmem: true
+eggnog-sensitivity: more-sensitive
+interproscan-exe: interproscan.sh
+interproscan-db: 
+hgt-donor: 
+hgt-recipient: 
+hgt-gff: 
+
+------------------------------------------------------
+Transcriptome Statistics
+------------------------------------------------------
+Nucleotide sequences found
+Total sequences: 26665
+Total length of transcriptome(bp): 45203532
+Average sequence length(bp): 1695.00
+n50: 2029
+n90: 981
+Longest sequence(bp): 12115 (MSTRG.14603.1)
+Shortest sequence(bp): 214 (MSTRG.724.1)
+------------------------------------------------------
+Frame Selected Transcripts (TransDecoder)
+------------------------------------------------------
+Total sequences frame selected: 23232
+	Translated protein sequences: entap_outfiles/frame_selection/TransDecoder/stringtie2_transcripts.fa.transdecoder.pep
+Total sequences removed (no frame): 3433
+	Frame selected CDS removed: entap_outfiles/frame_selection/TransDecoder/processed/transdecoder_sequences_removed
+Total of 4105 5 prime partials and 809 3 prime partials
+	Partial CDS: entap_outfiles/frame_selection/TransDecoder/processed/transdecoder_partial_genes
+Total of 17718 complete genes:
+	entap_outfiles/frame_selection/TransDecoder/processed/transdecoder_complete_genes
+Total of 600 internal genes:
+	entap_outfiles/frame_selection/TransDecoder/processed/transdecoder_internal_genes
+
+------------------------------------------------------
+Frame Selection: New Reference Transcriptome Statistics
+------------------------------------------------------
+
+Total sequences: 23232
+Total length of transcriptome(bp): 31544709
+Average length(bp): 1357.81
+n50: 1626
+n90: 735
+Longest sequence(bp): 11364 (MSTRG.14603.1)
+Shortest sequence(bp): 300 (MSTRG.10531.1)
+
+Removed Sequences (no frame):
+Total sequences: 3433
+Average sequence length(bp): 802.47
+n50: 1004
+n90: 425
+Longest sequence(bp): 5885 (MSTRG.3342.1)
+Shortest sequence(bp): 214 (MSTRG.18176.1)
+
+------------------------------------------------------
+Similarity Search - DIAMOND - uniprot_sprot
+------------------------------------------------------
+Search results:
+entap_outfiles/similarity_search/DIAMOND/blastp_stringtie2_transcripts_final_uniprot_sprot.out
+	Total alignments: 46110
+	Total unselected results: 29153
+		Written to: entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_unselected_hits
+	Total unique transcripts with an alignment: 16957
+		Reference transcriptome sequences with an alignment (FASTA):
+			entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated
+		Search results (TSV):
+			entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated
+	Total unique transcripts without an alignment: 6275
+		Reference transcriptome sequences without an alignment (FASTA):
+			entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/unannotated
+		Partial 3 Prime(462)
+		Internal(397)
+		Partial 5 Prime(1313)
+		Complete(4103)
+	Total unique informative alignments: 16399
+		Internal(178)
+		Partial 3 Prime(324)
+		Partial 5 Prime(2691)
+		Complete(13206)
+	Total unique uninformative alignments: 558
+		Internal(25)
+		Partial 5 Prime(101)
+		Complete(409)
+		Partial 3 Prime(23)
+	Total unique contaminants: 338(1.45% of total retained sequences): 
+		Transcriptome reference sequences labeled as a contaminant (FASTA):
+			entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_contam
+		Transcriptome reference sequences labeled as a contaminant (TSV):
+			entap_outfiles/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_contam
+		Top 10 bacteria contaminants by species (338 total). Depending on user-selected contaminants, each alignment can have multiple matches:
+			1)bacillus subtilis (strain 168): 41(0.18%)
+			2)synechocystis sp. (strain pcc 6803 / kazusa): 37(0.16%)
+			3)escherichia coli (strain k12): 15(0.06%)
+			4)haemophilus influenzae (strain atcc 51907 / dsm 11121 / kw20 / rd): 9(0.04%)
+			5)nostoc sp. (strain pcc 7120 / sag 25.82 / utex 2576): 8(0.03%)
+			6)aquifex aeolicus (strain vf5): 7(0.03%)
+			7)synechococcus sp. (strain atcc 27144 / pcc 6301 / saug 1402/1): 6(0.03%)
+			8)mycobacterium tuberculosis (strain cdc 1551 / oshkosh): 6(0.03%)
+			9)escherichia coli o157:h7: 5(0.02%)
+			10)rhodospirillum centenum (strain atcc 51521 / sw): 5(0.02%)
+		Top 10 Overall contaminants by species (338 total):
+			1)bacillus subtilis (strain 168): 41(0.18%)
+			2)synechocystis sp. (strain pcc 6803 / kazusa): 37(0.16%)
+			3)escherichia coli (strain k12): 15(0.06%)
+			4)haemophilus influenzae (strain atcc 51907 / dsm 11121 / kw20 / rd): 9(0.04%)
+			5)nostoc sp. (strain pcc 7120 / sag 25.82 / utex 2576): 8(0.03%)
+			6)aquifex aeolicus (strain vf5): 7(0.03%)
+			7)synechococcus sp. (strain atcc 27144 / pcc 6301 / saug 1402/1): 6(0.03%)
+			8)mycobacterium tuberculosis (strain cdc 1551 / oshkosh): 6(0.03%)
+			9)escherichia coli o157:h7: 5(0.02%)
+			10)rhodospirillum centenum (strain atcc 51521 / sw): 5(0.02%)
+	Top 10 alignments by species:
+			1)arabidopsis thaliana: 12608(54.27% of total retained sequences)
+			2)oryza sativa subsp. japonica: 351(1.51% of total retained sequences)
+			3)homo sapiens: 275(1.18% of total retained sequences)
+			4)mus musculus: 218(0.94% of total retained sequences)
+			5)pisum sativum: 190(0.82% of total retained sequences)
+			6)dictyostelium discoideum: 168(0.72% of total retained sequences)
+			7)glycine max: 163(0.70% of total retained sequences)
+			8)bos taurus: 131(0.56% of total retained sequences)
+			9)nicotiana tabacum: 109(0.47% of total retained sequences)
+			10)danio rerio: 88(0.38% of total retained sequences)
+
+------------------------------------------------------
+Compiled Similarity Search - DIAMOND - Best Overall
+------------------------------------------------------
+
+	Total unique transcripts with an alignment: 16957
+		Reference transcriptome sequences with an alignment (FASTA):
+			entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated
+		Search results (TSV):
+			entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated
+	Total unique transcripts without an alignment: 6275
+		Reference transcriptome sequences without an alignment (FASTA):
+			entap_outfiles/similarity_search/DIAMOND/overall_results/unannotated
+		Partial 3 Prime(462)
+		Internal(397)
+		Partial 5 Prime(1313)
+		Complete(4103)
+	Total unique informative alignments: 16473
+		Internal(184)
+		Partial 3 Prime(326)
+		Partial 5 Prime(2704)
+		Complete(13259)
+	Total unique uninformative alignments: 484
+		Internal(19)
+		Partial 5 Prime(88)
+		Complete(356)
+		Partial 3 Prime(21)
+	Total unique contaminants: 321(1.38% of total retained sequences): 
+		Transcriptome reference sequences labeled as a contaminant (FASTA):
+			entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated_contam
+		Transcriptome reference sequences labeled as a contaminant (TSV):
+			entap_outfiles/similarity_search/DIAMOND/overall_results/diamond_annotated_contam
+		Top 10 bacteria contaminants by species (321 total). Depending on user-selected contaminants, each alignment can have multiple matches:
+			1)bacillus subtilis (strain 168): 40(0.17%)
+			2)synechocystis sp. (strain pcc 6803 / kazusa): 30(0.13%)
+			3)nostoc sp. (strain pcc 7120 / sag 25.82 / utex 2576): 8(0.03%)
+			4)escherichia coli o157:h7: 8(0.03%)
+			5)escherichia coli (strain k12): 8(0.03%)
+			6)haemophilus influenzae (strain atcc 51907 / dsm 11121 / kw20 / rd): 7(0.03%)
+			7)mycobacterium tuberculosis (strain cdc 1551 / oshkosh): 7(0.03%)
+			8)aquifex aeolicus (strain vf5): 5(0.02%)
+			9)synechococcus sp. (strain atcc 27144 / pcc 6301 / saug 1402/1): 5(0.02%)
+			10)vibrio parahaemolyticus serotype o3:k6 (strain rimd 2210633): 4(0.02%)
+		Top 10 Overall contaminants by species (321 total):
+			1)bacillus subtilis (strain 168): 40(0.17%)
+			2)synechocystis sp. (strain pcc 6803 / kazusa): 30(0.13%)
+			3)nostoc sp. (strain pcc 7120 / sag 25.82 / utex 2576): 8(0.03%)
+			4)escherichia coli o157:h7: 8(0.03%)
+			5)escherichia coli (strain k12): 8(0.03%)
+			6)haemophilus influenzae (strain atcc 51907 / dsm 11121 / kw20 / rd): 7(0.03%)
+			7)mycobacterium tuberculosis (strain cdc 1551 / oshkosh): 7(0.03%)
+			8)aquifex aeolicus (strain vf5): 5(0.02%)
+			9)synechococcus sp. (strain atcc 27144 / pcc 6301 / saug 1402/1): 5(0.02%)
+			10)vibrio parahaemolyticus serotype o3:k6 (strain rimd 2210633): 4(0.02%)
+	Top 10 alignments by species:
+			1)arabidopsis thaliana: 12850(55.31% of total retained sequences)
+			2)homo sapiens: 272(1.17% of total retained sequences)
+			3)oryza sativa subsp. japonica: 245(1.05% of total retained sequences)
+			4)mus musculus: 244(1.05% of total retained sequences)
+			5)pisum sativum: 209(0.90% of total retained sequences)
+			6)glycine max: 197(0.85% of total retained sequences)
+			7)bos taurus: 145(0.62% of total retained sequences)
+			8)schizosaccharomyces pombe (strain 972 / atcc 24843): 112(0.48% of total retained sequences)
+			9)dictyostelium discoideum: 105(0.45% of total retained sequences)
+			10)xenopus laevis: 77(0.33% of total retained sequences)
+
+------------------------------------------------------
+Gene Family - Gene Ontology and Pathway - EggNOG
+------------------------------------------------------
+Statistics for overall Eggnog results: 
+Total unique sequences with family assignment: 22782
+	Written to: entap_outfiles/gene_family/EggNOG/processed/eggnog_annotated
+Total unique sequences without family assignment: 3883
+	Written to: entap_outfiles/gene_family/EggNOG/processed/eggnog_unannotated
+Top 10 Taxonomic Scopes Assigned:
+	1)35493|Streptophyta: 22599(97.28% of total retained sequences)
+	2)2759|Eukaryota: 98(0.42% of total retained sequences)
+	3)33090|Viridiplantae: 55(0.24% of total retained sequences)
+	4)33208|Metazoa: 10(0.04% of total retained sequences)
+	5)3711.Bra013987.1-P|: 3(0.01% of total retained sequences)
+	6)29760.VIT_00s0199g00250.t01|: 2(0.01% of total retained sequences)
+	7)29760.VIT_06s0004g02750.t01|: 2(0.01% of total retained sequences)
+	8)4751|Fungi: 2(0.01% of total retained sequences)
+	9)4113.PGSC0003DMT400096324|: 1(0.00% of total retained sequences)
+	10)29760.VIT_15s0048g02270.t01|: 1(0.00% of total retained sequences)
+Total unique sequences with at least one GO term: 13455
+Total unique sequences without GO terms: 9327
+Total GO terms assigned: 797505
+Total biological_process terms: 482002
+Total unique biological_process terms: 7179
+Top 10 biological_process terms assigned: 
+	1)GO:0008150: 11550(2.40% of total GO terms)
+	2)GO:0009987: 8681(1.80% of total GO terms)
+	3)GO:0008152: 7023(1.46% of total GO terms)
+	4)GO:0044237: 6363(1.32% of total GO terms)
+	5)GO:0071704: 6315(1.31% of total GO terms)
+	6)GO:0044238: 5829(1.21% of total GO terms)
+	7)GO:0065007: 5351(1.11% of total GO terms)
+	8)GO:0006807: 5321(1.10% of total GO terms)
+	9)GO:0050896: 5023(1.04% of total GO terms)
+	10)GO:0050789: 4847(1.01% of total GO terms)
+Total cellular_component terms: 212578
+Total unique cellular_component terms: 1136
+Top 10 cellular_component terms assigned: 
+	1)GO:0005575: 11868(5.58% of total GO terms)
+	2)GO:0044464: 11641(5.48% of total GO terms)
+	3)GO:0005623: 11641(5.48% of total GO terms)
+	4)GO:0005622: 10522(4.95% of total GO terms)
+	5)GO:0044424: 10479(4.93% of total GO terms)
+	6)GO:0043226: 9230(4.34% of total GO terms)
+	7)GO:0043229: 9192(4.32% of total GO terms)
+	8)GO:0043227: 8918(4.20% of total GO terms)
+	9)GO:0043231: 8747(4.11% of total GO terms)
+	10)GO:0005737: 7978(3.75% of total GO terms)
+Total overall terms: 797505
+Total unique overall terms: 10758
+Top 10 overall terms assigned: 
+	1)GO:0005575: 11868(1.49% of total GO terms)
+	2)GO:0044464: 11641(1.46% of total GO terms)
+	3)GO:0005623: 11641(1.46% of total GO terms)
+	4)GO:0008150: 11550(1.45% of total GO terms)
+	5)GO:0005622: 10522(1.32% of total GO terms)
+	6)GO:0044424: 10479(1.31% of total GO terms)
+	7)GO:0003674: 10073(1.26% of total GO terms)
+	8)GO:0043226: 9230(1.16% of total GO terms)
+	9)GO:0043229: 9192(1.15% of total GO terms)
+	10)GO:0043227: 8918(1.12% of total GO terms)
+Total molecular_function terms: 102925
+Total unique molecular_function terms: 2443
+Top 10 molecular_function terms assigned: 
+	1)GO:0003674: 10073(9.79% of total GO terms)
+	2)GO:0003824: 5673(5.51% of total GO terms)
+	3)GO:0005488: 5035(4.89% of total GO terms)
+	4)GO:0097159: 2720(2.64% of total GO terms)
+	5)GO:1901363: 2698(2.62% of total GO terms)
+	6)GO:0016740: 2491(2.42% of total GO terms)
+	7)GO:0003676: 2280(2.22% of total GO terms)
+	8)GO:0005515: 2155(2.09% of total GO terms)
+	9)GO:0016787: 2102(2.04% of total GO terms)
+	10)GO:0140096: 1912(1.86% of total GO terms)
+Total unique sequences with at least one KEGG assignment: 7782
+Total unique sequences without KEGG assignment: 15000
+Total unique EggNOG contaminants: 1(0.00% of total retained sequences)
+	Written to: entap_outfiles/gene_family/EggNOG/processed/eggnog_contaminants
+	Flagged EggNOG contaminants based on lowest tax scope found (all % based on total retained sequences):
+		Top 10 bacteria contaminants by lowest tax scope found (1 total):
+			1)Actinobacteria: 1(0.00%)
+		Top 10 Overall contaminants by lowest tax scope found (1 total):
+			1)Actinobacteria: 1(0.00%)
+------------------------------------------------------
+Final Annotation Statistics
+------------------------------------------------------
+Total Input Sequences: 26665
+Frame Selection
+	Total sequences retained: 23232 (87.13% of total input sequences)
+	Total sequences removed: 3433 (12.87% of total input sequences)
+Similarity Search
+	Total unique sequences with an alignment: 16957 (63.59% of total input sequences)
+		Total alignments flagged as a Similarity Search contaminant: 321 (1.89% of total unique sim search alignments)
+		Total alignments NOT flagged as a Similarity Search contaminant: 16636 (98.11% of total unique sim search alignments)
+	Total unique sequences without an alignment: 9708 (36.41% of total input sequences)
+Gene Families
+	Total unique sequences with family assignment: 22782 (85.44% of total input sequences)
+	Total unique sequences without family assignment: 3883 (14.56% of total input sequences)
+	Total unique sequences with at least one GO term: 13455 (50.46% of total input sequences)
+	Total unique sequences with at least one pathway (KEGG) assignment: 7782 (29.18% of total input sequences)
+	Total unique sequences flagged as an EggNOG contaminant: 1 (0.00% of EggNOG assignments)
+	Total unique sequences NOT flagged as an EggNOG contaminant: 22781 (100.00% of total unique family assignments)
+Totals
+EnTAP files written to: entap_outfiles
+	Total retained sequences (after filtering and/or frame selection): 23232
+		Final transcriptome written to directory: transcriptomes/
+	Total unique sequences annotated (similarity search alignments only): 0 (0.00% of total retained)
+	Total unique sequences annotated (gene family assignment only): 5825 (25.07% of total retained)
+	Total unique sequences annotated (gene family and/or similarity search): 22782 (98.06% of total retained)
+		Written to: final_results/annotated
+		Total annotated sequences flagged as a contaminant from either Similarity Search or EggNOG: 322 (1.41% of total annotated)
+			Written to: final_results/annotated_contam
+		Total annotated sequences NOT flagged as a contaminant: 22460 (98.59% of total annotated)
+			Written to: final_results/annotated_without_contam
+	Total unique sequences unannotated (gene family and/or similarity search): 450 (1.94% of total retained)
+		Written to: final_results/unannotated
+
+EnTAP has completed!
+Total runtime (minutes): 28

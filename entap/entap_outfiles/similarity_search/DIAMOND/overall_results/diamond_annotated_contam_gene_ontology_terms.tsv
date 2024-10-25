@@ -1,0 +1,1153 @@
+query_sequence	go_id	go_term	category
+MSTRG.20583.2	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.20583.2	GO:0005840	ribosome	cellular_component
+MSTRG.20583.2	GO:0006412	translation	biological_process
+MSTRG.20583.2	GO:0019843	rRNA binding	molecular_function
+MSTRG.20583.2	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.20583.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.20583.1	GO:0005840	ribosome	cellular_component
+MSTRG.20583.1	GO:0006412	translation	biological_process
+MSTRG.20583.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.20583.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.20519.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.20519.1	GO:0005840	ribosome	cellular_component
+MSTRG.20519.1	GO:0006412	translation	biological_process
+MSTRG.20519.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.20436.2	GO:0003690	double-stranded DNA binding	molecular_function
+MSTRG.20436.2	GO:0004519	endonuclease activity	molecular_function
+MSTRG.20436.2	GO:0005524	ATP binding	molecular_function
+MSTRG.20436.2	GO:0006298	mismatch repair	biological_process
+MSTRG.20436.2	GO:0016887	ATP hydrolysis activity	molecular_function
+MSTRG.20436.2	GO:0030983	mismatched DNA binding	molecular_function
+MSTRG.20436.2	GO:0045910	negative regulation of DNA recombination	biological_process
+MSTRG.20436.2	GO:0140664	ATP-dependent DNA damage sensor activity	molecular_function
+MSTRG.20930.1	GO:0003998	acylphosphatase activity	molecular_function
+MSTRG.21063.1	GO:0005829	cytosol	cellular_component
+MSTRG.21063.1	GO:0006353	DNA-templated transcription termination	biological_process
+MSTRG.21063.1	GO:0031564	transcription antitermination	biological_process
+MSTRG.21063.1	GO:0032784	regulation of DNA-templated transcription elongation	biological_process
+MSTRG.21063.1	GO:0140673	transcription elongation-coupled chromatin remodeling	biological_process
+MSTRG.18948.1	GO:0008176	tRNA (guanine-N7-)-methyltransferase activity	molecular_function
+MSTRG.20117.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.20117.1	GO:0015173	aromatic amino acid transmembrane transporter activity	molecular_function
+MSTRG.20117.1	GO:0015293	symporter activity	molecular_function
+MSTRG.18843.1	GO:0005829	cytosol	cellular_component
+MSTRG.18843.1	GO:0008837	diaminopimelate epimerase activity	molecular_function
+MSTRG.18843.1	GO:0009089	lysine biosynthetic process via diaminopimelate	biological_process
+MSTRG.19548.2	GO:0005506	iron ion binding	molecular_function
+MSTRG.19548.2	GO:0009055	electron transfer activity	molecular_function
+MSTRG.19548.2	GO:0015979	photosynthesis	biological_process
+MSTRG.19548.2	GO:0020037	heme binding	molecular_function
+MSTRG.19548.2	GO:0031979	plasma membrane-derived thylakoid lumen	cellular_component
+MSTRG.18953.1	GO:0004618	phosphoglycerate kinase activity	molecular_function
+MSTRG.18953.1	GO:0005524	ATP binding	molecular_function
+MSTRG.18953.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.18953.1	GO:0006096	glycolytic process	biological_process
+MSTRG.18953.1	GO:0016310	phosphorylation	biological_process
+MSTRG.18600.1	GO:0003746	translation elongation factor activity	molecular_function
+MSTRG.18600.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.18981.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.18981.1	GO:0005840	ribosome	cellular_component
+MSTRG.18981.1	GO:0006412	translation	biological_process
+MSTRG.18981.1	GO:0008097	5S rRNA binding	molecular_function
+MSTRG.18981.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.17766.1	GO:0004177	aminopeptidase activity	molecular_function
+MSTRG.17766.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.17766.1	GO:0006508	proteolysis	biological_process
+MSTRG.17766.1	GO:0008237	metallopeptidase activity	molecular_function
+MSTRG.17766.1	GO:0008270	zinc ion binding	molecular_function
+MSTRG.17838.1	GO:0008479	tRNA-guanosine(34) queuine transglycosylase activity	molecular_function
+MSTRG.17838.1	GO:0008616	queuosine biosynthetic process	biological_process
+MSTRG.17838.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.17838.1	GO:0101030	tRNA-guanine transglycosylation	biological_process
+MSTRG.18949.1	GO:0004618	phosphoglycerate kinase activity	molecular_function
+MSTRG.18949.1	GO:0005524	ATP binding	molecular_function
+MSTRG.18949.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.18949.1	GO:0006096	glycolytic process	biological_process
+MSTRG.18949.1	GO:0016310	phosphorylation	biological_process
+MSTRG.18399.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.18399.1	GO:0008295	spermidine biosynthetic process	biological_process
+MSTRG.18399.1	GO:0008792	arginine decarboxylase activity	molecular_function
+MSTRG.18399.1	GO:0009446	putrescine biosynthetic process	biological_process
+MSTRG.18321.1	GO:0005524	ATP binding	molecular_function
+MSTRG.18321.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.18321.1	GO:0006260	DNA replication	biological_process
+MSTRG.18321.1	GO:0006457	protein folding	biological_process
+MSTRG.18321.1	GO:0008270	zinc ion binding	molecular_function
+MSTRG.18321.1	GO:0009408	response to heat	biological_process
+MSTRG.18321.1	GO:0031072	heat shock protein binding	molecular_function
+MSTRG.18321.1	GO:0051082	unfolded protein binding	molecular_function
+MSTRG.17918.1	GO:0009813	flavonoid biosynthetic process	biological_process
+MSTRG.17918.1	GO:0016616	oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	molecular_function
+MSTRG.17918.1	GO:0045552	dihydrokaempferol 4-reductase activity	molecular_function
+MSTRG.18017.1	GO:0008168	methyltransferase activity	molecular_function
+MSTRG.18017.1	GO:0032259	methylation	biological_process
+MSTRG.16409.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.16601.1	GO:0004316	3-oxoacyl-[acyl-carrier-protein] reductase (NADPH) activity	molecular_function
+MSTRG.16601.1	GO:0016616	oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	molecular_function
+MSTRG.16601.1	GO:0030497	fatty acid elongation	biological_process
+MSTRG.16601.1	GO:0051287	NAD binding	molecular_function
+MSTRG.16580.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.16580.1	GO:0005840	ribosome	cellular_component
+MSTRG.16580.1	GO:0006412	translation	biological_process
+MSTRG.16580.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.17514.1	GO:0004364	glutathione transferase activity	molecular_function
+MSTRG.17514.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.17514.1	GO:0016672	oxidoreductase activity, acting on a sulfur group of donors, quinone or similar compound as acceptor	molecular_function
+MSTRG.17514.1	GO:0042803	protein homodimerization activity	molecular_function
+MSTRG.3087.1	GO:0003677	DNA binding	molecular_function
+MSTRG.3087.1	GO:0006285	base-excision repair, AP site formation	biological_process
+MSTRG.3087.1	GO:0019104	DNA N-glycosylase activity	molecular_function
+MSTRG.3087.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.3087.1	GO:0051539	4 iron, 4 sulfur cluster binding	molecular_function
+MSTRG.3087.1	GO:0140078	class I DNA-(apurinic or apyrimidinic site) endonuclease activity	molecular_function
+MSTRG.12140.2	GO:0003723	RNA binding	molecular_function
+MSTRG.12140.2	GO:0005524	ATP binding	molecular_function
+MSTRG.12140.2	GO:0006378	mRNA polyadenylation	biological_process
+MSTRG.12140.2	GO:1990817	poly(A) RNA polymerase activity	molecular_function
+MSTRG.2845.3	GO:0016020	membrane	cellular_component
+MSTRG.12299.1	GO:0052689	carboxylic ester hydrolase activity	molecular_function
+MSTRG.19758.1	GO:0004553	hydrolase activity, hydrolyzing O-glycosyl compounds	molecular_function
+MSTRG.19758.1	GO:0005975	carbohydrate metabolic process	biological_process
+MSTRG.19758.1	GO:0030246	carbohydrate binding	molecular_function
+MSTRG.19758.1	GO:0061720	6-sulfoquinovose(1-) catabolic process to glycerone phosphate and 3-sulfolactaldehyde	biological_process
+MSTRG.19758.1	GO:1990929	sulfoquinovosidase activity	molecular_function
+MSTRG.6993.1	GO:0005524	ATP binding	molecular_function
+MSTRG.6993.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.6993.1	GO:0016853	isomerase activity	molecular_function
+MSTRG.6993.1	GO:0042026	protein refolding	biological_process
+MSTRG.6993.1	GO:0051082	unfolded protein binding	molecular_function
+MSTRG.6993.1	GO:0140662	ATP-dependent protein folding chaperone	molecular_function
+MSTRG.4280.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.5916.1	GO:0000287	magnesium ion binding	molecular_function
+MSTRG.5916.1	GO:0004565	beta-galactosidase activity	molecular_function
+MSTRG.5916.1	GO:0005975	carbohydrate metabolic process	biological_process
+MSTRG.5916.1	GO:0009341	beta-galactosidase complex	cellular_component
+MSTRG.5916.1	GO:0030246	carbohydrate binding	molecular_function
+MSTRG.5916.1	GO:1901575	organic substance catabolic process	biological_process
+MSTRG.6845.2	GO:0010024	phytochromobilin biosynthetic process	biological_process
+MSTRG.6845.2	GO:0050618	phycoerythrobilin:ferredoxin oxidoreductase activity	molecular_function
+MSTRG.6845.2	GO:0050897	cobalt ion binding	molecular_function
+MSTRG.16876.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.16876.1	GO:0006412	translation	biological_process
+MSTRG.16876.1	GO:0015934	large ribosomal subunit	cellular_component
+MSTRG.16876.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.11328.2	GO:0005886	plasma membrane	cellular_component
+MSTRG.4917.1	GO:0003723	RNA binding	molecular_function
+MSTRG.4917.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.4917.1	GO:0016434	rRNA (cytosine) methyltransferase activity	molecular_function
+MSTRG.20519.2	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.20519.2	GO:0005840	ribosome	cellular_component
+MSTRG.20519.2	GO:0006412	translation	biological_process
+MSTRG.20519.2	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.20520.1	GO:0003937	IMP cyclohydrolase activity	molecular_function
+MSTRG.20520.1	GO:0004643	phosphoribosylaminoimidazolecarboxamide formyltransferase activity	molecular_function
+MSTRG.20520.1	GO:0006189	'de novo' IMP biosynthetic process	biological_process
+MSTRG.6124.1	GO:0008422	beta-glucosidase activity	molecular_function
+MSTRG.6124.1	GO:0042597	periplasmic space	cellular_component
+MSTRG.6124.1	GO:0085030	symbiotic process benefiting host	biological_process
+MSTRG.6124.1	GO:0102483	scopolin beta-glucosidase activity	molecular_function
+MSTRG.6124.1	GO:2000899	xyloglucan catabolic process	biological_process
+MSTRG.1312.2	GO:0003723	RNA binding	molecular_function
+MSTRG.1312.2	GO:0005840	ribosome	cellular_component
+MSTRG.1312.2	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.6982.1	GO:0003746	translation elongation factor activity	molecular_function
+MSTRG.6982.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.6793.2	GO:0005886	plasma membrane	cellular_component
+MSTRG.6793.2	GO:0015173	aromatic amino acid transmembrane transporter activity	molecular_function
+MSTRG.6793.2	GO:0015293	symporter activity	molecular_function
+MSTRG.6793.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.6793.1	GO:0015173	aromatic amino acid transmembrane transporter activity	molecular_function
+MSTRG.6793.1	GO:0015293	symporter activity	molecular_function
+MSTRG.6848.1	GO:0004730	pseudouridylate synthase activity	molecular_function
+MSTRG.6848.1	GO:0016798	hydrolase activity, acting on glycosyl bonds	molecular_function
+MSTRG.6848.1	GO:0046113	nucleobase catabolic process	biological_process
+MSTRG.6848.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.14724.1	GO:0016747	acyltransferase activity, transferring groups other than amino-acyl groups	molecular_function
+MSTRG.6355.1	GO:0008422	beta-glucosidase activity	molecular_function
+MSTRG.6355.1	GO:0042597	periplasmic space	cellular_component
+MSTRG.6355.1	GO:0085030	symbiotic process benefiting host	biological_process
+MSTRG.6355.1	GO:0102483	scopolin beta-glucosidase activity	molecular_function
+MSTRG.6355.1	GO:2000899	xyloglucan catabolic process	biological_process
+MSTRG.16163.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.16163.1	GO:0070475	rRNA base methylation	biological_process
+MSTRG.16163.1	GO:0071424	rRNA (cytosine-N4-)-methyltransferase activity	molecular_function
+MSTRG.4677.1	GO:0005506	iron ion binding	molecular_function
+MSTRG.12731.2	GO:0004177	aminopeptidase activity	molecular_function
+MSTRG.12731.2	GO:0005737	cytoplasm	cellular_component
+MSTRG.12731.2	GO:0008236	serine-type peptidase activity	molecular_function
+MSTRG.12731.2	GO:0008239	dipeptidyl-peptidase activity	molecular_function
+MSTRG.12731.2	GO:0042597	periplasmic space	cellular_component
+MSTRG.12731.2	GO:0042802	identical protein binding	molecular_function
+MSTRG.12731.2	GO:0042803	protein homodimerization activity	molecular_function
+MSTRG.12731.2	GO:0051603	proteolysis involved in protein catabolic process	biological_process
+MSTRG.12731.1	GO:0004177	aminopeptidase activity	molecular_function
+MSTRG.12731.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.12731.1	GO:0008236	serine-type peptidase activity	molecular_function
+MSTRG.12731.1	GO:0008239	dipeptidyl-peptidase activity	molecular_function
+MSTRG.12731.1	GO:0042597	periplasmic space	cellular_component
+MSTRG.12731.1	GO:0042802	identical protein binding	molecular_function
+MSTRG.12731.1	GO:0042803	protein homodimerization activity	molecular_function
+MSTRG.12731.1	GO:0051603	proteolysis involved in protein catabolic process	biological_process
+MSTRG.6755.1	GO:0005524	ATP binding	molecular_function
+MSTRG.6755.1	GO:0008033	tRNA processing	biological_process
+MSTRG.6755.1	GO:0052381	tRNA dimethylallyltransferase activity	molecular_function
+MSTRG.11685.1	GO:0000166	nucleotide binding	molecular_function
+MSTRG.11685.1	GO:0016491	oxidoreductase activity	molecular_function
+MSTRG.11685.1	GO:0018580	nitronate monooxygenase activity	molecular_function
+MSTRG.11685.1	GO:0050136	NADH dehydrogenase (quinone) activity	molecular_function
+MSTRG.4964.2	GO:0050661	NADP binding	molecular_function
+MSTRG.4964.2	GO:0050664	oxidoreductase activity, acting on NAD(P)H, oxygen as acceptor	molecular_function
+MSTRG.4964.2	GO:0051287	NAD binding	molecular_function
+MSTRG.4964.2	GO:0071949	FAD binding	molecular_function
+MSTRG.6883.1	GO:0006397	mRNA processing	biological_process
+MSTRG.6883.1	GO:0006974	DNA damage response	biological_process
+MSTRG.6883.1	GO:0009820	alkaloid metabolic process	biological_process
+MSTRG.6883.1	GO:0016491	oxidoreductase activity	molecular_function
+MSTRG.6883.1	GO:0019608	nicotine catabolic process	biological_process
+MSTRG.6883.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.5041.2	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.5041.2	GO:0005840	ribosome	cellular_component
+MSTRG.5041.2	GO:0006412	translation	biological_process
+MSTRG.5041.2	GO:0019843	rRNA binding	molecular_function
+MSTRG.5041.2	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.14585.1	GO:0005524	ATP binding	molecular_function
+MSTRG.14585.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.14585.1	GO:0008559	ABC-type xenobiotic transporter activity	molecular_function
+MSTRG.14585.1	GO:0016887	ATP hydrolysis activity	molecular_function
+MSTRG.7397.1	GO:0003743	translation initiation factor activity	molecular_function
+MSTRG.7397.1	GO:0003924	GTPase activity	molecular_function
+MSTRG.7397.1	GO:0005525	GTP binding	molecular_function
+MSTRG.7397.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.5063.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.5063.1	GO:0009058	biosynthetic process	biological_process
+MSTRG.5063.1	GO:0016853	isomerase activity	molecular_function
+MSTRG.13482.2	GO:0005524	ATP binding	molecular_function
+MSTRG.13482.2	GO:0005737	cytoplasm	cellular_component
+MSTRG.13482.2	GO:0009249	protein lipoylation	biological_process
+MSTRG.13482.2	GO:0016979	lipoate-protein ligase activity	molecular_function
+MSTRG.13482.2	GO:0017118	lipoyltransferase activity	molecular_function
+MSTRG.18623.2	GO:0005737	cytoplasm	cellular_component
+MSTRG.18623.2	GO:0006307	DNA dealkylation involved in DNA repair	biological_process
+MSTRG.18623.2	GO:0008198	ferrous iron binding	molecular_function
+MSTRG.18623.2	GO:0035513	oxidative RNA demethylation	biological_process
+MSTRG.18623.2	GO:0035515	oxidative RNA demethylase activity	molecular_function
+MSTRG.18623.2	GO:0035516	oxidative DNA demethylase activity	molecular_function
+MSTRG.18623.2	GO:0035552	oxidative single-stranded DNA demethylation	biological_process
+MSTRG.18623.2	GO:0042245	RNA repair	biological_process
+MSTRG.18623.2	GO:0043734	DNA-N1-methyladenine dioxygenase activity	molecular_function
+MSTRG.18623.2	GO:0070989	oxidative demethylation	biological_process
+MSTRG.18623.2	GO:0080111	DNA demethylation	biological_process
+MSTRG.6900.1	GO:0005525	GTP binding	molecular_function
+MSTRG.6900.1	GO:0042254	ribosome biogenesis	biological_process
+MSTRG.3766.1	GO:0000287	magnesium ion binding	molecular_function
+MSTRG.3766.1	GO:0004614	phosphoglucomutase activity	molecular_function
+MSTRG.3766.1	GO:0004615	phosphomannomutase activity	molecular_function
+MSTRG.3766.1	GO:0009103	lipopolysaccharide biosynthetic process	biological_process
+MSTRG.3766.1	GO:0009298	GDP-mannose biosynthetic process	biological_process
+MSTRG.3766.1	GO:0042121	alginic acid biosynthetic process	biological_process
+MSTRG.9173.1	GO:0003677	DNA binding	molecular_function
+MSTRG.9173.1	GO:0004527	exonuclease activity	molecular_function
+MSTRG.9173.1	GO:0017108	5'-flap endonuclease activity	molecular_function
+MSTRG.9173.1	GO:0033567	DNA replication, Okazaki fragment processing	biological_process
+MSTRG.3750.1	GO:0006212	uracil catabolic process	biological_process
+MSTRG.3750.1	GO:0016811	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides	molecular_function
+MSTRG.3750.1	GO:0019740	nitrogen utilization	biological_process
+MSTRG.268.1	GO:0000287	magnesium ion binding	molecular_function
+MSTRG.268.1	GO:0004614	phosphoglucomutase activity	molecular_function
+MSTRG.268.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.268.1	GO:0006006	glucose metabolic process	biological_process
+MSTRG.12092.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.10808.1	GO:0052689	carboxylic ester hydrolase activity	molecular_function
+MSTRG.13971.1	GO:0000287	magnesium ion binding	molecular_function
+MSTRG.13971.1	GO:0106099	2-keto-3-deoxy-L-rhamnonate aldolase activity	molecular_function
+MSTRG.14532.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.3490.1	GO:0005524	ATP binding	molecular_function
+MSTRG.3490.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.3490.1	GO:0140359	ABC-type transporter activity	molecular_function
+MSTRG.10124.1	GO:0000049	tRNA binding	molecular_function
+MSTRG.10124.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.10124.1	GO:0006412	translation	biological_process
+MSTRG.10124.1	GO:0006417	regulation of translation	biological_process
+MSTRG.10124.1	GO:0015934	large ribosomal subunit	cellular_component
+MSTRG.10124.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.4376.2	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.4376.2	GO:0005840	ribosome	cellular_component
+MSTRG.4376.2	GO:0006412	translation	biological_process
+MSTRG.4376.2	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.3748.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.3748.1	GO:0005840	ribosome	cellular_component
+MSTRG.3748.1	GO:0006412	translation	biological_process
+MSTRG.3748.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.3748.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.19572.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.19572.1	GO:0005840	ribosome	cellular_component
+MSTRG.19572.1	GO:0006412	translation	biological_process
+MSTRG.19572.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.2134.1	GO:0003989	acetyl-CoA carboxylase activity	molecular_function
+MSTRG.2134.1	GO:0006633	fatty acid biosynthetic process	biological_process
+MSTRG.2134.1	GO:0009317	acetyl-CoA carboxylase complex	cellular_component
+MSTRG.17588.1	GO:0004177	aminopeptidase activity	molecular_function
+MSTRG.17588.1	GO:0004252	serine-type endopeptidase activity	molecular_function
+MSTRG.17588.1	GO:0008239	dipeptidyl-peptidase activity	molecular_function
+MSTRG.17588.1	GO:0051603	proteolysis involved in protein catabolic process	biological_process
+MSTRG.146.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.146.1	GO:0006364	rRNA processing	biological_process
+MSTRG.146.1	GO:0008168	methyltransferase activity	molecular_function
+MSTRG.146.1	GO:0032259	methylation	biological_process
+MSTRG.7041.1	GO:0001510	RNA methylation	biological_process
+MSTRG.7041.1	GO:0003723	RNA binding	molecular_function
+MSTRG.7041.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.7041.1	GO:0006355	regulation of DNA-templated transcription	biological_process
+MSTRG.7041.1	GO:0008649	rRNA methyltransferase activity	molecular_function
+MSTRG.4753.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.4753.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.4753.1	GO:0005840	ribosome	cellular_component
+MSTRG.4753.1	GO:0006412	translation	biological_process
+MSTRG.4753.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.4753.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.1535.1	GO:0000027	ribosomal large subunit assembly	biological_process
+MSTRG.1535.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.1535.1	GO:0005840	ribosome	cellular_component
+MSTRG.1535.1	GO:0006412	translation	biological_process
+MSTRG.1535.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.1535.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.10947.2	GO:0004479	methionyl-tRNA formyltransferase activity	molecular_function
+MSTRG.1964.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.1964.1	GO:0005840	ribosome	cellular_component
+MSTRG.1964.1	GO:0006412	translation	biological_process
+MSTRG.1964.1	GO:0008097	5S rRNA binding	molecular_function
+MSTRG.1964.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.3931.1	GO:0000049	tRNA binding	molecular_function
+MSTRG.3931.1	GO:0002935	tRNA (adenine-C2-)-methyltransferase activity	molecular_function
+MSTRG.3931.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.3931.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.3931.1	GO:0030488	tRNA methylation	biological_process
+MSTRG.3931.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.3931.1	GO:0051539	4 iron, 4 sulfur cluster binding	molecular_function
+MSTRG.3931.1	GO:0070040	rRNA (adenine-C2-)-methyltransferase activity	molecular_function
+MSTRG.3931.1	GO:0070475	rRNA base methylation	biological_process
+MSTRG.7091.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.13002.1	GO:0008893	guanosine-3',5'-bis(diphosphate) 3'-diphosphatase activity	molecular_function
+MSTRG.13002.1	GO:0015970	guanosine tetraphosphate biosynthetic process	biological_process
+MSTRG.2529.1	GO:0000166	nucleotide binding	molecular_function
+MSTRG.2529.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.2529.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.2529.1	GO:0106411	XMP 5'-nucleosidase activity	molecular_function
+MSTRG.7988.6	GO:0052689	carboxylic ester hydrolase activity	molecular_function
+MSTRG.1015.1	GO:0016747	acyltransferase activity, transferring groups other than amino-acyl groups	molecular_function
+MSTRG.20436.1	GO:0003690	double-stranded DNA binding	molecular_function
+MSTRG.20436.1	GO:0004519	endonuclease activity	molecular_function
+MSTRG.20436.1	GO:0005524	ATP binding	molecular_function
+MSTRG.20436.1	GO:0006298	mismatch repair	biological_process
+MSTRG.20436.1	GO:0016887	ATP hydrolysis activity	molecular_function
+MSTRG.20436.1	GO:0030983	mismatched DNA binding	molecular_function
+MSTRG.20436.1	GO:0045910	negative regulation of DNA recombination	biological_process
+MSTRG.20436.1	GO:0140664	ATP-dependent DNA damage sensor activity	molecular_function
+MSTRG.13372.1	GO:0005524	ATP binding	molecular_function
+MSTRG.13372.1	GO:0006412	translation	biological_process
+MSTRG.13372.1	GO:0030956	glutamyl-tRNA(Gln) amidotransferase complex	cellular_component
+MSTRG.13372.1	GO:0050567	glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity	molecular_function
+MSTRG.1433.1	GO:0003723	RNA binding	molecular_function
+MSTRG.1433.1	GO:0031119	tRNA pseudouridine synthesis	biological_process
+MSTRG.1433.1	GO:0106029	tRNA pseudouridine synthase activity	molecular_function
+MSTRG.8615.1	GO:0000967	rRNA 5'-end processing	biological_process
+MSTRG.8615.1	GO:0004518	nuclease activity	molecular_function
+MSTRG.8615.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.17018.1	GO:0004592	pantoate-beta-alanine ligase activity	molecular_function
+MSTRG.17018.1	GO:0005524	ATP binding	molecular_function
+MSTRG.17018.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.17018.1	GO:0015940	pantothenate biosynthetic process	biological_process
+MSTRG.6949.1	GO:0003677	DNA binding	molecular_function
+MSTRG.6949.1	GO:0003886	DNA (cytosine-5-)-methyltransferase activity	molecular_function
+MSTRG.6949.1	GO:0009307	DNA restriction-modification system	biological_process
+MSTRG.11473.1	GO:0005524	ATP binding	molecular_function
+MSTRG.11473.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.11473.1	GO:0016887	ATP hydrolysis activity	molecular_function
+MSTRG.11473.1	GO:0031072	heat shock protein binding	molecular_function
+MSTRG.11473.1	GO:0042026	protein refolding	biological_process
+MSTRG.11473.1	GO:0044183	protein folding chaperone	molecular_function
+MSTRG.11473.1	GO:0051082	unfolded protein binding	molecular_function
+MSTRG.11473.1	GO:0051085	chaperone cofactor-dependent protein refolding	biological_process
+MSTRG.11473.1	GO:0140662	ATP-dependent protein folding chaperone	molecular_function
+MSTRG.12265.1	GO:0004252	serine-type endopeptidase activity	molecular_function
+MSTRG.12265.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.12265.1	GO:0006508	proteolysis	biological_process
+MSTRG.157.1	GO:0000049	tRNA binding	molecular_function
+MSTRG.157.1	GO:0002935	tRNA (adenine-C2-)-methyltransferase activity	molecular_function
+MSTRG.157.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.157.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.157.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.157.1	GO:0051539	4 iron, 4 sulfur cluster binding	molecular_function
+MSTRG.157.1	GO:0070040	rRNA (adenine-C2-)-methyltransferase activity	molecular_function
+MSTRG.157.1	GO:0070475	rRNA base methylation	biological_process
+MSTRG.993.3	GO:0003677	DNA binding	molecular_function
+MSTRG.993.3	GO:0004527	exonuclease activity	molecular_function
+MSTRG.993.3	GO:0017108	5'-flap endonuclease activity	molecular_function
+MSTRG.993.3	GO:0033567	DNA replication, Okazaki fragment processing	biological_process
+MSTRG.8018.1	GO:0000287	magnesium ion binding	molecular_function
+MSTRG.8018.1	GO:0005524	ATP binding	molecular_function
+MSTRG.8018.1	GO:0016779	nucleotidyltransferase activity	molecular_function
+MSTRG.16097.1	GO:0004252	serine-type endopeptidase activity	molecular_function
+MSTRG.16097.1	GO:0006508	proteolysis	biological_process
+MSTRG.16097.1	GO:0110165	cellular anatomical entity	cellular_component
+MSTRG.1321.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.1321.1	GO:0005840	ribosome	cellular_component
+MSTRG.1321.1	GO:0006412	translation	biological_process
+MSTRG.1321.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.1321.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.4875.1	GO:0009636	response to toxic substance	biological_process
+MSTRG.4875.1	GO:0016787	hydrolase activity	molecular_function
+MSTRG.4875.1	GO:0018742	epoxide hydrolase B activity	molecular_function
+MSTRG.4875.1	GO:0042803	protein homodimerization activity	molecular_function
+MSTRG.3907.1	GO:0004620	phospholipase activity	molecular_function
+MSTRG.3907.1	GO:0004806	triglyceride lipase activity	molecular_function
+MSTRG.3907.1	GO:0005509	calcium ion binding	molecular_function
+MSTRG.3907.1	GO:0005576	extracellular region	cellular_component
+MSTRG.3907.1	GO:0008970	phospholipase A1 activity	molecular_function
+MSTRG.3907.1	GO:0016042	lipid catabolic process	biological_process
+MSTRG.3907.1	GO:0019433	triglyceride catabolic process	biological_process
+MSTRG.3907.1	GO:0034638	phosphatidylcholine catabolic process	biological_process
+MSTRG.3907.1	GO:0052739	phosphatidylserine 1-acylhydrolase activity	molecular_function
+MSTRG.3907.1	GO:0052740	1-acyl-2-lysophosphatidylserine acylhydrolase activity	molecular_function
+MSTRG.14625.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.14625.1	GO:0006282	regulation of DNA repair	biological_process
+MSTRG.3449.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.1582.1	GO:0003677	DNA binding	molecular_function
+MSTRG.1582.1	GO:0003917	DNA topoisomerase type I (single strand cut, ATP-independent) activity	molecular_function
+MSTRG.1582.1	GO:0005694	chromosome	cellular_component
+MSTRG.1582.1	GO:0006265	DNA topological change	biological_process
+MSTRG.1582.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.18097.3	GO:0006400	tRNA modification	biological_process
+MSTRG.18097.3	GO:0016705	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	molecular_function
+MSTRG.7988.4	GO:0052689	carboxylic ester hydrolase activity	molecular_function
+MSTRG.14579.1	GO:0005524	ATP binding	molecular_function
+MSTRG.14579.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.14579.1	GO:0008559	ABC-type xenobiotic transporter activity	molecular_function
+MSTRG.14579.1	GO:0016887	ATP hydrolysis activity	molecular_function
+MSTRG.5041.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.5041.1	GO:0005840	ribosome	cellular_component
+MSTRG.5041.1	GO:0006412	translation	biological_process
+MSTRG.5041.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.5041.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.6929.1	GO:0000287	magnesium ion binding	molecular_function
+MSTRG.6929.1	GO:0005524	ATP binding	molecular_function
+MSTRG.6929.1	GO:0016779	nucleotidyltransferase activity	molecular_function
+MSTRG.1076.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.10843.1	GO:0016491	oxidoreductase activity	molecular_function
+MSTRG.13694.2	GO:0000166	nucleotide binding	molecular_function
+MSTRG.13694.2	GO:0006020	inositol metabolic process	biological_process
+MSTRG.13694.2	GO:0050112	inositol 2-dehydrogenase activity	molecular_function
+MSTRG.918.1	GO:0004033	aldo-keto reductase (NADP) activity	molecular_function
+MSTRG.918.1	GO:0005829	cytosol	cellular_component
+MSTRG.918.1	GO:0034198	cellular response to amino acid starvation	biological_process
+MSTRG.1321.3	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.1321.3	GO:0005840	ribosome	cellular_component
+MSTRG.1321.3	GO:0006412	translation	biological_process
+MSTRG.1321.3	GO:0019843	rRNA binding	molecular_function
+MSTRG.1321.3	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.12663.1	GO:0004620	phospholipase activity	molecular_function
+MSTRG.12663.1	GO:0004806	triglyceride lipase activity	molecular_function
+MSTRG.12663.1	GO:0005509	calcium ion binding	molecular_function
+MSTRG.12663.1	GO:0005576	extracellular region	cellular_component
+MSTRG.12663.1	GO:0008970	phospholipase A1 activity	molecular_function
+MSTRG.12663.1	GO:0016042	lipid catabolic process	biological_process
+MSTRG.12663.1	GO:0019433	triglyceride catabolic process	biological_process
+MSTRG.12663.1	GO:0034638	phosphatidylcholine catabolic process	biological_process
+MSTRG.12663.1	GO:0052739	phosphatidylserine 1-acylhydrolase activity	molecular_function
+MSTRG.12663.1	GO:0052740	1-acyl-2-lysophosphatidylserine acylhydrolase activity	molecular_function
+MSTRG.3948.1	GO:0015035	protein-disulfide reductase activity	molecular_function
+MSTRG.7941.1	GO:0005524	ATP binding	molecular_function
+MSTRG.7941.1	GO:0005525	GTP binding	molecular_function
+MSTRG.7941.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.7941.1	GO:0016887	ATP hydrolysis activity	molecular_function
+MSTRG.7941.1	GO:0043023	ribosomal large subunit binding	molecular_function
+MSTRG.7941.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.260.2	GO:0005886	plasma membrane	cellular_component
+MSTRG.260.2	GO:0015173	aromatic amino acid transmembrane transporter activity	molecular_function
+MSTRG.260.2	GO:0015293	symporter activity	molecular_function
+MSTRG.4964.1	GO:0050661	NADP binding	molecular_function
+MSTRG.4964.1	GO:0050664	oxidoreductase activity, acting on NAD(P)H, oxygen as acceptor	molecular_function
+MSTRG.4964.1	GO:0051287	NAD binding	molecular_function
+MSTRG.4964.1	GO:0071949	FAD binding	molecular_function
+MSTRG.5854.1	GO:0000049	tRNA binding	molecular_function
+MSTRG.5854.1	GO:0010181	FMN binding	molecular_function
+MSTRG.5854.1	GO:0050660	flavin adenine dinucleotide binding	molecular_function
+MSTRG.5854.1	GO:0102264	tRNA-dihydrouridine20 synthase activity	molecular_function
+MSTRG.1108.1	GO:0000049	tRNA binding	molecular_function
+MSTRG.1108.1	GO:0002938	tRNA guanine ribose methylation	biological_process
+MSTRG.1108.1	GO:0009020	tRNA (guanosine-2'-O-)-methyltransferase activity	molecular_function
+MSTRG.1108.1	GO:0052665	tRNA (uracil-2'-O-)-methyltransferase activity	molecular_function
+MSTRG.10184.1	GO:0000027	ribosomal large subunit assembly	biological_process
+MSTRG.10184.1	GO:0000049	tRNA binding	molecular_function
+MSTRG.10184.1	GO:0003924	GTPase activity	molecular_function
+MSTRG.10184.1	GO:0005525	GTP binding	molecular_function
+MSTRG.10184.1	GO:0005829	cytosol	cellular_component
+MSTRG.10184.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.10184.1	GO:0043022	ribosome binding	molecular_function
+MSTRG.10184.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.11441.1	GO:0005525	GTP binding	molecular_function
+MSTRG.11441.1	GO:0042254	ribosome biogenesis	biological_process
+MSTRG.15926.1	GO:0004784	superoxide dismutase activity	molecular_function
+MSTRG.15926.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.260.3	GO:0005886	plasma membrane	cellular_component
+MSTRG.260.3	GO:0015173	aromatic amino acid transmembrane transporter activity	molecular_function
+MSTRG.260.3	GO:0015293	symporter activity	molecular_function
+MSTRG.11745.1	GO:0004018	N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming) activity	molecular_function
+MSTRG.11745.1	GO:0005829	cytosol	cellular_component
+MSTRG.11745.1	GO:0006189	'de novo' IMP biosynthetic process	biological_process
+MSTRG.11745.1	GO:0044208	'de novo' AMP biosynthetic process	biological_process
+MSTRG.11745.1	GO:0070626	(S)-2-(5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido) succinate lyase (fumarate-forming) activity	molecular_function
+MSTRG.15038.1	GO:0000287	magnesium ion binding	molecular_function
+MSTRG.15038.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.15038.1	GO:0016765	transferase activity, transferring alkyl or aryl (other than methyl) groups	molecular_function
+MSTRG.15038.1	GO:0046677	response to antibiotic	biological_process
+MSTRG.608.1	GO:0000725	recombinational repair	biological_process
+MSTRG.608.1	GO:0003684	damaged DNA binding	molecular_function
+MSTRG.608.1	GO:0005524	ATP binding	molecular_function
+MSTRG.608.1	GO:0016787	hydrolase activity	molecular_function
+MSTRG.608.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.608.1	GO:0140664	ATP-dependent DNA damage sensor activity	molecular_function
+MSTRG.7797.1	GO:0005507	copper ion binding	molecular_function
+MSTRG.7797.1	GO:0009308	amine metabolic process	biological_process
+MSTRG.7797.1	GO:0048038	quinone binding	molecular_function
+MSTRG.7797.1	GO:0052593	tryptamine:oxygen oxidoreductase (deaminating) activity	molecular_function
+MSTRG.7797.1	GO:0052594	aminoacetone:oxygen oxidoreductase(deaminating) activity	molecular_function
+MSTRG.7797.1	GO:0052596	phenethylamine:oxygen oxidoreductase (deaminating) activity	molecular_function
+MSTRG.489.1	GO:0003989	acetyl-CoA carboxylase activity	molecular_function
+MSTRG.489.1	GO:0006633	fatty acid biosynthetic process	biological_process
+MSTRG.489.1	GO:0009317	acetyl-CoA carboxylase complex	cellular_component
+MSTRG.260.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.260.1	GO:0015173	aromatic amino acid transmembrane transporter activity	molecular_function
+MSTRG.260.1	GO:0015293	symporter activity	molecular_function
+MSTRG.5158.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.5158.1	GO:0006412	translation	biological_process
+MSTRG.5158.1	GO:0015934	large ribosomal subunit	cellular_component
+MSTRG.2080.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.2080.1	GO:0005840	ribosome	cellular_component
+MSTRG.2080.1	GO:0006412	translation	biological_process
+MSTRG.2080.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.3514.1	GO:0004355	glutamate synthase (NADPH) activity	molecular_function
+MSTRG.3514.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.3514.1	GO:0051539	4 iron, 4 sulfur cluster binding	molecular_function
+MSTRG.3514.1	GO:0097054	L-glutamate biosynthetic process	biological_process
+MSTRG.9414.1	GO:0003723	RNA binding	molecular_function
+MSTRG.9414.1	GO:0031119	tRNA pseudouridine synthesis	biological_process
+MSTRG.9414.1	GO:0106029	tRNA pseudouridine synthase activity	molecular_function
+MSTRG.1850.1	GO:0006446	regulation of translational initiation	biological_process
+MSTRG.11478.2	GO:0003723	RNA binding	molecular_function
+MSTRG.11478.2	GO:0031119	tRNA pseudouridine synthesis	biological_process
+MSTRG.11478.2	GO:0106029	tRNA pseudouridine synthase activity	molecular_function
+MSTRG.16330.1	GO:0016628	oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor	molecular_function
+MSTRG.16330.1	GO:0042206	halogenated hydrocarbon catabolic process	biological_process
+MSTRG.16330.1	GO:0102523	2-chloroacrylate reductase activity	molecular_function
+MSTRG.4616.1	GO:0003723	RNA binding	molecular_function
+MSTRG.4616.1	GO:0031119	tRNA pseudouridine synthesis	biological_process
+MSTRG.4616.1	GO:0106029	tRNA pseudouridine synthase activity	molecular_function
+MSTRG.4668.1	GO:0003987	acetate-CoA ligase activity	molecular_function
+MSTRG.4668.1	GO:0005524	ATP binding	molecular_function
+MSTRG.4668.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.8793.1	GO:0000049	tRNA binding	molecular_function
+MSTRG.8793.1	GO:0010181	FMN binding	molecular_function
+MSTRG.8793.1	GO:0050660	flavin adenine dinucleotide binding	molecular_function
+MSTRG.8793.1	GO:0102264	tRNA-dihydrouridine20 synthase activity	molecular_function
+MSTRG.15918.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.15918.1	GO:0022857	transmembrane transporter activity	molecular_function
+MSTRG.8049.1	GO:0000049	tRNA binding	molecular_function
+MSTRG.8049.1	GO:0005524	ATP binding	molecular_function
+MSTRG.8049.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.8049.1	GO:0006400	tRNA modification	biological_process
+MSTRG.8049.1	GO:0016783	sulfurtransferase activity	molecular_function
+MSTRG.2298.1	GO:0004672	protein kinase activity	molecular_function
+MSTRG.2298.1	GO:0005524	ATP binding	molecular_function
+MSTRG.2298.1	GO:0006468	protein phosphorylation	biological_process
+MSTRG.11478.1	GO:0003723	RNA binding	molecular_function
+MSTRG.11478.1	GO:0031119	tRNA pseudouridine synthesis	biological_process
+MSTRG.11478.1	GO:0106029	tRNA pseudouridine synthase activity	molecular_function
+MSTRG.268.2	GO:0000287	magnesium ion binding	molecular_function
+MSTRG.268.2	GO:0004614	phosphoglucomutase activity	molecular_function
+MSTRG.268.2	GO:0005737	cytoplasm	cellular_component
+MSTRG.268.2	GO:0006006	glucose metabolic process	biological_process
+MSTRG.993.2	GO:0003677	DNA binding	molecular_function
+MSTRG.993.2	GO:0004527	exonuclease activity	molecular_function
+MSTRG.993.2	GO:0017108	5'-flap endonuclease activity	molecular_function
+MSTRG.993.2	GO:0033567	DNA replication, Okazaki fragment processing	biological_process
+MSTRG.13173.2	GO:0000049	tRNA binding	molecular_function
+MSTRG.13173.2	GO:0000287	magnesium ion binding	molecular_function
+MSTRG.13173.2	GO:0001680	tRNA 3'-terminal CCA addition	biological_process
+MSTRG.13173.2	GO:0004810	CCA tRNA nucleotidyltransferase activity	molecular_function
+MSTRG.13173.2	GO:0005524	ATP binding	molecular_function
+MSTRG.13173.2	GO:0042245	RNA repair	biological_process
+MSTRG.452.2	GO:0005737	cytoplasm	cellular_component
+MSTRG.452.2	GO:0016829	lyase activity	molecular_function
+MSTRG.8497.1	GO:0018786	haloalkane dehalogenase activity	molecular_function
+MSTRG.3807.1	GO:0004073	aspartate-semialdehyde dehydrogenase activity	molecular_function
+MSTRG.3807.1	GO:0009088	threonine biosynthetic process	biological_process
+MSTRG.3807.1	GO:0009089	lysine biosynthetic process via diaminopimelate	biological_process
+MSTRG.3807.1	GO:0009097	isoleucine biosynthetic process	biological_process
+MSTRG.3807.1	GO:0019877	diaminopimelate biosynthetic process	biological_process
+MSTRG.3807.1	GO:0046983	protein dimerization activity	molecular_function
+MSTRG.3807.1	GO:0050661	NADP binding	molecular_function
+MSTRG.3807.1	GO:0051287	NAD binding	molecular_function
+MSTRG.3807.1	GO:0071266	'de novo' L-methionine biosynthetic process	biological_process
+MSTRG.10947.1	GO:0004479	methionyl-tRNA formyltransferase activity	molecular_function
+MSTRG.1258.3	GO:0019629	propionate catabolic process, 2-methylcitrate cycle	biological_process
+MSTRG.1258.3	GO:0046421	methylisocitrate lyase activity	molecular_function
+MSTRG.1258.3	GO:0046872	metal ion binding	molecular_function
+MSTRG.655.1	GO:0000166	nucleotide binding	molecular_function
+MSTRG.655.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.655.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.655.1	GO:0106411	XMP 5'-nucleosidase activity	molecular_function
+MSTRG.2827.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.10844.3	GO:0016491	oxidoreductase activity	molecular_function
+MSTRG.18083.1	GO:0016787	hydrolase activity	molecular_function
+MSTRG.2502.1	GO:0008173	RNA methyltransferase activity	molecular_function
+MSTRG.2502.1	GO:0034470	ncRNA processing	biological_process
+MSTRG.2502.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.2502.1	GO:0051539	4 iron, 4 sulfur cluster binding	molecular_function
+MSTRG.15969.1	GO:0000049	tRNA binding	molecular_function
+MSTRG.15969.1	GO:0030488	tRNA methylation	biological_process
+MSTRG.15969.1	GO:0089715	tRNA m6t6A37 methyltransferase activity	molecular_function
+MSTRG.12863.1	GO:0016301	kinase activity	molecular_function
+MSTRG.12863.1	GO:0016310	phosphorylation	biological_process
+MSTRG.12863.1	GO:0016773	phosphotransferase activity, alcohol group as acceptor	molecular_function
+MSTRG.993.1	GO:0003677	DNA binding	molecular_function
+MSTRG.993.1	GO:0004527	exonuclease activity	molecular_function
+MSTRG.993.1	GO:0017108	5'-flap endonuclease activity	molecular_function
+MSTRG.993.1	GO:0033567	DNA replication, Okazaki fragment processing	biological_process
+MSTRG.12221.1	GO:0016491	oxidoreductase activity	molecular_function
+MSTRG.12221.1	GO:0071949	FAD binding	molecular_function
+MSTRG.2517.1	GO:0004525	ribonuclease III activity	molecular_function
+MSTRG.2517.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.2517.1	GO:0006364	rRNA processing	biological_process
+MSTRG.2517.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.5803.1	GO:0004373	glycogen (starch) synthase activity	molecular_function
+MSTRG.5803.1	GO:0005978	glycogen biosynthetic process	biological_process
+MSTRG.5803.1	GO:0009011	starch synthase activity	molecular_function
+MSTRG.5803.1	GO:0033201	alpha-1,4-glucan synthase activity	molecular_function
+MSTRG.20391.1	GO:0004316	3-oxoacyl-[acyl-carrier-protein] reductase (NADPH) activity	molecular_function
+MSTRG.20391.1	GO:0016616	oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	molecular_function
+MSTRG.20391.1	GO:0030497	fatty acid elongation	biological_process
+MSTRG.20391.1	GO:0051287	NAD binding	molecular_function
+MSTRG.13002.2	GO:0008893	guanosine-3',5'-bis(diphosphate) 3'-diphosphatase activity	molecular_function
+MSTRG.13002.2	GO:0015970	guanosine tetraphosphate biosynthetic process	biological_process
+MSTRG.5854.2	GO:0000049	tRNA binding	molecular_function
+MSTRG.5854.2	GO:0010181	FMN binding	molecular_function
+MSTRG.5854.2	GO:0050660	flavin adenine dinucleotide binding	molecular_function
+MSTRG.5854.2	GO:0102264	tRNA-dihydrouridine20 synthase activity	molecular_function
+MSTRG.14366.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.14366.1	GO:0015935	small ribosomal subunit	cellular_component
+MSTRG.14366.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.14366.1	GO:0042274	ribosomal small subunit biogenesis	biological_process
+MSTRG.12920.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.12920.1	GO:0009016	succinyldiaminopimelate transaminase activity	molecular_function
+MSTRG.12920.1	GO:0009089	lysine biosynthetic process via diaminopimelate	biological_process
+MSTRG.12920.1	GO:0030170	pyridoxal phosphate binding	molecular_function
+MSTRG.46.1	GO:0003989	acetyl-CoA carboxylase activity	molecular_function
+MSTRG.46.1	GO:0006633	fatty acid biosynthetic process	biological_process
+MSTRG.46.1	GO:0009317	acetyl-CoA carboxylase complex	cellular_component
+MSTRG.12664.3	GO:0004069	L-aspartate:2-oxoglutarate aminotransferase activity	molecular_function
+MSTRG.12664.3	GO:0005737	cytoplasm	cellular_component
+MSTRG.12664.3	GO:0009058	biosynthetic process	biological_process
+MSTRG.12664.3	GO:0030170	pyridoxal phosphate binding	molecular_function
+MSTRG.12222.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.452.3	GO:0018786	haloalkane dehalogenase activity	molecular_function
+MSTRG.1582.2	GO:0003677	DNA binding	molecular_function
+MSTRG.1582.2	GO:0003917	DNA topoisomerase type I (single strand cut, ATP-independent) activity	molecular_function
+MSTRG.1582.2	GO:0005694	chromosome	cellular_component
+MSTRG.1582.2	GO:0006265	DNA topological change	biological_process
+MSTRG.1582.2	GO:0046872	metal ion binding	molecular_function
+MSTRG.1038.1	GO:0000166	nucleotide binding	molecular_function
+MSTRG.1038.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.1038.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.1038.1	GO:0106411	XMP 5'-nucleosidase activity	molecular_function
+MSTRG.3632.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.3632.1	GO:0009016	succinyldiaminopimelate transaminase activity	molecular_function
+MSTRG.3632.1	GO:0009089	lysine biosynthetic process via diaminopimelate	biological_process
+MSTRG.3632.1	GO:0030170	pyridoxal phosphate binding	molecular_function
+MSTRG.12660.1	GO:0000162	tryptophan biosynthetic process	biological_process
+MSTRG.12660.1	GO:0000287	magnesium ion binding	molecular_function
+MSTRG.12660.1	GO:0004048	anthranilate phosphoribosyltransferase activity	molecular_function
+MSTRG.6359.1	GO:0008422	beta-glucosidase activity	molecular_function
+MSTRG.6359.1	GO:0042597	periplasmic space	cellular_component
+MSTRG.6359.1	GO:0085030	symbiotic process benefiting host	biological_process
+MSTRG.6359.1	GO:0102483	scopolin beta-glucosidase activity	molecular_function
+MSTRG.6359.1	GO:2000899	xyloglucan catabolic process	biological_process
+MSTRG.4470.1	GO:0004018	N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming) activity	molecular_function
+MSTRG.4470.1	GO:0005829	cytosol	cellular_component
+MSTRG.4470.1	GO:0006189	'de novo' IMP biosynthetic process	biological_process
+MSTRG.4470.1	GO:0044208	'de novo' AMP biosynthetic process	biological_process
+MSTRG.4470.1	GO:0070626	(S)-2-(5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido) succinate lyase (fumarate-forming) activity	molecular_function
+MSTRG.4201.1	GO:0004801	transaldolase activity	molecular_function
+MSTRG.4201.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.4201.1	GO:0005975	carbohydrate metabolic process	biological_process
+MSTRG.4201.1	GO:0006098	pentose-phosphate shunt	biological_process
+MSTRG.8497.2	GO:0016823	hydrolase activity, acting on acid carbon-carbon bonds, in ketonic substances	molecular_function
+MSTRG.8497.2	GO:0018768	2-hydroxy-6-oxo-6-(2'-aminophenyl)hexa-2,4-dienoate hydrolase activity	molecular_function
+MSTRG.8497.2	GO:0046232	carbazole catabolic process	biological_process
+MSTRG.8497.2	GO:0102139	2-hydroxy-6-oxo-6-(2'-aminophenyl)-hexa-2,4dienoate hydrolase activity	molecular_function
+MSTRG.8246.2	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.8246.2	GO:0005737	cytoplasm	cellular_component
+MSTRG.8246.2	GO:0005840	ribosome	cellular_component
+MSTRG.8246.2	GO:0006412	translation	biological_process
+MSTRG.8246.2	GO:0019843	rRNA binding	molecular_function
+MSTRG.8246.2	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.8349.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.8349.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.8349.1	GO:0005840	ribosome	cellular_component
+MSTRG.8349.1	GO:0006412	translation	biological_process
+MSTRG.8349.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.8349.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.8349.2	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.8349.2	GO:0005737	cytoplasm	cellular_component
+MSTRG.8349.2	GO:0005840	ribosome	cellular_component
+MSTRG.8349.2	GO:0006412	translation	biological_process
+MSTRG.8349.2	GO:0019843	rRNA binding	molecular_function
+MSTRG.8349.2	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.8688.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.8688.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.8688.1	GO:0005840	ribosome	cellular_component
+MSTRG.8688.1	GO:0006412	translation	biological_process
+MSTRG.8688.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.8688.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.1312.1	GO:0003729	mRNA binding	molecular_function
+MSTRG.1312.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.1312.1	GO:0005840	ribosome	cellular_component
+MSTRG.1312.1	GO:0006412	translation	biological_process
+MSTRG.1312.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.10610.1	GO:0000166	nucleotide binding	molecular_function
+MSTRG.10610.1	GO:0003677	DNA binding	molecular_function
+MSTRG.10610.1	GO:0003887	DNA-directed DNA polymerase activity	molecular_function
+MSTRG.10610.1	GO:0004527	exonuclease activity	molecular_function
+MSTRG.10610.1	GO:0006260	DNA replication	biological_process
+MSTRG.6755.2	GO:0005524	ATP binding	molecular_function
+MSTRG.6755.2	GO:0008033	tRNA processing	biological_process
+MSTRG.6755.2	GO:0052381	tRNA dimethylallyltransferase activity	molecular_function
+MSTRG.8344.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.8344.1	GO:0015031	protein transport	biological_process
+MSTRG.8344.1	GO:0032977	membrane insertase activity	molecular_function
+MSTRG.8344.1	GO:0051205	protein insertion into membrane	biological_process
+MSTRG.13633.1	GO:0003924	GTPase activity	molecular_function
+MSTRG.13633.1	GO:0005525	GTP binding	molecular_function
+MSTRG.11958.1	GO:0004436	phosphatidylinositol diacylglycerol-lyase activity	molecular_function
+MSTRG.11958.1	GO:0005576	extracellular region	cellular_component
+MSTRG.11958.1	GO:0008081	phosphoric diester hydrolase activity	molecular_function
+MSTRG.11958.1	GO:0016042	lipid catabolic process	biological_process
+MSTRG.19426.3	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.19426.3	GO:0005840	ribosome	cellular_component
+MSTRG.19426.3	GO:0006412	translation	biological_process
+MSTRG.19426.3	GO:0019843	rRNA binding	molecular_function
+MSTRG.19426.3	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.6219.1	GO:0006520	amino acid metabolic process	biological_process
+MSTRG.6219.1	GO:0009228	thiamine biosynthetic process	biological_process
+MSTRG.6219.1	GO:0009229	thiamine diphosphate biosynthetic process	biological_process
+MSTRG.6219.1	GO:0043799	glycine oxidase activity	molecular_function
+MSTRG.6219.1	GO:0051289	protein homotetramerization	biological_process
+MSTRG.6219.1	GO:0071949	FAD binding	molecular_function
+MSTRG.18623.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.18623.1	GO:0006307	DNA dealkylation involved in DNA repair	biological_process
+MSTRG.18623.1	GO:0008198	ferrous iron binding	molecular_function
+MSTRG.18623.1	GO:0035513	oxidative RNA demethylation	biological_process
+MSTRG.18623.1	GO:0035515	oxidative RNA demethylase activity	molecular_function
+MSTRG.18623.1	GO:0035516	oxidative DNA demethylase activity	molecular_function
+MSTRG.18623.1	GO:0035552	oxidative single-stranded DNA demethylation	biological_process
+MSTRG.18623.1	GO:0042245	RNA repair	biological_process
+MSTRG.18623.1	GO:0043734	DNA-N1-methyladenine dioxygenase activity	molecular_function
+MSTRG.18623.1	GO:0070989	oxidative demethylation	biological_process
+MSTRG.18623.1	GO:0080111	DNA demethylation	biological_process
+MSTRG.14204.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.14204.1	GO:0006814	sodium ion transport	biological_process
+MSTRG.14204.1	GO:0015293	symporter activity	molecular_function
+MSTRG.2526.1	GO:0000166	nucleotide binding	molecular_function
+MSTRG.2526.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.2526.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.2526.1	GO:0106411	XMP 5'-nucleosidase activity	molecular_function
+MSTRG.5828.1	GO:0002131	wobble position cytosine ribose methylation	biological_process
+MSTRG.5828.1	GO:0002132	wobble position uridine ribose methylation	biological_process
+MSTRG.5828.1	GO:0003723	RNA binding	molecular_function
+MSTRG.5828.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.5828.1	GO:0008175	tRNA methyltransferase activity	molecular_function
+MSTRG.5828.1	GO:0008757	S-adenosylmethionine-dependent methyltransferase activity	molecular_function
+MSTRG.11961.1	GO:0005524	ATP binding	molecular_function
+MSTRG.11961.1	GO:0006412	translation	biological_process
+MSTRG.11961.1	GO:0030956	glutamyl-tRNA(Gln) amidotransferase complex	cellular_component
+MSTRG.11961.1	GO:0050567	glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity	molecular_function
+MSTRG.13911.1	GO:0005615	extracellular space	cellular_component
+MSTRG.13911.1	GO:0015846	polyamine transport	biological_process
+MSTRG.13911.1	GO:0019809	spermidine binding	molecular_function
+MSTRG.13911.1	GO:0042597	periplasmic space	cellular_component
+MSTRG.17769.1	GO:0004177	aminopeptidase activity	molecular_function
+MSTRG.17769.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.17769.1	GO:0006508	proteolysis	biological_process
+MSTRG.17769.1	GO:0008237	metallopeptidase activity	molecular_function
+MSTRG.17769.1	GO:0008270	zinc ion binding	molecular_function
+MSTRG.10172.2	GO:0009234	menaquinone biosynthetic process	biological_process
+MSTRG.10172.2	GO:0032259	methylation	biological_process
+MSTRG.10172.2	GO:0043770	demethylmenaquinone methyltransferase activity	molecular_function
+MSTRG.10172.2	GO:0102027	S-adenosylmethionine:2-demethylquinol-8 methyltransferase activity	molecular_function
+MSTRG.10172.2	GO:0102094	S-adenosylmethionine:2-demethylmenaquinol methyltransferase activity	molecular_function
+MSTRG.10172.2	GO:0102955	S-adenosylmethionine:2-demethylmenaquinol-7 methyltransferase activity	molecular_function
+MSTRG.3599.1	GO:0004075	biotin carboxylase activity	molecular_function
+MSTRG.3599.1	GO:0005524	ATP binding	molecular_function
+MSTRG.3599.1	GO:0006552	leucine catabolic process	biological_process
+MSTRG.3599.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.10783.2	GO:0000049	tRNA binding	molecular_function
+MSTRG.10783.2	GO:0002938	tRNA guanine ribose methylation	biological_process
+MSTRG.10783.2	GO:0009020	tRNA (guanosine-2'-O-)-methyltransferase activity	molecular_function
+MSTRG.10783.2	GO:0052665	tRNA (uracil-2'-O-)-methyltransferase activity	molecular_function
+MSTRG.4532.1	GO:0005385	zinc ion transmembrane transporter activity	molecular_function
+MSTRG.4532.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.10558.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.10558.1	GO:0006412	translation	biological_process
+MSTRG.10558.1	GO:0022625	cytosolic large ribosomal subunit	cellular_component
+MSTRG.16056.1	GO:0004518	nuclease activity	molecular_function
+MSTRG.16056.1	GO:0005576	extracellular region	cellular_component
+MSTRG.11056.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.11056.1	GO:0006415	translational termination	biological_process
+MSTRG.19681.1	GO:0006564	L-serine biosynthetic process	biological_process
+MSTRG.19681.1	GO:0036424	L-phosphoserine phosphatase activity	molecular_function
+MSTRG.4495.1	GO:0000166	nucleotide binding	molecular_function
+MSTRG.4495.1	GO:0016311	dephosphorylation	biological_process
+MSTRG.4495.1	GO:0030145	manganese ion binding	molecular_function
+MSTRG.4495.1	GO:0097657	3',5'-nucleotide bisphosphate phosphatase activity	molecular_function
+MSTRG.10844.2	GO:0016491	oxidoreductase activity	molecular_function
+MSTRG.10844.1	GO:0016491	oxidoreductase activity	molecular_function
+MSTRG.20895.1	GO:0000774	adenyl-nucleotide exchange factor activity	molecular_function
+MSTRG.20895.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.20895.1	GO:0006457	protein folding	biological_process
+MSTRG.20895.1	GO:0042803	protein homodimerization activity	molecular_function
+MSTRG.20895.1	GO:0051087	protein-folding chaperone binding	molecular_function
+MSTRG.12823.1	GO:0003690	double-stranded DNA binding	molecular_function
+MSTRG.12823.1	GO:0004519	endonuclease activity	molecular_function
+MSTRG.12823.1	GO:0005524	ATP binding	molecular_function
+MSTRG.12823.1	GO:0006298	mismatch repair	biological_process
+MSTRG.12823.1	GO:0016887	ATP hydrolysis activity	molecular_function
+MSTRG.12823.1	GO:0030983	mismatched DNA binding	molecular_function
+MSTRG.12823.1	GO:0045910	negative regulation of DNA recombination	biological_process
+MSTRG.12823.1	GO:0140664	ATP-dependent DNA damage sensor activity	molecular_function
+MSTRG.11059.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.11059.1	GO:0005840	ribosome	cellular_component
+MSTRG.11059.1	GO:0006412	translation	biological_process
+MSTRG.11059.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.6197.1	GO:0003723	RNA binding	molecular_function
+MSTRG.6197.1	GO:0005576	extracellular region	cellular_component
+MSTRG.6197.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.6197.1	GO:0006364	rRNA processing	biological_process
+MSTRG.6197.1	GO:0008168	methyltransferase activity	molecular_function
+MSTRG.6197.1	GO:0016020	membrane	cellular_component
+MSTRG.6197.1	GO:0020002	host cell plasma membrane	cellular_component
+MSTRG.6197.1	GO:0031640	killing of cells of another organism	biological_process
+MSTRG.6197.1	GO:0032259	methylation	biological_process
+MSTRG.6197.1	GO:0090729	toxin activity	molecular_function
+MSTRG.14974.1	GO:0003723	RNA binding	molecular_function
+MSTRG.14974.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.14974.1	GO:0006396	RNA processing	biological_process
+MSTRG.14974.1	GO:0008173	RNA methyltransferase activity	molecular_function
+MSTRG.13576.1	GO:0003723	RNA binding	molecular_function
+MSTRG.13576.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.13576.1	GO:0016434	rRNA (cytosine) methyltransferase activity	molecular_function
+MSTRG.10341.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.12417.1	GO:0000287	magnesium ion binding	molecular_function
+MSTRG.12417.1	GO:0003676	nucleic acid binding	molecular_function
+MSTRG.12417.1	GO:0004523	RNA-DNA hybrid ribonuclease activity	molecular_function
+MSTRG.12417.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.12417.1	GO:0006401	RNA catabolic process	biological_process
+MSTRG.9960.2	GO:0005737	cytoplasm	cellular_component
+MSTRG.9960.2	GO:0008780	acyl-[acyl-carrier-protein]-UDP-N-acetylglucosamine O-acyltransferase activity	molecular_function
+MSTRG.9960.2	GO:0009245	lipid A biosynthetic process	biological_process
+MSTRG.3134.1	GO:0008176	tRNA (guanine-N7-)-methyltransferase activity	molecular_function
+MSTRG.10575.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.10575.1	GO:0006412	translation	biological_process
+MSTRG.10575.1	GO:0015934	large ribosomal subunit	cellular_component
+MSTRG.10575.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.11047.1	GO:0006396	RNA processing	biological_process
+MSTRG.11047.1	GO:0008173	RNA methyltransferase activity	molecular_function
+MSTRG.11047.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.11047.1	GO:0051539	4 iron, 4 sulfur cluster binding	molecular_function
+MSTRG.11217.2	GO:0008168	methyltransferase activity	molecular_function
+MSTRG.11217.2	GO:0031167	rRNA methylation	biological_process
+MSTRG.11217.1	GO:0008168	methyltransferase activity	molecular_function
+MSTRG.11217.1	GO:0031167	rRNA methylation	biological_process
+MSTRG.12657.1	GO:0005507	copper ion binding	molecular_function
+MSTRG.12657.1	GO:0009308	amine metabolic process	biological_process
+MSTRG.12657.1	GO:0048038	quinone binding	molecular_function
+MSTRG.12657.1	GO:0052593	tryptamine:oxygen oxidoreductase (deaminating) activity	molecular_function
+MSTRG.12657.1	GO:0052594	aminoacetone:oxygen oxidoreductase(deaminating) activity	molecular_function
+MSTRG.12657.1	GO:0052596	phenethylamine:oxygen oxidoreductase (deaminating) activity	molecular_function
+MSTRG.14577.2	GO:0005886	plasma membrane	cellular_component
+MSTRG.14577.2	GO:0050660	flavin adenine dinucleotide binding	molecular_function
+MSTRG.10637.1	GO:0005524	ATP binding	molecular_function
+MSTRG.10637.1	GO:0006412	translation	biological_process
+MSTRG.10637.1	GO:0030956	glutamyl-tRNA(Gln) amidotransferase complex	cellular_component
+MSTRG.10637.1	GO:0050567	glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity	molecular_function
+MSTRG.11082.1	GO:0006099	tricarboxylic acid cycle	biological_process
+MSTRG.11082.1	GO:0008177	succinate dehydrogenase (ubiquinone) activity	molecular_function
+MSTRG.11082.1	GO:0009055	electron transfer activity	molecular_function
+MSTRG.11082.1	GO:0009060	aerobic respiration	biological_process
+MSTRG.11082.1	GO:0022904	respiratory electron transport chain	biological_process
+MSTRG.11082.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.11082.1	GO:0051537	2 iron, 2 sulfur cluster binding	molecular_function
+MSTRG.11082.1	GO:0051538	3 iron, 4 sulfur cluster binding	molecular_function
+MSTRG.11082.1	GO:0051539	4 iron, 4 sulfur cluster binding	molecular_function
+MSTRG.11082.1	GO:0102040	fumarate reductase (menaquinone)	molecular_function
+MSTRG.11328.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.10112.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.10112.1	GO:0006784	heme A biosynthetic process	biological_process
+MSTRG.10112.1	GO:0016653	oxidoreductase activity, acting on NAD(P)H, heme protein as acceptor	molecular_function
+MSTRG.10112.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.9827.4	GO:0005886	plasma membrane	cellular_component
+MSTRG.9827.4	GO:0006814	sodium ion transport	biological_process
+MSTRG.9827.4	GO:0015293	symporter activity	molecular_function
+MSTRG.10223.1	GO:0006400	tRNA modification	biological_process
+MSTRG.10223.1	GO:0008270	zinc ion binding	molecular_function
+MSTRG.10223.1	GO:0016432	tRNA-uridine aminocarboxypropyltransferase activity	molecular_function
+MSTRG.11008.1	GO:0031676	plasma membrane-derived thylakoid membrane	cellular_component
+MSTRG.11037.1	GO:0003725	double-stranded RNA binding	molecular_function
+MSTRG.10338.2	GO:0008806	carboxymethylenebutenolidase activity	molecular_function
+MSTRG.6532.1	GO:0006631	fatty acid metabolic process	biological_process
+MSTRG.6532.1	GO:0016836	hydro-lyase activity	molecular_function
+MSTRG.6532.1	GO:0042621	poly(3-hydroxyalkanoate) biosynthetic process	biological_process
+MSTRG.6532.1	GO:0051289	protein homotetramerization	biological_process
+MSTRG.10474.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.10474.1	GO:0006633	fatty acid biosynthetic process	biological_process
+MSTRG.10474.1	GO:0008659	(3R)-hydroxymyristoyl-[acyl-carrier-protein] dehydratase activity	molecular_function
+MSTRG.10474.1	GO:0009245	lipid A biosynthetic process	biological_process
+MSTRG.10474.1	GO:0019171	(3R)-hydroxyacyl-[acyl-carrier-protein] dehydratase activity	molecular_function
+MSTRG.12108.1	GO:0004801	transaldolase activity	molecular_function
+MSTRG.12108.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.12108.1	GO:0005975	carbohydrate metabolic process	biological_process
+MSTRG.12108.1	GO:0006098	pentose-phosphate shunt	biological_process
+MSTRG.12282.1	GO:0003723	RNA binding	molecular_function
+MSTRG.13881.1	GO:0005524	ATP binding	molecular_function
+MSTRG.13881.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.13881.1	GO:0008974	phosphoribulokinase activity	molecular_function
+MSTRG.13881.1	GO:0016310	phosphorylation	biological_process
+MSTRG.13881.1	GO:0019253	reductive pentose-phosphate cycle	biological_process
+MSTRG.11703.1	GO:0000166	nucleotide binding	molecular_function
+MSTRG.11703.1	GO:0016311	dephosphorylation	biological_process
+MSTRG.11703.1	GO:0030145	manganese ion binding	molecular_function
+MSTRG.11703.1	GO:0097657	3',5'-nucleotide bisphosphate phosphatase activity	molecular_function
+MSTRG.12826.1	GO:0004536	DNA nuclease activity	molecular_function
+MSTRG.12826.1	GO:0005829	cytosol	cellular_component
+MSTRG.12826.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.12140.1	GO:0000049	tRNA binding	molecular_function
+MSTRG.12140.1	GO:0000287	magnesium ion binding	molecular_function
+MSTRG.12140.1	GO:0001680	tRNA 3'-terminal CCA addition	biological_process
+MSTRG.12140.1	GO:0004810	CCA tRNA nucleotidyltransferase activity	molecular_function
+MSTRG.12140.1	GO:0005524	ATP binding	molecular_function
+MSTRG.12140.1	GO:0042245	RNA repair	biological_process
+MSTRG.11473.2	GO:0005524	ATP binding	molecular_function
+MSTRG.11473.2	GO:0005737	cytoplasm	cellular_component
+MSTRG.11473.2	GO:0016887	ATP hydrolysis activity	molecular_function
+MSTRG.11473.2	GO:0031072	heat shock protein binding	molecular_function
+MSTRG.11473.2	GO:0042026	protein refolding	biological_process
+MSTRG.11473.2	GO:0044183	protein folding chaperone	molecular_function
+MSTRG.11473.2	GO:0051082	unfolded protein binding	molecular_function
+MSTRG.11473.2	GO:0051085	chaperone cofactor-dependent protein refolding	biological_process
+MSTRG.11473.2	GO:0140662	ATP-dependent protein folding chaperone	molecular_function
+MSTRG.12551.1	GO:0000049	tRNA binding	molecular_function
+MSTRG.12551.1	GO:0004813	alanine-tRNA ligase activity	molecular_function
+MSTRG.12551.1	GO:0005524	ATP binding	molecular_function
+MSTRG.12551.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.12551.1	GO:0006419	alanyl-tRNA aminoacylation	biological_process
+MSTRG.12551.1	GO:0008270	zinc ion binding	molecular_function
+MSTRG.12975.1	GO:0003924	GTPase activity	molecular_function
+MSTRG.12975.1	GO:0005525	GTP binding	molecular_function
+MSTRG.12975.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.12975.1	GO:0006400	tRNA modification	biological_process
+MSTRG.12975.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.176.1	GO:0004823	leucine-tRNA ligase activity	molecular_function
+MSTRG.176.1	GO:0005524	ATP binding	molecular_function
+MSTRG.176.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.176.1	GO:0006429	leucyl-tRNA aminoacylation	biological_process
+MSTRG.11696.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.11696.1	GO:0005840	ribosome	cellular_component
+MSTRG.11696.1	GO:0006412	translation	biological_process
+MSTRG.11696.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.11696.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.12823.2	GO:0004519	endonuclease activity	molecular_function
+MSTRG.12823.2	GO:0005524	ATP binding	molecular_function
+MSTRG.12823.2	GO:0006298	mismatch repair	biological_process
+MSTRG.12823.2	GO:0016887	ATP hydrolysis activity	molecular_function
+MSTRG.12823.2	GO:0030983	mismatched DNA binding	molecular_function
+MSTRG.12823.2	GO:0045910	negative regulation of DNA recombination	biological_process
+MSTRG.12823.2	GO:0140664	ATP-dependent DNA damage sensor activity	molecular_function
+MSTRG.11635.1	GO:0005385	zinc ion transmembrane transporter activity	molecular_function
+MSTRG.11635.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.12954.1	GO:0000774	adenyl-nucleotide exchange factor activity	molecular_function
+MSTRG.12954.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.12954.1	GO:0006457	protein folding	biological_process
+MSTRG.12954.1	GO:0042803	protein homodimerization activity	molecular_function
+MSTRG.12954.1	GO:0051087	protein-folding chaperone binding	molecular_function
+MSTRG.13576.2	GO:0003723	RNA binding	molecular_function
+MSTRG.13576.2	GO:0005737	cytoplasm	cellular_component
+MSTRG.13576.2	GO:0016434	rRNA (cytosine) methyltransferase activity	molecular_function
+MSTRG.18399.2	GO:0005737	cytoplasm	cellular_component
+MSTRG.18399.2	GO:0008295	spermidine biosynthetic process	biological_process
+MSTRG.18399.2	GO:0008792	arginine decarboxylase activity	molecular_function
+MSTRG.18399.2	GO:0009446	putrescine biosynthetic process	biological_process
+MSTRG.14126.1	GO:0003921	GMP synthase activity	molecular_function
+MSTRG.14126.1	GO:0005524	ATP binding	molecular_function
+MSTRG.14126.1	GO:0006541	glutamine metabolic process	biological_process
+MSTRG.14375.1	GO:0008691	3-hydroxybutyryl-CoA dehydrogenase activity	molecular_function
+MSTRG.14375.1	GO:0016491	oxidoreductase activity	molecular_function
+MSTRG.14375.1	GO:0019605	butyrate metabolic process	biological_process
+MSTRG.14375.1	GO:0030435	sporulation resulting in formation of a cellular spore	biological_process
+MSTRG.14375.1	GO:0070403	NAD+ binding	molecular_function
+MSTRG.13059.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.1321.2	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.1321.2	GO:0005840	ribosome	cellular_component
+MSTRG.1321.2	GO:0006412	translation	biological_process
+MSTRG.1321.2	GO:0019843	rRNA binding	molecular_function
+MSTRG.1321.2	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.11481.1	GO:0000287	magnesium ion binding	molecular_function
+MSTRG.11481.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.11481.1	GO:0016765	transferase activity, transferring alkyl or aryl (other than methyl) groups	molecular_function
+MSTRG.11481.1	GO:0046677	response to antibiotic	biological_process
+MSTRG.13694.1	GO:0000166	nucleotide binding	molecular_function
+MSTRG.13694.1	GO:0006020	inositol metabolic process	biological_process
+MSTRG.13694.1	GO:0050112	inositol 2-dehydrogenase activity	molecular_function
+MSTRG.13374.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.13374.1	GO:0070043	rRNA (guanine-N7-)-methyltransferase activity	molecular_function
+MSTRG.13238.1	GO:0004109	coproporphyrinogen oxidase activity	molecular_function
+MSTRG.13238.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.13238.1	GO:0006779	porphyrin-containing compound biosynthetic process	biological_process
+MSTRG.13238.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.13238.1	GO:0051537	2 iron, 2 sulfur cluster binding	molecular_function
+MSTRG.13238.1	GO:0051539	4 iron, 4 sulfur cluster binding	molecular_function
+MSTRG.14134.1	GO:0000967	rRNA 5'-end processing	biological_process
+MSTRG.14134.1	GO:0004518	nuclease activity	molecular_function
+MSTRG.14134.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.14134.2	GO:0000967	rRNA 5'-end processing	biological_process
+MSTRG.14134.2	GO:0004518	nuclease activity	molecular_function
+MSTRG.14134.2	GO:0005737	cytoplasm	cellular_component
+MSTRG.12215.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.12215.1	GO:0009039	urease activity	molecular_function
+MSTRG.12215.1	GO:0016151	nickel cation binding	molecular_function
+MSTRG.12215.1	GO:0043419	urea catabolic process	biological_process
+MSTRG.13637.1	GO:0050661	NADP binding	molecular_function
+MSTRG.13637.1	GO:0050664	oxidoreductase activity, acting on NAD(P)H, oxygen as acceptor	molecular_function
+MSTRG.13637.1	GO:0051287	NAD binding	molecular_function
+MSTRG.13637.1	GO:0071949	FAD binding	molecular_function
+MSTRG.8710.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.8710.1	GO:0008152	metabolic process	biological_process
+MSTRG.8710.1	GO:0008675	2-dehydro-3-deoxy-phosphogluconate aldolase activity	molecular_function
+MSTRG.8710.1	GO:0008700	4-hydroxy-2-oxoglutarate aldolase activity	molecular_function
+MSTRG.8710.1	GO:0106009	(4S)-4-hydroxy-2-oxoglutarate aldolase activity	molecular_function
+MSTRG.4430.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.4430.1	GO:0006412	translation	biological_process
+MSTRG.4430.1	GO:0015934	large ribosomal subunit	cellular_component
+MSTRG.4430.1	GO:0016740	transferase activity	molecular_function
+MSTRG.4430.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.14076.1	GO:0003924	GTPase activity	molecular_function
+MSTRG.14076.1	GO:0005525	GTP binding	molecular_function
+MSTRG.10559.1	GO:0005524	ATP binding	molecular_function
+MSTRG.10559.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.10559.1	GO:0016310	phosphorylation	biological_process
+MSTRG.10559.1	GO:0033862	UMP kinase activity	molecular_function
+MSTRG.10559.1	GO:0044210	'de novo' CTP biosynthetic process	biological_process
+MSTRG.2378.1	GO:0006284	base-excision repair	biological_process
+MSTRG.2378.1	GO:0006307	DNA dealkylation involved in DNA repair	biological_process
+MSTRG.2378.1	GO:0008725	DNA-3-methyladenine glycosylase activity	molecular_function
+MSTRG.2378.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.14625.2	GO:0005737	cytoplasm	cellular_component
+MSTRG.14625.2	GO:0006282	regulation of DNA repair	biological_process
+MSTRG.14407.1	GO:0003824	catalytic activity	molecular_function
+MSTRG.13173.1	GO:0000049	tRNA binding	molecular_function
+MSTRG.13173.1	GO:0000287	magnesium ion binding	molecular_function
+MSTRG.13173.1	GO:0001680	tRNA 3'-terminal CCA addition	biological_process
+MSTRG.13173.1	GO:0004810	CCA tRNA nucleotidyltransferase activity	molecular_function
+MSTRG.13173.1	GO:0005524	ATP binding	molecular_function
+MSTRG.13173.1	GO:0042245	RNA repair	biological_process
+MSTRG.12156.1	GO:0018732	sulfolactone hydrolase activity	molecular_function
+MSTRG.12156.1	GO:0102998	4-sulfomuconolactone hydrolase activity	molecular_function
+MSTRG.10128.2	GO:0052689	carboxylic ester hydrolase activity	molecular_function
+MSTRG.14380.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.14380.1	GO:0006479	protein methylation	biological_process
+MSTRG.14380.1	GO:0042054	histone methyltransferase activity	molecular_function
+MSTRG.14242.1	GO:0004801	transaldolase activity	molecular_function
+MSTRG.14242.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.14242.1	GO:0005975	carbohydrate metabolic process	biological_process
+MSTRG.14242.1	GO:0006098	pentose-phosphate shunt	biological_process
+MSTRG.14025.2	GO:0004176	ATP-dependent peptidase activity	molecular_function
+MSTRG.14025.2	GO:0004222	metalloendopeptidase activity	molecular_function
+MSTRG.14025.2	GO:0005524	ATP binding	molecular_function
+MSTRG.14025.2	GO:0005886	plasma membrane	cellular_component
+MSTRG.14025.2	GO:0006508	proteolysis	biological_process
+MSTRG.14025.2	GO:0008270	zinc ion binding	molecular_function
+MSTRG.14025.2	GO:0016887	ATP hydrolysis activity	molecular_function
+MSTRG.14025.2	GO:0030163	protein catabolic process	biological_process
+MSTRG.15011.1	GO:0009636	response to toxic substance	biological_process
+MSTRG.15011.1	GO:0016787	hydrolase activity	molecular_function
+MSTRG.15011.1	GO:0018742	epoxide hydrolase B activity	molecular_function
+MSTRG.15011.1	GO:0042803	protein homodimerization activity	molecular_function
+MSTRG.4615.1	GO:0000287	magnesium ion binding	molecular_function
+MSTRG.4615.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.4615.1	GO:0016765	transferase activity, transferring alkyl or aryl (other than methyl) groups	molecular_function
+MSTRG.4615.1	GO:0046677	response to antibiotic	biological_process
+MSTRG.14839.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.14839.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.14839.1	GO:0005840	ribosome	cellular_component
+MSTRG.14839.1	GO:0006412	translation	biological_process
+MSTRG.14839.1	GO:0019843	rRNA binding	molecular_function
+MSTRG.14839.1	GO:1990904	ribonucleoprotein complex	cellular_component
+MSTRG.15192.2	GO:0005524	ATP binding	molecular_function
+MSTRG.15192.2	GO:0005886	plasma membrane	cellular_component
+MSTRG.15192.2	GO:0016887	ATP hydrolysis activity	molecular_function
+MSTRG.15007.2	GO:0009244	lipopolysaccharide core region biosynthetic process	biological_process
+MSTRG.15007.2	GO:0016757	glycosyltransferase activity	molecular_function
+MSTRG.16115.1	GO:0003677	DNA binding	molecular_function
+MSTRG.16115.1	GO:0003887	DNA-directed DNA polymerase activity	molecular_function
+MSTRG.16115.1	GO:0006261	DNA-templated DNA replication	biological_process
+MSTRG.16115.1	GO:0006281	DNA repair	biological_process
+MSTRG.16115.1	GO:0008408	3'-5' exonuclease activity	molecular_function
+MSTRG.15984.1	GO:0004015	adenosylmethionine-8-amino-7-oxononanoate transaminase activity	molecular_function
+MSTRG.15984.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.15984.1	GO:0009102	biotin biosynthetic process	biological_process
+MSTRG.15984.1	GO:0030170	pyridoxal phosphate binding	molecular_function
+MSTRG.16134.1	GO:0003677	DNA binding	molecular_function
+MSTRG.16134.1	GO:0003917	DNA topoisomerase type I (single strand cut, ATP-independent) activity	molecular_function
+MSTRG.16134.1	GO:0005694	chromosome	cellular_component
+MSTRG.16134.1	GO:0006265	DNA topological change	biological_process
+MSTRG.16134.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.16330.2	GO:0003960	NADPH:quinone reductase activity	molecular_function
+MSTRG.16330.2	GO:0005829	cytosol	cellular_component
+MSTRG.16330.2	GO:0008270	zinc ion binding	molecular_function
+MSTRG.16330.2	GO:0070402	NADPH binding	molecular_function
+MSTRG.14885.1	GO:0016787	hydrolase activity	molecular_function
+MSTRG.14885.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.3310.1	GO:0005524	ATP binding	molecular_function
+MSTRG.3310.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.3310.1	GO:0015444	P-type magnesium transporter activity	molecular_function
+MSTRG.3310.1	GO:0016887	ATP hydrolysis activity	molecular_function
+MSTRG.3310.1	GO:0046872	metal ion binding	molecular_function
+MSTRG.15737.1	GO:0004851	uroporphyrin-III C-methyltransferase activity	molecular_function
+MSTRG.15737.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.15737.1	GO:0019354	siroheme biosynthetic process	biological_process
+MSTRG.15737.1	GO:0070677	rRNA (cytosine-2'-O-)-methyltransferase activity	molecular_function
+MSTRG.15737.2	GO:0004851	uroporphyrin-III C-methyltransferase activity	molecular_function
+MSTRG.15737.2	GO:0005737	cytoplasm	cellular_component
+MSTRG.15737.2	GO:0019354	siroheme biosynthetic process	biological_process
+MSTRG.15737.2	GO:0070677	rRNA (cytosine-2'-O-)-methyltransferase activity	molecular_function
+MSTRG.14671.1	GO:0005524	ATP binding	molecular_function
+MSTRG.14671.1	GO:0006298	mismatch repair	biological_process
+MSTRG.14671.1	GO:0016887	ATP hydrolysis activity	molecular_function
+MSTRG.14671.1	GO:0030983	mismatched DNA binding	molecular_function
+MSTRG.14671.1	GO:0032300	mismatch repair complex	cellular_component
+MSTRG.14671.1	GO:0140664	ATP-dependent DNA damage sensor activity	molecular_function
+MSTRG.15740.1	GO:0005524	ATP binding	molecular_function
+MSTRG.14721.3	GO:0004124	cysteine synthase activity	molecular_function
+MSTRG.16200.1	GO:0000287	magnesium ion binding	molecular_function
+MSTRG.16200.1	GO:0008661	1-deoxy-D-xylulose-5-phosphate synthase activity	molecular_function
+MSTRG.16200.1	GO:0009228	thiamine biosynthetic process	biological_process
+MSTRG.16200.1	GO:0016114	terpenoid biosynthetic process	biological_process
+MSTRG.16200.1	GO:0030976	thiamine pyrophosphate binding	molecular_function
+MSTRG.16200.1	GO:0052865	1-deoxy-D-xylulose 5-phosphate biosynthetic process	biological_process
+MSTRG.10614.1	GO:0002098	tRNA wobble uridine modification	biological_process
+MSTRG.10614.1	GO:0005737	cytoplasm	cellular_component
+MSTRG.10614.1	GO:0050660	flavin adenine dinucleotide binding	molecular_function
+MSTRG.4118.1	GO:0005886	plasma membrane	cellular_component
+MSTRG.15010.1	GO:0003735	structural constituent of ribosome	molecular_function
+MSTRG.15010.1	GO:0005840	ribosome	cellular_component
+MSTRG.15010.1	GO:0006412	translation	biological_process
+MSTRG.15010.1	GO:1990904	ribonucleoprotein complex	cellular_component

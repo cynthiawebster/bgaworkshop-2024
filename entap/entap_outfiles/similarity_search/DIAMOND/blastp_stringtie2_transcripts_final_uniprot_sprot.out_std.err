@@ -1,0 +1,141 @@
+diamond v2.1.8.162 (C) Max Planck Society for the Advancement of Science, Benjamin Buchfink, University of Tuebingen
+Documentation, support and updates available at http://www.diamondsearch.org
+Please cite: http://dx.doi.org/10.1038/s41592-021-01101-x Nature Methods (2021)
+
+#CPU threads: 1
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: entap_outfiles/similarity_search/DIAMOND
+#Target sequences to report alignments for: 3
+Opening the database...  [0.449s]
+Database: /isg/shared/databases/Diamond/Uniprot/uniprot_sprot.fa.2.0.6.dmnd (type: Diamond database, sequences: 565254, letters: 203850821)
+Block size = 400000000
+Opening the input file...  [0.007s]
+Opening the output file...  [0.073s]
+Loading query sequences...  [0.032s]
+Masking queries...  [0.464s]
+Algorithm: Double-indexed
+Building query histograms...  [0.925s]
+Seeking in database...  [0s]
+Loading reference sequences...  [0.841s]
+Masking reference...  [9.479s]
+Initializing temporary storage...  [0.73s]
+Building reference histograms...  [18.604s]
+Allocating buffers...  [0s]
+Processing query block 1, reference block 1/1, shape 1/14.
+Building reference seed array...  [3.075s]
+Building query seed array...  [0.152s]
+Computing hash join...  [1.668s]
+Masking low complexity seeds...  [0.181s]
+Searching alignments...  [18.057s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 2/14.
+Building reference seed array...  [3.063s]
+Building query seed array...  [0.149s]
+Computing hash join...  [1.75s]
+Masking low complexity seeds...  [0.173s]
+Searching alignments...  [18.256s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 3/14.
+Building reference seed array...  [3.037s]
+Building query seed array...  [0.145s]
+Computing hash join...  [1.631s]
+Masking low complexity seeds...  [0.166s]
+Searching alignments...  [18.676s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 4/14.
+Building reference seed array...  [3.048s]
+Building query seed array...  [0.149s]
+Computing hash join...  [1.741s]
+Masking low complexity seeds...  [0.164s]
+Searching alignments...  [18.065s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 5/14.
+Building reference seed array...  [3.051s]
+Building query seed array...  [0.144s]
+Computing hash join...  [1.622s]
+Masking low complexity seeds...  [0.17s]
+Searching alignments...  [17.671s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 6/14.
+Building reference seed array...  [3.017s]
+Building query seed array...  [0.149s]
+Computing hash join...  [1.752s]
+Masking low complexity seeds...  [0.173s]
+Searching alignments...  [17.231s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 7/14.
+Building reference seed array...  [3.052s]
+Building query seed array...  [0.145s]
+Computing hash join...  [1.62s]
+Masking low complexity seeds...  [0.165s]
+Searching alignments...  [17.366s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 8/14.
+Building reference seed array...  [3.101s]
+Building query seed array...  [0.148s]
+Computing hash join...  [1.626s]
+Masking low complexity seeds...  [0.191s]
+Searching alignments...  [17.399s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 9/14.
+Building reference seed array...  [2.991s]
+Building query seed array...  [0.15s]
+Computing hash join...  [1.734s]
+Masking low complexity seeds...  [0.169s]
+Searching alignments...  [16.999s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 10/14.
+Building reference seed array...  [3.051s]
+Building query seed array...  [0.148s]
+Computing hash join...  [1.626s]
+Masking low complexity seeds...  [0.167s]
+Searching alignments...  [17.388s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 11/14.
+Building reference seed array...  [3.003s]
+Building query seed array...  [0.143s]
+Computing hash join...  [1.612s]
+Masking low complexity seeds...  [0.173s]
+Searching alignments...  [17.085s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 12/14.
+Building reference seed array...  [2.961s]
+Building query seed array...  [0.147s]
+Computing hash join...  [1.722s]
+Masking low complexity seeds...  [0.168s]
+Searching alignments...  [16.588s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 13/14.
+Building reference seed array...  [3.028s]
+Building query seed array...  [0.144s]
+Computing hash join...  [1.616s]
+Masking low complexity seeds...  [0.164s]
+Searching alignments...  [16.71s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 14/14.
+Building reference seed array...  [2.979s]
+Building query seed array...  [0.143s]
+Computing hash join...  [1.598s]
+Masking low complexity seeds...  [0.171s]
+Searching alignments...  [16.607s]
+Deallocating memory...  [0s]
+Deallocating buffers...  [0.1s]
+Clearing query masking...  [0s]
+Computing alignments... Loading trace points...  [1.574s]
+Sorting trace points...  [1.877s]
+Computing alignments...  [120.982s]
+Deallocating buffers...  [0.033s]
+Loading trace points...  [0s]
+ [129.178s]
+Deallocating reference...  [0.008s]
+Loading reference sequences...  [0s]
+Deallocating buffers...  [0s]
+Deallocating queries...  [0s]
+Loading query sequences...  [0.001s]
+Closing the input file...  [0s]
+Closing the output file...  [0.048s]
+Closing the database...  [0.002s]
+Cleaning up...  [0s]
+Total time = 475.383s
+Reported 46110 pairwise alignments, 46110 HSPs.
+16957 queries aligned.
