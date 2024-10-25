@@ -1,0 +1,9 @@
+######## Genome ########
+56.07 % of jcinerea_folded.fasta is masked
+Number of scaffolds: 16
+Number of contigs: 303
+Total length: 539433174
+Percent gaps: 0.005%
+Scaffold N50: 34 MB
+Contigs N50: 3 MB
+BUSCO (embryophyta_odb10): C:98.7%[S:90.0%,D:8.7%],F:1.0%,M:0.3%,n:1614,E:3.0%	   

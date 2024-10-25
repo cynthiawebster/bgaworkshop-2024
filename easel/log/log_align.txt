@@ -1,0 +1,9 @@
+
+##### Alignment Rates #####
+Passed:
+library rate
+SRR6134108 92.00
+
+Failed:
+None.
+All libraries have a mapping rate greater than 85%

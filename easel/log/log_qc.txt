@@ -1,0 +1,9 @@
+ 
+##### RNA Reads #####
+Passed:
+library total_bases read_mean_length gc_content
+SRR6134108 42901952 99 0.459747
+
+Failed:
+None.
+All libraries have more than 15000000 total bases and a mean read length greater than 70

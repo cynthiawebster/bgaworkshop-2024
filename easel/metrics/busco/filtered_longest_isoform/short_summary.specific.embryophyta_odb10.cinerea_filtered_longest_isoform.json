@@ -1,0 +1,66 @@
+{
+    "parameters": {
+        "out_path": "/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/78/770c4a3e6446e8e16d5a3374ba6dac",
+        "cpu": "8",
+        "force": "False",
+        "restart": "False",
+        "quiet": "False",
+        "download_path": "/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/78/770c4a3e6446e8e16d5a3374ba6dac/busco_downloads",
+        "datasets_version": "odb10",
+        "offline": "False",
+        "download_base_url": "https://busco-data.ezlab.org/v5/data/",
+        "auto-lineage": "False",
+        "auto-lineage-prok": "False",
+        "auto-lineage-euk": "False",
+        "use_augustus": "False",
+        "use_miniprot": "False",
+        "use_metaeuk": "False",
+        "skip_bbtools": "False",
+        "batch_mode": "False",
+        "tar": "False",
+        "opt-out-run-stats": "False",
+        "in": "/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/78/770c4a3e6446e8e16d5a3374ba6dac/cinerea_filtered_longest_isoform.pep",
+        "out": "cinerea_filtered_longest_isoform",
+        "mode": "proteins",
+        "lineage_dataset": "/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/78/770c4a3e6446e8e16d5a3374ba6dac/busco_downloads/lineages/embryophyta_odb10",
+        "main_out": "/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/78/770c4a3e6446e8e16d5a3374ba6dac/cinerea_filtered_longest_isoform",
+        "lineage_results_dir": "run_embryophyta_odb10",
+        "domain": "eukaryota",
+        "orthodb_version": "10.1"
+    },
+    "lineage_dataset": {
+        "name": "embryophyta_odb10",
+        "creation_date": "2024-01-08",
+        "number_of_buscos": "1614",
+        "number_of_species": "50"
+    },
+    "versions": {
+        "hmmsearch": 3.1,
+        "python": [
+            3,
+            7,
+            12,
+            "final",
+            0
+        ],
+        "busco": "5.7.0"
+    },
+    "results": {
+        "one_line_summary": "C:90.7%[S:83.4%,D:7.3%],F:2.7%,M:6.6%,n:1614",
+        "Complete percentage": 90.7,
+        "Complete BUSCOs": 1464,
+        "Single copy percentage": 83.4,
+        "Single copy BUSCOs": 1346,
+        "Multi copy percentage": 7.3,
+        "Multi copy BUSCOs": 118,
+        "Fragmented percentage": 2.7,
+        "Fragmented BUSCOs": 43,
+        "Missing percentage": 6.6,
+        "Missing BUSCOs": 107,
+        "n_markers": 1614,
+        "avg_identity": null,
+        "domain": "eukaryota",
+        "internal_stop_codon_count": 0,
+        "internal_stop_codon_percent": 0
+    }
+}

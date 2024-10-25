@@ -1,0 +1,8 @@
+[M::mp_ntseq_read@0.962*1.00] read 539433174 bases in 16 contigs
+[M::mp_idx_build@0.962*1.00] 4214340 blocks
+[M::mp_idx_build@3.667*5.62] collected syncmers
+[M::mp_idx_build@5.695*3.97] 226939465 kmer-block pairs
+[M::mp_idx_print_stat] 2346324 distinct k-mers; mean occ of infrequent k-mers: 96.67; 5 frequent k-mers accounting for 127429 occurrences
+[M::main] Version: 0.13-r248
+[M::main] CMD: miniprot -t 8 -d /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/55/0f18fb71ea7a74ec4c601a201ec222/genome/run_embryophyta_odb10/miniprot_output/ref.mpi /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/55/0f18fb71ea7a74ec4c601a201ec222/jcinerea_folded.fasta
+[M::main] Real time: 11.422 sec; CPU: 23.371 sec; Peak RSS: 5.273 GB

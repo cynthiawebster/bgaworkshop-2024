@@ -1,0 +1,19 @@
+# BUSCO version is: 5.7.0 
+# The lineage dataset is: embryophyta_odb10 (Creation date: 2024-01-08, number of genomes: 50, number of BUSCOs: 1614)
+# Summarized benchmarking in BUSCO notation for file /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/73/a29dd41bcbd00582ba1cd92f60979f/cinerea_filtered.pep
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:92.9%[S:43.5%,D:49.4%],F:1.4%,M:5.7%,n:1614	   
+	1500	Complete BUSCOs (C)			   
+	702	Complete and single-copy BUSCOs (S)	   
+	798	Complete and duplicated BUSCOs (D)	   
+	23	Fragmented BUSCOs (F)			   
+	91	Missing BUSCOs (M)			   
+	1614	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	python: sys.version_info(major=3, minor=7, micro=12, releaselevel='final', serial=0)
+	busco: 5.7.0

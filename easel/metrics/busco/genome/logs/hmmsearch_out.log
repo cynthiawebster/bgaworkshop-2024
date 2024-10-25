@@ -1,0 +1,210 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/55/0f18fb71ea7a74ec4c601a201ec222/busco_downloads/lineages/embryophyta_odb10/hmms/95114at3193.hmm
+# target sequence database:        /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/55/0f18fb71ea7a74ec4c601a201ec222/genome/run_embryophyta_odb10/miniprot_output/translated_proteins/95114at3193.faa
+# per-dom hits tabular output:     /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/55/0f18fb71ea7a74ec4c601a201ec222/genome/run_embryophyta_odb10/hmmer_output/95114at3193.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       95114at3193  [M=342]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                            -----------
+   1.9e-167  544.8   0.0   1.6e-166  541.8   0.0    2.0  1  95114at3193_51240_0:000882|Chr10:8543258-8546885|-   <unknown description>
+   6.2e-166  539.9   0.0   5.1e-165  536.9   0.0    2.0  1  95114at3193_2711_0:004de7|Chr10:8541551-8546885|-    <unknown description>
+   2.8e-114  370.0   0.2   3.5e-113  366.4   0.2    2.1  1  95114at3193_63459_0:0043b7|Chr10:8543258-8544956|-   <unknown description>
+    7.8e-87  279.8   0.2    1.2e-85  275.9   0.2    2.1  1  95114at3193_981085_0:00164b|Chr10:8543258-8543951|-  <unknown description>
+    1.7e-78  252.4   0.0      2e-78  252.1   0.0    1.0  1  95114at3193_981085_0:00164a|Chr10:8544800-8546885|-  <unknown description>
+
+
+Domain annotation for each sequence (and alignments):
+>> 95114at3193_51240_0:000882|Chr10:8543258-8546885|-  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  541.8   0.0  1.6e-166  1.6e-166       2     342 .]      21     425 .]      20     425 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 541.8 bits;  conditional E-value: 1.6e-166
+                                         95114at3193   2 rlstdeGdWsysseWWg....getvfrsts.kGngvvsvvaypssrp......etekwl 49 
+                                                         r + deGdWsysseWWg    g+tvfrs+s kGngvvsvvaypss+p      e+e+wl
+  95114at3193_51240_0:000882|Chr10:8543258-8546885|-  21 RRIEDEGDWSYSSEWWGadsdGHTVFRSISdKGNGVVSVVAYPSSQPsdlhwpEMERWL 79 
+                                                         6678************7444479*****9868*************9633333379**** PP
+
+                                         95114at3193  50 qkryaeiap.......fkilGyqWrvlrfndetrqstvkvmaayr...pesvllmqqph 98 
+                                                         q+r+ e+ p       f+ilGyqWr+lrfnd+trqst+kvmaayr   p+sv+lmqqph
+  95114at3193_51240_0:000882|Chr10:8543258-8546885|-  80 QRRQLEVLPvcerggrFRILGYQWRALRFNDDTRQSTAKVMAAYResePGSVCLMQQPH 138
+                                                         ****9998655556669***************************8444579******** PP
+
+                                         95114at3193  99 clavpyvksmvsaGlatlasskydl.esavkgkkkmkilciGhGGGslPlflaskikGa 156
+                                                         clavpy+ksm+saGlat+as++yd+ e+av+gkk+m+ilciGhGGGslPlflaskikGa
+  95114at3193_51240_0:000882|Chr10:8543258-8546885|- 139 CLAVPYLKSMLSAGLATIASCSYDIiEKAVHGKKTMNILCIGHGGGSLPLFLASKIKGA 197
+                                                         ************************7358******************************* PP
+
+                                         95114at3193 157 vvdiveidpvvisasvqamgfPalsvsgkr..........adevlWkgiherlllyesd 205
+                                                          +++veidp+visas++amgfPa+sv +++           devlWkgihe+l+lyesd
+  95114at3193_51240_0:000882|Chr10:8543258-8546885|- 198 LIHVVEIDPLVISASIKAMGFPAFSVMTQSgqrvfskpnaIDEVLWKGIHEKLYLYESD 256
+                                                         *************************97643112222222269***************** PP
+
+                                         95114at3193 206 aeefvl..enlydlvfidaydGddifprklwdsdsaflkalekrlhpehGtvvvnlhsd 262
+                                                         ae+f+l  +nlyd++fidaydGddifprklwd++s+flkal+++lhpehGtvvvnlhsd
+  95114at3193_51240_0:000882|Chr10:8543258-8546885|- 257 AENFLLdnNNLYDMIFIDAYDGDDIFPRKLWDPNSPFLKALSNQLHPEHGTVVVNLHSD 315
+                                                         *****833579************************************************ PP
+
+                                         95114at3193 263 sd..............vlpmgkyvskvcraykdvllg.......laftvsvpwlcnvsl 300
+                                                         s+              +lpmgkyvs+++raykdvl+g        +ftvsvpw+cn+sl
+  95114at3193_51240_0:000882|Chr10:8543258-8546885|- 316 SEllnpdgsvpsvleqILPMGKYVSRIARAYKDVLVGtgkegsgWGFTVSVPWVCNTSL 374
+                                                         9733333333333333579****************96222222258************* PP
+
+                                         95114at3193 301 vvsrg.........rdlvletllskslevekvldlpfscleyikrgftlvd 342
+                                                         vv+rg         rd++++t++sksleve++ldlpfscl+yikrg++l+d
+  95114at3193_51240_0:000882|Chr10:8543258-8546885|- 375 VVCRGlqksgghlnRDFFMNTIISKSLEVENLLDLPFSCLQYIKRGLVLID 425
+                                                         ****666666666699*******************************9986 PP
+
+>> 95114at3193_2711_0:004de7|Chr10:8541551-8546885|-  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  536.9   0.0  5.1e-165  5.1e-165       2     338 ..      21     421 ..      20     423 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 536.9 bits;  conditional E-value: 5.1e-165
+                                        95114at3193   2 rlstdeGdWsysseWWg....getvfrsts.kGngvvsvvaypssrp......etekwlq 50 
+                                                        r + deGdWsysseWWg    g+tvfrs+s kGngvvsvvaypss+p      e+e+wlq
+  95114at3193_2711_0:004de7|Chr10:8541551-8546885|-  21 RRIEDEGDWSYSSEWWGadsdGHTVFRSISdKGNGVVSVVAYPSSQPsdlhwpEMERWLQ 80 
+                                                        6678************7444479*****9868*************9633333379***** PP
+
+                                        95114at3193  51 kryaeiap.......fkilGyqWrvlrfndetrqstvkvmaayr...pesvllmqqphcl 100
+                                                        +r+ e+ p       f+ilGyqWr+lrfnd+trqst+kvmaayr   p+sv+lmqqphcl
+  95114at3193_2711_0:004de7|Chr10:8541551-8546885|-  81 RRQLEVLPvcerggrFRILGYQWRALRFNDDTRQSTAKVMAAYResePGSVCLMQQPHCL 140
+                                                        ***9998655556669***************************8444579********** PP
+
+                                        95114at3193 101 avpyvksmvsaGlatlasskydl.esavkgkkkmkilciGhGGGslPlflaskikGavvd 159
+                                                        avpy+ksm+saGlat+as++yd+ e+av+gkk+m+ilciGhGGGslPlflaskikGa ++
+  95114at3193_2711_0:004de7|Chr10:8541551-8546885|- 141 AVPYLKSMLSAGLATIASCSYDIiEKAVHGKKTMNILCIGHGGGSLPLFLASKIKGALIH 200
+                                                        **********************7358********************************** PP
+
+                                        95114at3193 160 iveidpvvisasvqamgfPalsvsgkr..........adevlWkgiherlllyesdaeef 209
+                                                        +veidp+visas++amgfPa+sv +++           devlWkgihe+l+lyesdae+f
+  95114at3193_2711_0:004de7|Chr10:8541551-8546885|- 201 VVEIDPLVISASIKAMGFPAFSVMTQSgqrvfskpnaIDEVLWKGIHEKLYLYESDAENF 260
+                                                        **********************97643112222222269********************* PP
+
+                                        95114at3193 210 vl..enlydlvfidaydGddifprklwdsdsaflkalekrlhpehGtvvvnlhsdsd... 264
+                                                        +l  +nlyd++fidaydGddifprklwd++s+flkal+++lhpehGtvvvnlhsds+   
+  95114at3193_2711_0:004de7|Chr10:8541551-8546885|- 261 LLdnNNLYDMIFIDAYDGDDIFPRKLWDPNSPFLKALSNQLHPEHGTVVVNLHSDSElln 320
+                                                        *833579************************************************97333 PP
+
+                                        95114at3193 265 ...........vlpmgkyvskvcraykdvllg.......laftvsvpwlcnvslvvsrg. 305
+                                                                   +lpmgkyvs+++raykdvl+g        +ftvsvpw+cn+slvv+rg 
+  95114at3193_2711_0:004de7|Chr10:8541551-8546885|- 321 pdgsvpsvleqILPMGKYVSRIARAYKDVLVGtgkegsgWGFTVSVPWVCNTSLVVCRGl 380
+                                                        33333333333579****************96222222258*****************66 PP
+
+                                        95114at3193 306 ........rdlvletllskslevekvldlpfscleyikrgf 338
+                                                                rd++++t++sksleve++ldlpfscl+yikrg+
+  95114at3193_2711_0:004de7|Chr10:8541551-8546885|- 381 qksgghlnRDFFMNTIISKSLEVENLLDLPFSCLQYIKRGL 421
+                                                        6666666699*****************************97 PP
+
+>> 95114at3193_63459_0:0043b7|Chr10:8543258-8544956|-  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  366.4   0.2  3.5e-113  3.5e-113     108     342 .]       1     278 []       1     278 [] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 366.4 bits;  conditional E-value: 3.5e-113
+                                         95114at3193 108 mvsaGlatlasskydl.esavkgkkkmkilciGhGGGslPlflaskikGavvdiveidp 165
+                                                         m+saGlat+as++yd+ e+av+gkk+m+ilciGhGGGslPlflaskikGa +++veidp
+  95114at3193_63459_0:0043b7|Chr10:8543258-8544956|-   1 MLSAGLATIASCSYDIiEKAVHGKKTMNILCIGHGGGSLPLFLASKIKGALIHVVEIDP 59 
+                                                         89*************7358**************************************** PP
+
+                                         95114at3193 166 vvisasvqamgfPalsvsgkr..........adevlWkgiherlllyesdaeefvl..e 212
+                                                         +visas++amgfPa+sv +++           devlWkgihe+l+lyesdae+f+l  +
+  95114at3193_63459_0:0043b7|Chr10:8543258-8544956|-  60 LVISASIKAMGFPAFSVMTQSgqrvfskpnaIDEVLWKGIHEKLYLYESDAENFLLdnN 118
+                                                         ****************97643112222222269**********************8335 PP
+
+                                         95114at3193 213 nlydlvfidaydGddifprklwdsdsaflkalekrlhpehGtvvvnlhsdsd....... 264
+                                                         nlyd++fidaydGddifprklwd++s+flkal+++lhpehGtvvvnlhsds+       
+  95114at3193_63459_0:0043b7|Chr10:8543258-8544956|- 119 NLYDMIFIDAYDGDDIFPRKLWDPNSPFLKALSNQLHPEHGTVVVNLHSDSEllnpdgs 177
+                                                         79************************************************973333333 PP
+
+                                         95114at3193 265 .......vlpmgkyvskvcraykdvllg.......laftvsvpwlcnvslvvsrg.... 305
+                                                                +lpmgkyvs+++raykdvl+g        +ftvsvpw+cn+slvv+rg    
+  95114at3193_63459_0:0043b7|Chr10:8543258-8544956|- 178 vpsvleqILPMGKYVSRIARAYKDVLVGtgkegsgWGFTVSVPWVCNTSLVVCRGlqks 236
+                                                         3333333579****************96222222258*****************66666 PP
+
+                                         95114at3193 306 .....rdlvletllskslevekvldlpfscleyikrgftlvd 342
+                                                              rd++++t++sksleve++ldlpfscl+yikrg++l+d
+  95114at3193_63459_0:0043b7|Chr10:8543258-8544956|- 237 gghlnRDFFMNTIISKSLEVENLLDLPFSCLQYIKRGLVLID 278
+                                                         6666699*******************************9986 PP
+
+>> 95114at3193_981085_0:00164b|Chr10:8543258-8543951|-  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  275.9   0.2   1.2e-85   1.2e-85     155     342 .]       2     231 .]       1     231 [] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 275.9 bits;  conditional E-value: 1.2e-85
+                                          95114at3193 155 GavvdiveidpvvisasvqamgfPalsvsgkr..........adevlWkgiherllly 202
+                                                          Ga +++veidp+visas++amgfPa+sv +++           devlWkgihe+l+ly
+  95114at3193_981085_0:00164b|Chr10:8543258-8543951|-   2 GALIHVVEIDPLVISASIKAMGFPAFSVMTQSgqrvfskpnaIDEVLWKGIHEKLYLY 59 
+                                                          9**************************97643112222222269************** PP
+
+                                          95114at3193 203 esdaeefvl..enlydlvfidaydGddifprklwdsdsaflkalekrlhpehGtvvvn 258
+                                                          esdae+f+l  +nlyd++fidaydGddifprklwd++s+flkal+++lhpehGtvvvn
+  95114at3193_981085_0:00164b|Chr10:8543258-8543951|-  60 ESDAENFLLdnNNLYDMIFIDAYDGDDIFPRKLWDPNSPFLKALSNQLHPEHGTVVVN 117
+                                                          ********833579******************************************** PP
+
+                                          95114at3193 259 lhsdsd..............vlpmgkyvskvcraykdvllg.......laftvsvpwl 295
+                                                          lhsds+              +lpmgkyvs+++raykdvl+g        +ftvsvpw+
+  95114at3193_981085_0:00164b|Chr10:8543258-8543951|- 118 LHSDSEllnpdgsvpsvleqILPMGKYVSRIARAYKDVLVGtgkegsgWGFTVSVPWV 175
+                                                          ****9733333333333333579****************96222222258******** PP
+
+                                          95114at3193 296 cnvslvvsrg.........rdlvletllskslevekvldlpfscleyikrgftlvd 342
+                                                          cn+slvv+rg         rd++++t++sksleve++ldlpfscl+yikrg++l+d
+  95114at3193_981085_0:00164b|Chr10:8543258-8543951|- 176 CNTSLVVCRGlqksgghlnRDFFMNTIISKSLEVENLLDLPFSCLQYIKRGLVLID 231
+                                                          *********666666666699*******************************9986 PP
+
+>> 95114at3193_981085_0:00164a|Chr10:8544800-8546885|-  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  252.1   0.0     2e-78     2e-78       2     157 ..      21     198 ..      20     200 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 252.1 bits;  conditional E-value: 2e-78
+                                          95114at3193   2 rlstdeGdWsysseWWg....getvfrsts.kGngvvsvvaypssrp......etekw 48 
+                                                          r + deGdWsysseWWg    g+tvfrs+s kGngvvsvvaypss+p      e+e+w
+  95114at3193_981085_0:00164a|Chr10:8544800-8546885|-  21 RRIEDEGDWSYSSEWWGadsdGHTVFRSISdKGNGVVSVVAYPSSQPsdlhwpEMERW 78 
+                                                          6678************7444479*****9868*************9633333379*** PP
+
+                                          95114at3193  49 lqkryaeiap.......fkilGyqWrvlrfndetrqstvkvmaayr...pesvllmqq 96 
+                                                          lq+r+ e+ p       f+ilGyqWr+lrfnd+trqst+kvmaayr   p+sv+lmqq
+  95114at3193_981085_0:00164a|Chr10:8544800-8546885|-  79 LQRRQLEVLPvcerggrFRILGYQWRALRFNDDTRQSTAKVMAAYResePGSVCLMQQ 136
+                                                          *****9998655556669***************************8444579****** PP
+
+                                          95114at3193  97 phclavpyvksmvsaGlatlasskydl.esavkgkkkmkilciGhGGGslPlflaski 153
+                                                          phclavpy+ksm+saGlat+as++yd+ e+av+gkk+m+ilciGhGGGslPlflaski
+  95114at3193_981085_0:00164a|Chr10:8544800-8546885|- 137 PHCLAVPYLKSMLSAGLATIASCSYDIiEKAVHGKKTMNILCIGHGGGSLPLFLASKI 194
+                                                          **************************7358**************************** PP
+
+                                          95114at3193 154 kGav 157
+                                                          kG  
+  95114at3193_981085_0:00164a|Chr10:8544800-8546885|- 195 KGEN 198
+                                                          *965 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (342 nodes)
+Target sequences:                            5  (1645 residues searched)
+Passed MSV filter:                         5  (1); expected 0.1 (0.02)
+Passed bias filter:                        5  (1); expected 0.1 (0.02)
+Passed Vit filter:                         5  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         5  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  5  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 28.13
+//
+[ok]

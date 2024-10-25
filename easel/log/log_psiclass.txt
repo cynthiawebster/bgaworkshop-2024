@@ -1,0 +1,5 @@
+##### PsiCLASS #####
+Total number of genes: 20948
+Total number of transcripts: 28996
+Mono-exonic/multi-exonic rate: .22 
+BUSCO (embryophyta_odb10): C:88.6%[S:71.3%,D:17.3%],F:5.3%,M:6.1%,n:1614	   

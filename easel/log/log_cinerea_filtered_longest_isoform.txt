@@ -1,0 +1,5 @@
+##### Filtered (Longest Isoform)  #####
+Total number of genes: 23202
+EnTAP alignment rate: 98.0%
+Mono-exonic/multi-exonic ratio: .229 
+BUSCO (embryophyta_odb10): C:93.7%[S:86.3%,D:7.4%],F:2.5%,M:3.8%,n:1614	   

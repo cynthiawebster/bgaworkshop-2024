@@ -1,0 +1,1275 @@
+Wed Oct 23 13:27:47 2024: Start - EnTAP
+Wed Oct 23 13:27:47 2024: Printing user input...
+Wed Oct 23 13:27:47 2024: ------------------------------------------------------
+EnTAP Run Information - Execution
+------------------------------------------------------
+Current EnTAP Version: 1.4.0
+Start time: Wed Oct 23 13:27:47 2024
+
+Working directory has been set to: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered
+User Inputs:
+out-dir: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered
+config: false
+runP: true
+runN: false
+overwrite: false
+run-ini: entap_run.params
+entap-ini: entap_config.ini
+input: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/a8/a68a0891d7afddae402e1afeaa976d/cinerea_unfiltered.pep
+database: /isg/shared/databases/Diamond/RefSeq/plant.protein.faa.208.dmnd,
+graph: false
+no-trim: false
+threads: 16
+state: +
+no-check: false
+output-format: 1,3,4,7,
+api-taxon: 
+entap-db-bin: /core/labs/Wegrzyn/databases/entap/bin/entap_database.bin
+entap-db-sql: /usr/local/bin//databases/entap_database.db
+entap-graph: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/bin/entap_graphing.py
+data-generate: false
+data-type: 0,
+fpkm: 0.500000
+align: 
+single-end: false
+rsem-calculate-expression: rsem-calculate-expression
+rsem-sam-validator: rsem-sam-validator
+rsem-prepare-reference: rsem-prepare-reference
+convert-sam-for-rsem: convert-sam-for-rsem
+transdecoder-long-exe: /TransDecoder/TransDecoder.LongOrfs
+transdecoder-predict-exe: /TransDecoder/TransDecoder.Predict
+transdecoder-m: 100
+transdecoder-no-refine-starts: false
+diamond-exe: diamond
+taxon: juglans
+qcoverage: 70.000000
+tcoverage: 70.000000
+contam: 
+e-value: 0.000010
+uninformative: conserved,predicted,unknown,unnamed,hypothetical,putative,unidentified,uncharacterized,uncultured,uninformative,
+diamond-sensitivity: very-sensitive
+ontology_source: 0,
+eggnog-map-exe: emapper.py
+eggnog-map-data: /core/labs/Wegrzyn/databases/entap/databases
+eggnog-map-dmnd: /core/labs/Wegrzyn/databases/entap/bin/eggnog_proteins.dmnd
+eggnog-contaminant: false
+eggnog-dbmem: true
+eggnog-sensitivity: more-sensitive
+interproscan-exe: interproscan.sh
+interproscan-db: 
+hgt-donor: 
+hgt-recipient: 
+hgt-gff: 
+
+
+Wed Oct 23 13:27:47 2024: User has input a database at: /isg/shared/databases/Diamond/RefSeq/plant.protein.faa.208.dmnd
+Wed Oct 23 13:27:47 2024: Verifying EnTAP database...
+Wed Oct 23 13:27:47 2024: Reading serialized database from: /core/labs/Wegrzyn/databases/entap/bin/entap_database.bin
+ Of type: 2
+Wed Oct 23 13:28:52 2024: Success!
+Wed Oct 23 13:28:52 2024: Spawn Object - QueryData
+Wed Oct 23 13:28:52 2024: Generating transcriptome mappings...
+Wed Oct 23 13:28:52 2024: Transcriptome Lines - START
+Wed Oct 23 13:28:52 2024: >cinerea_mrna-2 gene=cinerea_gene-1 seq_id=Chr1 type=cds
+Wed Oct 23 13:28:52 2024: MEKLKSLVPDSLKRMVAESTPDSLPRTCSSLLNFFSDMELFHQMVRDLTDPERALCGKNK
+Wed Oct 23 13:28:52 2024: DAALELKQKGNQCFLNEDYGSALTCYSEVSTYLDGVLSSFFNYKGKLIGMKIPNPNPYYS
+Wed Oct 23 13:28:52 2024: RG*
+Wed Oct 23 13:28:52 2024: >cinerea_mrna-9 gene=cinerea_gene-1 seq_id=Chr1 type=cds
+Wed Oct 23 13:28:52 2024: MEKLKSLVPDSLKRMVAESTPDSLPRTCSSLLNFFSDMELFHQMVRDLTDPERALCGKNK
+Wed Oct 23 13:28:52 2024: DAALELKQKGNQCFLNEDYGSALTCYSEALRLAPVDVDVMDKNLVAALYVNRASVLHKLD
+Wed Oct 23 13:28:52 2024: LLMEGRRDCNRALQISPSYAKAWYRRGKMNASLGNFEDAVHDLNIAKNLELSFGGQRQIE
+Wed Oct 23 13:28:52 2024: SELRIITDMVERTESSLVQHKENELDLLDEPDQIKLKCVITPNKGRGMVAPSDIPPASLV
+Wed Oct 23 13:28:52 2024: Transcriptome Lines - END
+Wed Oct 23 13:28:53 2024: Success!
+Wed Oct 23 13:28:53 2024: Verifying input flag taxon
+Wed Oct 23 13:28:53 2024: Verified species: juglans
+Wed Oct 23 13:28:53 2024: Verifying input flag fpkm
+Wed Oct 23 13:28:53 2024: Verifying input flag qcoverage
+Wed Oct 23 13:28:53 2024: Verifying input flag tcoverage
+Wed Oct 23 13:28:53 2024: Verifying input flag ontology_source
+Wed Oct 23 13:28:53 2024: Verifying input flag level
+Wed Oct 23 13:28:53 2024: Verifying input flag frame-selection
+Wed Oct 23 13:28:53 2024: Verifying input flag transdecoder-m
+Wed Oct 23 13:28:53 2024: Determining if we want to run expression analysis
+Wed Oct 23 13:28:53 2024: NO, no alignment file specified from user
+Wed Oct 23 13:28:53 2024: Determining if we want to run frame selection...
+Wed Oct 23 13:28:53 2024: NO Protein sequences input AND runP, skipping frame selection
+Wed Oct 23 13:28:53 2024: Determining if we want to run horizontal gene transfer analysis...
+Wed Oct 23 13:28:53 2024:     No, INPUT_FLAG_HGT_DONOR_DATABASES not input
+Wed Oct 23 13:28:53 2024:     No, INPUT_FLAG_HGT_RECIPIENT_DATABASES not input
+Wed Oct 23 13:28:53 2024:     No, INPUT_FLAG_HGT_GFF not input
+Wed Oct 23 13:28:53 2024: Verifying software...
+Wed Oct 23 13:28:53 2024: Executing command: 
+diamond --version
+Wed Oct 23 13:28:53 2024: 
+Std Err:
+
+Wed Oct 23 13:28:53 2024: Verifying EggNOG-mapper inputs...
+Wed Oct 23 13:28:53 2024: Executing command: 
+emapper.py --version
+Wed Oct 23 13:28:55 2024: 
+Std Err:
+
+Wed Oct 23 13:28:55 2024: Success!
+Wed Oct 23 13:28:55 2024: Executing command: 
+diamond --version
+Wed Oct 23 13:28:55 2024: 
+Std Err:
+
+Wed Oct 23 13:28:55 2024: Success!
+Wed Oct 23 13:28:55 2024: Success! Input verified
+Wed Oct 23 13:28:55 2024: Killing Object - EntapDatabase
+Wed Oct 23 13:28:58 2024: Killing Object - QueryData
+Wed Oct 23 13:28:58 2024: QuerySequence data freed
+Wed Oct 23 13:28:58 2024: EnTAP Executing...
+Wed Oct 23 13:28:58 2024: verifying state...
+Wed Oct 23 13:28:58 2024: verifying state...
+Wed Oct 23 13:28:58 2024: Success!
+Wed Oct 23 13:28:58 2024: Spawn Object - QueryData
+Wed Oct 23 13:28:58 2024: Generating transcriptome mappings...
+Wed Oct 23 13:28:58 2024: Transcriptome Lines - START
+Wed Oct 23 13:28:58 2024: >cinerea_mrna-2 gene=cinerea_gene-1 seq_id=Chr1 type=cds
+Wed Oct 23 13:28:58 2024: MEKLKSLVPDSLKRMVAESTPDSLPRTCSSLLNFFSDMELFHQMVRDLTDPERALCGKNK
+Wed Oct 23 13:28:58 2024: DAALELKQKGNQCFLNEDYGSALTCYSEVSTYLDGVLSSFFNYKGKLIGMKIPNPNPYYS
+Wed Oct 23 13:28:58 2024: RG*
+Wed Oct 23 13:28:58 2024: >cinerea_mrna-9 gene=cinerea_gene-1 seq_id=Chr1 type=cds
+Wed Oct 23 13:28:58 2024: MEKLKSLVPDSLKRMVAESTPDSLPRTCSSLLNFFSDMELFHQMVRDLTDPERALCGKNK
+Wed Oct 23 13:28:58 2024: DAALELKQKGNQCFLNEDYGSALTCYSEALRLAPVDVDVMDKNLVAALYVNRASVLHKLD
+Wed Oct 23 13:28:58 2024: LLMEGRRDCNRALQISPSYAKAWYRRGKMNASLGNFEDAVHDLNIAKNLELSFGGQRQIE
+Wed Oct 23 13:28:58 2024: SELRIITDMVERTESSLVQHKENELDLLDEPDQIKLKCVITPNKGRGMVAPSDIPPASLV
+Wed Oct 23 13:28:58 2024: Transcriptome Lines - END
+Wed Oct 23 13:29:00 2024: Success!
+Wed Oct 23 13:29:00 2024: Determining if we want to run horizontal gene transfer analysis...
+Wed Oct 23 13:29:00 2024:     No, INPUT_FLAG_HGT_DONOR_DATABASES not input
+Wed Oct 23 13:29:00 2024:     No, INPUT_FLAG_HGT_RECIPIENT_DATABASES not input
+Wed Oct 23 13:29:00 2024:     No, INPUT_FLAG_HGT_GFF not input
+Wed Oct 23 13:29:00 2024: Spawn Object - GraphingManager
+Wed Oct 23 13:29:00 2024: Executing command: 
+python /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/bin/entap_graphing.py -g -1
+Wed Oct 23 13:29:00 2024: 
+Std Err:
+
+Wed Oct 23 13:29:00 2024: Graphing is NOT supported
+Wed Oct 23 13:29:00 2024: Reading serialized database from: /core/labs/Wegrzyn/databases/entap/bin/entap_database.bin
+ Of type: 2
+Wed Oct 23 13:29:12 2024: STATE - EXPRESSION FILTERING
+Wed Oct 23 13:29:12 2024: Determining if we want to run expression analysis
+Wed Oct 23 13:29:12 2024: NO, no alignment file specified from user
+Wed Oct 23 13:29:12 2024: No alignment file specified, skipping expression analysis
+Wed Oct 23 13:29:12 2024: verifying state...
+Wed Oct 23 13:29:12 2024: STATE - FRAME SELECTION
+Wed Oct 23 13:29:12 2024: Determining if we want to run frame selection...
+Wed Oct 23 13:29:12 2024: NO Protein sequences input AND runP, skipping frame selection
+Wed Oct 23 13:29:12 2024: verifying state...
+Wed Oct 23 13:29:12 2024: Beginning to copy final transcriptome to be used...
+Wed Oct 23 13:29:13 2024: FINAL transcriptome generated to: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/transcriptomes//cinerea_unfiltered_final.fasta
+Wed Oct 23 13:29:13 2024: verifying state...
+Wed Oct 23 13:29:13 2024: STATE - SIMILARITY SEARCH
+Wed Oct 23 13:29:13 2024: Spawn Object - SimilaritySearch
+Wed Oct 23 13:29:13 2024: opendir: Path could not be read: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/processed/
+Wed Oct 23 13:29:13 2024: opendir: Path could not be read: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/overall_results
+Wed Oct 23 13:29:13 2024: Spawn Object - ModDiamond: DIAMOND
+Wed Oct 23 13:29:13 2024: Verifying previous execution of database: /isg/shared/databases/Diamond/RefSeq/plant.protein.faa.208.dmnd...
+Wed Oct 23 13:29:13 2024: File for database plant does not exist.
+/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/blastp_cinerea_unfiltered_final_plant.out
+Wed Oct 23 13:29:13 2024: Success! Verified files for DIAMOND, continuing...
+Wed Oct 23 13:29:13 2024: Executing DIAMOND for necessary files....
+Wed Oct 23 13:29:13 2024: File not found, executing against database at: /isg/shared/databases/Diamond/RefSeq/plant.protein.faa.208.dmnd
+Wed Oct 23 13:29:13 2024: Executing command: 
+diamond blastp -p 16 -o /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/blastp_cinerea_unfiltered_final_plant.out --very-sensitive --max-target-seqs 3 --evalue 0.000010 -f 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp stitle --subject-cover 70.000000 --query-cover 70.000000 -q /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/transcriptomes//cinerea_unfiltered_final.fasta -d /isg/shared/databases/Diamond/RefSeq/plant.protein.faa.208.dmnd 
+Wed Oct 23 14:00:32 2024: 
+Std Err:
+diamond v2.1.8.162 (C) Max Planck Society for the Advancement of Science, Benjamin Buchfink, University of Tuebingen
+Documentation, support and updates available at http://www.diamondsearch.org
+Please cite: http://dx.doi.org/10.1038/s41592-021-01101-x Nature Methods (2021)
+
+#CPU threads: 16
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND
+#Target sequences to report alignments for: 3
+Opening the database...  [0.089s]
+Database: /isg/shared/databases/Diamond/RefSeq/plant.protein.faa.208.dmnd (type: Diamond database, sequences: 6648853, letters: 2964085026)
+Block size = 400000000
+Opening the input file...  [0.027s]
+Opening the output file...  [0.002s]
+Loading query sequences...  [0.084s]
+Masking queries...  [0.09s]
+Building query seed set...  [22.075s]
+Algorithm: Query-indexed
+Building query histograms...  [0.581s]
+Seeking in database...  [0s]
+Loading reference sequences...  [0.706s]
+Initializing dictionary...  [0.114s]
+Initializing temporary storage...  [0.645s]
+Building reference histograms...  [3.6s]
+Allocating buffers...  [0.001s]
+Processing query block 1, reference block 1/8, shape 1/14.
+Building reference seed array...  [0.5s]
+Building query seed array...  [0.053s]
+Computing hash join...  [0.193s]
+Searching alignments...  [8.248s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/8, shape 2/14.
+Building reference seed array...  [0.451s]
+Building query seed array...  [0.05s]
+Computing hash join...  [0.189s]
+Searching alignments...  [9.239s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/8, shape 3/14.
+Building reference seed array...  [0.441s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.189s]
+Searching alignments...  [9.387s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/8, shape 4/14.
+Building reference seed array...  [0.44s]
+Building query seed array...  [0.054s]
+Computing hash join...  [0.182s]
+Searching alignments...  [9.006s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/8, shape 5/14.
+Building reference seed array...  [0.479s]
+Building query seed array...  [0.049s]
+Computing hash join...  [0.194s]
+Searching alignments...  [8.754s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/8, shape 6/14.
+Building reference seed array...  [0.435s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.176s]
+Searching alignments...  [8.304s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/8, shape 7/14.
+Building reference seed array...  [0.44s]
+Building query seed array...  [0.049s]
+Computing hash join...  [0.176s]
+Searching alignments...  [9.131s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/8, shape 8/14.
+Building reference seed array...  [0.488s]
+Building query seed array...  [0.051s]
+Computing hash join...  [0.198s]
+Searching alignments...  [8.921s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/8, shape 9/14.
+Building reference seed array...  [0.462s]
+Building query seed array...  [0.051s]
+Computing hash join...  [0.2s]
+Searching alignments...  [8.574s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/8, shape 10/14.
+Building reference seed array...  [0.478s]
+Building query seed array...  [0.054s]
+Computing hash join...  [0.197s]
+Searching alignments...  [9.615s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/8, shape 11/14.
+Building reference seed array...  [0.477s]
+Building query seed array...  [0.051s]
+Computing hash join...  [0.197s]
+Searching alignments...  [8.109s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/8, shape 12/14.
+Building reference seed array...  [0.425s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.185s]
+Searching alignments...  [8.045s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/8, shape 13/14.
+Building reference seed array...  [0.465s]
+Building query seed array...  [0.048s]
+Computing hash join...  [0.177s]
+Searching alignments...  [8.183s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/8, shape 14/14.
+Building reference seed array...  [0.45s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.184s]
+Searching alignments...  [8.025s]
+Deallocating memory...  [0s]
+Deallocating buffers...  [0.234s]
+Clearing query masking...  [0.003s]
+Opening temporary output file...  [0.019s]
+Computing alignments... Loading trace points...  [10.367s]
+Sorting trace points...  [1.191s]
+Computing alignments...  [48.08s]
+Deallocating buffers...  [0.258s]
+Loading trace points...  [0.031s]
+Sorting trace points...  [0.864s]
+Computing alignments...  [33.132s]
+Deallocating buffers...  [0.157s]
+Loading trace points...  [0s]
+Sorting trace points...  [0.454s]
+Computing alignments...  [24.678s]
+Deallocating buffers...  [0.108s]
+Loading trace points...  [0s]
+ [119.487s]
+Deallocating reference...  [0.013s]
+Loading reference sequences...  [0.689s]
+Initializing dictionary...  [0s]
+Initializing temporary storage...  [0.262s]
+Building reference histograms...  [3.515s]
+Allocating buffers...  [0.001s]
+Processing query block 1, reference block 2/8, shape 1/14.
+Building reference seed array...  [0.496s]
+Building query seed array...  [0.053s]
+Computing hash join...  [0.187s]
+Searching alignments...  [8.1s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 2/8, shape 2/14.
+Building reference seed array...  [0.459s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.189s]
+Searching alignments...  [9.205s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 2/8, shape 3/14.
+Building reference seed array...  [0.432s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.184s]
+Searching alignments...  [9.101s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 2/8, shape 4/14.
+Building reference seed array...  [0.437s]
+Building query seed array...  [0.051s]
+Computing hash join...  [0.186s]
+Searching alignments...  [8.68s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 2/8, shape 5/14.
+Building reference seed array...  [0.449s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.177s]
+Searching alignments...  [8.347s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 2/8, shape 6/14.
+Building reference seed array...  [0.433s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.19s]
+Searching alignments...  [8.73s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 2/8, shape 7/14.
+Building reference seed array...  [0.458s]
+Building query seed array...  [0.055s]
+Computing hash join...  [0.194s]
+Searching alignments...  [9.277s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 2/8, shape 8/14.
+Building reference seed array...  [0.471s]
+Building query seed array...  [0.05s]
+Computing hash join...  [0.194s]
+Searching alignments...  [8.775s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 2/8, shape 9/14.
+Building reference seed array...  [0.443s]
+Building query seed array...  [0.052s]
+Computing hash join...  [0.194s]
+Searching alignments...  [8.305s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 2/8, shape 10/14.
+Building reference seed array...  [0.439s]
+Building query seed array...  [0.049s]
+Computing hash join...  [0.178s]
+Searching alignments...  [8.891s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 2/8, shape 11/14.
+Building reference seed array...  [0.448s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.185s]
+Searching alignments...  [8.066s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 2/8, shape 12/14.
+Building reference seed array...  [0.435s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.183s]
+Searching alignments...  [7.896s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 2/8, shape 13/14.
+Building reference seed array...  [0.435s]
+Building query seed array...  [0.05s]
+Computing hash join...  [0.183s]
+Searching alignments...  [8.01s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 2/8, shape 14/14.
+Building reference seed array...  [0.466s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.184s]
+Searching alignments...  [7.967s]
+Deallocating memory...  [0s]
+Deallocating buffers...  [0.276s]
+Clearing query masking...  [0.003s]
+Opening temporary output file...  [0.024s]
+Computing alignments... Loading trace points...  [10.434s]
+Sorting trace points...  [1.19s]
+Computing alignments...  [46.195s]
+Deallocating buffers...  [0.264s]
+Loading trace points...  [0.038s]
+Sorting trace points...  [0.759s]
+Computing alignments...  [31.633s]
+Deallocating buffers...  [0.154s]
+Loading trace points...  [0s]
+Sorting trace points...  [0.498s]
+Computing alignments...  [22.673s]
+Deallocating buffers...  [0.12s]
+Loading trace points...  [0s]
+ [114.14s]
+Deallocating reference...  [0.022s]
+Loading reference sequences...  [0.718s]
+Initializing dictionary...  [0s]
+Initializing temporary storage...  [0.095s]
+Building reference histograms...  [3.648s]
+Allocating buffers...  [0.001s]
+Processing query block 1, reference block 3/8, shape 1/14.
+Building reference seed array...  [0.499s]
+Building query seed array...  [0.053s]
+Computing hash join...  [0.187s]
+Searching alignments...  [8.277s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 3/8, shape 2/14.
+Building reference seed array...  [0.451s]
+Building query seed array...  [0.048s]
+Computing hash join...  [0.186s]
+Searching alignments...  [9.503s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 3/8, shape 3/14.
+Building reference seed array...  [0.44s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.185s]
+Searching alignments...  [9.388s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 3/8, shape 4/14.
+Building reference seed array...  [0.432s]
+Building query seed array...  [0.053s]
+Computing hash join...  [0.179s]
+Searching alignments...  [8.86s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 3/8, shape 5/14.
+Building reference seed array...  [0.461s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.179s]
+Searching alignments...  [9.078s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 3/8, shape 6/14.
+Building reference seed array...  [0.454s]
+Building query seed array...  [0.049s]
+Computing hash join...  [0.196s]
+Searching alignments...  [9.062s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 3/8, shape 7/14.
+Building reference seed array...  [0.465s]
+Building query seed array...  [0.054s]
+Computing hash join...  [0.197s]
+Searching alignments...  [9.533s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 3/8, shape 8/14.
+Building reference seed array...  [0.481s]
+Building query seed array...  [0.051s]
+Computing hash join...  [0.195s]
+Searching alignments...  [8.601s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 3/8, shape 9/14.
+Building reference seed array...  [0.43s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.181s]
+Searching alignments...  [8.167s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 3/8, shape 10/14.
+Building reference seed array...  [0.442s]
+Building query seed array...  [0.05s]
+Computing hash join...  [0.183s]
+Searching alignments...  [9.159s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 3/8, shape 11/14.
+Building reference seed array...  [0.461s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.184s]
+Searching alignments...  [8.309s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 3/8, shape 12/14.
+Building reference seed array...  [0.43s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.182s]
+Searching alignments...  [8.082s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 3/8, shape 13/14.
+Building reference seed array...  [0.433s]
+Building query seed array...  [0.05s]
+Computing hash join...  [0.182s]
+Searching alignments...  [8.242s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 3/8, shape 14/14.
+Building reference seed array...  [0.462s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.183s]
+Searching alignments...  [8.151s]
+Deallocating memory...  [0s]
+Deallocating buffers...  [0.265s]
+Clearing query masking...  [0.004s]
+Opening temporary output file...  [0.006s]
+Computing alignments... Loading trace points...  [8.551s]
+Sorting trace points...  [1.237s]
+Computing alignments...  [46.704s]
+Deallocating buffers...  [0.263s]
+Loading trace points...  [0.04s]
+Sorting trace points...  [0.772s]
+Computing alignments...  [31.544s]
+Deallocating buffers...  [0.187s]
+Loading trace points...  [0s]
+Sorting trace points...  [0.503s]
+Computing alignments...  [22.462s]
+Deallocating buffers...  [0.12s]
+Loading trace points...  [0s]
+ [112.596s]
+Deallocating reference...  [0.02s]
+Loading reference sequences...  [0.701s]
+Initializing dictionary...  [0s]
+Initializing temporary storage...  [0.134s]
+Building reference histograms...  [3.683s]
+Allocating buffers...  [0.001s]
+Processing query block 1, reference block 4/8, shape 1/14.
+Building reference seed array...  [0.502s]
+Building query seed array...  [0.053s]
+Computing hash join...  [0.186s]
+Searching alignments...  [8.149s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 4/8, shape 2/14.
+Building reference seed array...  [0.436s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.185s]
+Searching alignments...  [9.184s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 4/8, shape 3/14.
+Building reference seed array...  [0.432s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.177s]
+Searching alignments...  [9.373s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 4/8, shape 4/14.
+Building reference seed array...  [0.48s]
+Building query seed array...  [0.056s]
+Computing hash join...  [0.198s]
+Searching alignments...  [9.34s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 4/8, shape 5/14.
+Building reference seed array...  [0.462s]
+Building query seed array...  [0.05s]
+Computing hash join...  [0.195s]
+Searching alignments...  [9.052s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 4/8, shape 6/14.
+Building reference seed array...  [0.465s]
+Building query seed array...  [0.056s]
+Computing hash join...  [0.195s]
+Searching alignments...  [8.913s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 4/8, shape 7/14.
+Building reference seed array...  [0.48s]
+Building query seed array...  [0.052s]
+Computing hash join...  [0.194s]
+Searching alignments...  [8.791s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 4/8, shape 8/14.
+Building reference seed array...  [0.439s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.183s]
+Searching alignments...  [8.292s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 4/8, shape 9/14.
+Building reference seed array...  [0.435s]
+Building query seed array...  [0.05s]
+Computing hash join...  [0.185s]
+Searching alignments...  [7.977s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 4/8, shape 10/14.
+Building reference seed array...  [0.458s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.183s]
+Searching alignments...  [8.912s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 4/8, shape 11/14.
+Building reference seed array...  [0.433s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.177s]
+Searching alignments...  [8.383s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 4/8, shape 12/14.
+Building reference seed array...  [0.455s]
+Building query seed array...  [0.053s]
+Computing hash join...  [0.191s]
+Searching alignments...  [8.495s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 4/8, shape 13/14.
+Building reference seed array...  [0.479s]
+Building query seed array...  [0.05s]
+Computing hash join...  [0.193s]
+Searching alignments...  [8.291s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 4/8, shape 14/14.
+Building reference seed array...  [0.435s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.172s]
+Searching alignments...  [7.949s]
+Deallocating memory...  [0s]
+Deallocating buffers...  [0.431s]
+Clearing query masking...  [0.003s]
+Opening temporary output file...  [0.009s]
+Computing alignments... Loading trace points...  [7.51s]
+Sorting trace points...  [1.161s]
+Computing alignments...  [45.084s]
+Deallocating buffers...  [0.289s]
+Loading trace points...  [0.025s]
+Sorting trace points...  [0.803s]
+Computing alignments...  [29.656s]
+Deallocating buffers...  [0.168s]
+Loading trace points...  [0s]
+Sorting trace points...  [0.463s]
+Computing alignments...  [20.803s]
+Deallocating buffers...  [0.126s]
+Loading trace points...  [0s]
+ [106.267s]
+Deallocating reference...  [0.022s]
+Loading reference sequences...  [0.623s]
+Initializing dictionary...  [0s]
+Initializing temporary storage...  [0.272s]
+Building reference histograms...  [3.95s]
+Allocating buffers...  [0.001s]
+Processing query block 1, reference block 5/8, shape 1/14.
+Building reference seed array...  [0.511s]
+Building query seed array...  [0.053s]
+Computing hash join...  [0.191s]
+Searching alignments...  [8.241s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 5/8, shape 2/14.
+Building reference seed array...  [0.478s]
+Building query seed array...  [0.049s]
+Computing hash join...  [0.185s]
+Searching alignments...  [9.331s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 5/8, shape 3/14.
+Building reference seed array...  [0.456s]
+Building query seed array...  [0.048s]
+Computing hash join...  [0.184s]
+Searching alignments...  [9.296s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 5/8, shape 4/14.
+Building reference seed array...  [0.448s]
+Building query seed array...  [0.052s]
+Computing hash join...  [0.187s]
+Searching alignments...  [8.838s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 5/8, shape 5/14.
+Building reference seed array...  [0.481s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.183s]
+Searching alignments...  [8.663s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 5/8, shape 6/14.
+Building reference seed array...  [0.456s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.178s]
+Searching alignments...  [8.436s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 5/8, shape 7/14.
+Building reference seed array...  [0.446s]
+Building query seed array...  [0.051s]
+Computing hash join...  [0.189s]
+Searching alignments...  [8.902s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 5/8, shape 8/14.
+Building reference seed array...  [0.478s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.181s]
+Searching alignments...  [8.348s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 5/8, shape 9/14.
+Building reference seed array...  [0.452s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.18s]
+Searching alignments...  [8.109s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 5/8, shape 10/14.
+Building reference seed array...  [0.444s]
+Building query seed array...  [0.05s]
+Computing hash join...  [0.181s]
+Searching alignments...  [9.037s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 5/8, shape 11/14.
+Building reference seed array...  [0.473s]
+Building query seed array...  [0.045s]
+Computing hash join...  [0.182s]
+Searching alignments...  [8.273s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 5/8, shape 12/14.
+Building reference seed array...  [0.446s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.18s]
+Searching alignments...  [8.038s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 5/8, shape 13/14.
+Building reference seed array...  [0.444s]
+Building query seed array...  [0.052s]
+Computing hash join...  [0.19s]
+Searching alignments...  [8.363s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 5/8, shape 14/14.
+Building reference seed array...  [0.471s]
+Building query seed array...  [0.045s]
+Computing hash join...  [0.183s]
+Searching alignments...  [8.061s]
+Deallocating memory...  [0s]
+Deallocating buffers...  [0.258s]
+Clearing query masking...  [0.002s]
+Opening temporary output file...  [0.016s]
+Computing alignments... Loading trace points...  [8.549s]
+Sorting trace points...  [1.176s]
+Computing alignments...  [45.736s]
+Deallocating buffers...  [0.311s]
+Loading trace points...  [0.055s]
+Sorting trace points...  [0.683s]
+Computing alignments...  [29.855s]
+Deallocating buffers...  [0.166s]
+Loading trace points...  [0s]
+Sorting trace points...  [0.481s]
+Computing alignments...  [20.463s]
+Deallocating buffers...  [0.175s]
+Loading trace points...  [0s]
+ [107.858s]
+Deallocating reference...  [0.019s]
+Loading reference sequences...  [0.708s]
+Initializing dictionary...  [0s]
+Initializing temporary storage...  [0.145s]
+Building reference histograms...  [3.651s]
+Allocating buffers...  [0.001s]
+Processing query block 1, reference block 6/8, shape 1/14.
+Building reference seed array...  [0.503s]
+Building query seed array...  [0.053s]
+Computing hash join...  [0.184s]
+Searching alignments...  [8.171s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 6/8, shape 2/14.
+Building reference seed array...  [0.43s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.189s]
+Searching alignments...  [9.32s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 6/8, shape 3/14.
+Building reference seed array...  [0.452s]
+Building query seed array...  [0.054s]
+Computing hash join...  [0.202s]
+Searching alignments...  [9.418s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 6/8, shape 4/14.
+Building reference seed array...  [0.466s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.189s]
+Searching alignments...  [8.827s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 6/8, shape 5/14.
+Building reference seed array...  [0.439s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.191s]
+Searching alignments...  [8.605s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 6/8, shape 6/14.
+Building reference seed array...  [0.431s]
+Building query seed array...  [0.051s]
+Computing hash join...  [0.18s]
+Searching alignments...  [8.607s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 6/8, shape 7/14.
+Building reference seed array...  [0.488s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.19s]
+Searching alignments...  [8.819s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 6/8, shape 8/14.
+Building reference seed array...  [0.438s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.18s]
+Searching alignments...  [8.279s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 6/8, shape 9/14.
+Building reference seed array...  [0.423s]
+Building query seed array...  [0.048s]
+Computing hash join...  [0.186s]
+Searching alignments...  [7.998s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 6/8, shape 10/14.
+Building reference seed array...  [0.45s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.177s]
+Searching alignments...  [9.313s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 6/8, shape 11/14.
+Building reference seed array...  [0.454s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.189s]
+Searching alignments...  [8.164s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 6/8, shape 12/14.
+Building reference seed array...  [0.428s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.182s]
+Searching alignments...  [7.99s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 6/8, shape 13/14.
+Building reference seed array...  [0.449s]
+Building query seed array...  [0.048s]
+Computing hash join...  [0.186s]
+Searching alignments...  [8.236s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 6/8, shape 14/14.
+Building reference seed array...  [0.454s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.189s]
+Searching alignments...  [8.088s]
+Deallocating memory...  [0s]
+Deallocating buffers...  [0.261s]
+Clearing query masking...  [0.002s]
+Opening temporary output file...  [0.01s]
+Computing alignments... Loading trace points...  [11.494s]
+Sorting trace points...  [1.318s]
+Computing alignments...  [49.562s]
+Deallocating buffers...  [0.322s]
+Loading trace points...  [0.033s]
+Sorting trace points...  [0.818s]
+Computing alignments...  [31.666s]
+Deallocating buffers...  [0.183s]
+Loading trace points...  [0s]
+Sorting trace points...  [0.488s]
+Computing alignments...  [22.726s]
+Deallocating buffers...  [0.161s]
+Loading trace points...  [0s]
+ [118.959s]
+Deallocating reference...  [0.03s]
+Loading reference sequences...  [0.713s]
+Initializing dictionary...  [0s]
+Initializing temporary storage...  [0.143s]
+Building reference histograms...  [3.639s]
+Allocating buffers...  [0.001s]
+Processing query block 1, reference block 7/8, shape 1/14.
+Building reference seed array...  [0.516s]
+Building query seed array...  [0.057s]
+Computing hash join...  [0.191s]
+Searching alignments...  [8.272s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 7/8, shape 2/14.
+Building reference seed array...  [0.436s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.19s]
+Searching alignments...  [9.312s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 7/8, shape 3/14.
+Building reference seed array...  [0.443s]
+Building query seed array...  [0.052s]
+Computing hash join...  [0.195s]
+Searching alignments...  [9.231s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 7/8, shape 4/14.
+Building reference seed array...  [0.464s]
+Building query seed array...  [0.05s]
+Computing hash join...  [0.185s]
+Searching alignments...  [8.832s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 7/8, shape 5/14.
+Building reference seed array...  [0.444s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.186s]
+Searching alignments...  [8.583s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 7/8, shape 6/14.
+Building reference seed array...  [0.443s]
+Building query seed array...  [0.052s]
+Computing hash join...  [0.179s]
+Searching alignments...  [8.519s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 7/8, shape 7/14.
+Building reference seed array...  [0.472s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.178s]
+Searching alignments...  [8.968s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 7/8, shape 8/14.
+Building reference seed array...  [0.446s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.186s]
+Searching alignments...  [8.45s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 7/8, shape 9/14.
+Building reference seed array...  [0.427s]
+Building query seed array...  [0.049s]
+Computing hash join...  [0.186s]
+Searching alignments...  [8.125s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 7/8, shape 10/14.
+Building reference seed array...  [0.466s]
+Building query seed array...  [0.048s]
+Computing hash join...  [0.182s]
+Searching alignments...  [9.046s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 7/8, shape 11/14.
+Building reference seed array...  [0.441s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.182s]
+Searching alignments...  [8.259s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 7/8, shape 12/14.
+Building reference seed array...  [0.431s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.181s]
+Searching alignments...  [8.049s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 7/8, shape 13/14.
+Building reference seed array...  [0.46s]
+Building query seed array...  [0.049s]
+Computing hash join...  [0.18s]
+Searching alignments...  [8.209s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 7/8, shape 14/14.
+Building reference seed array...  [0.448s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.181s]
+Searching alignments...  [8.137s]
+Deallocating memory...  [0s]
+Deallocating buffers...  [0.263s]
+Clearing query masking...  [0.004s]
+Opening temporary output file...  [0.094s]
+Computing alignments... Loading trace points...  [8.14s]
+Sorting trace points...  [1.191s]
+Computing alignments...  [45.61s]
+Deallocating buffers...  [0.305s]
+Loading trace points...  [0.045s]
+Sorting trace points...  [0.751s]
+Computing alignments...  [30.286s]
+Deallocating buffers...  [0.164s]
+Loading trace points...  [0s]
+Sorting trace points...  [0.489s]
+Computing alignments...  [22.267s]
+Deallocating buffers...  [0.165s]
+Loading trace points...  [0s]
+ [109.594s]
+Deallocating reference...  [0.032s]
+Loading reference sequences...  [0.298s]
+Initializing dictionary...  [0s]
+Initializing temporary storage...  [0.155s]
+Building reference histograms...  [1.529s]
+Allocating buffers...  [0.001s]
+Processing query block 1, reference block 8/8, shape 1/14.
+Building reference seed array...  [0.212s]
+Building query seed array...  [0.065s]
+Computing hash join...  [0.086s]
+Searching alignments...  [3.538s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 8/8, shape 2/14.
+Building reference seed array...  [0.188s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.086s]
+Searching alignments...  [4.018s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 8/8, shape 3/14.
+Building reference seed array...  [0.182s]
+Building query seed array...  [0.052s]
+Computing hash join...  [0.084s]
+Searching alignments...  [3.946s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 8/8, shape 4/14.
+Building reference seed array...  [0.177s]
+Building query seed array...  [0.049s]
+Computing hash join...  [0.083s]
+Searching alignments...  [3.836s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 8/8, shape 5/14.
+Building reference seed array...  [0.175s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.084s]
+Searching alignments...  [3.67s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 8/8, shape 6/14.
+Building reference seed array...  [0.174s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.082s]
+Searching alignments...  [3.663s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 8/8, shape 7/14.
+Building reference seed array...  [0.189s]
+Building query seed array...  [0.045s]
+Computing hash join...  [0.082s]
+Searching alignments...  [3.783s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 8/8, shape 8/14.
+Building reference seed array...  [0.184s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.082s]
+Searching alignments...  [3.61s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 8/8, shape 9/14.
+Building reference seed array...  [0.177s]
+Building query seed array...  [0.049s]
+Computing hash join...  [0.083s]
+Searching alignments...  [3.51s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 8/8, shape 10/14.
+Building reference seed array...  [0.179s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.083s]
+Searching alignments...  [3.844s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 8/8, shape 11/14.
+Building reference seed array...  [0.178s]
+Building query seed array...  [0.047s]
+Computing hash join...  [0.083s]
+Searching alignments...  [3.531s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 8/8, shape 12/14.
+Building reference seed array...  [0.189s]
+Building query seed array...  [0.045s]
+Computing hash join...  [0.083s]
+Searching alignments...  [3.469s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 8/8, shape 13/14.
+Building reference seed array...  [0.178s]
+Building query seed array...  [0.045s]
+Computing hash join...  [0.081s]
+Searching alignments...  [3.503s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 8/8, shape 14/14.
+Building reference seed array...  [0.177s]
+Building query seed array...  [0.048s]
+Computing hash join...  [0.08s]
+Searching alignments...  [3.525s]
+Deallocating memory...  [0s]
+Deallocating buffers...  [0.109s]
+Clearing query masking...  [0.004s]
+Opening temporary output file...  [0.08s]
+Computing alignments... Loading trace points...  [9.199s]
+Sorting trace points...  [1.157s]
+Computing alignments...  [49.711s]
+Deallocating buffers...  [0.28s]
+Loading trace points...  [0s]
+ [60.617s]
+Deallocating reference...  [0.01s]
+Loading reference sequences...  [0s]
+Deallocating buffers...  [0s]
+Joining output blocks... Loading dictionary...  [0.431s]
+Joining output blocks...  [1.049s]
+ [1.48s]
+Deallocating queries...  [0.004s]
+Loading query sequences...  [0.001s]
+Closing the input file...  [0s]
+Closing the output file...  [0.142s]
+Closing the database...  [0.002s]
+Cleaning up...  [0s]
+Total time = 1879.07s
+Reported 173384 pairwise alignments, 173384 HSPs.
+59471 queries aligned.
+
+Wed Oct 23 14:00:32 2024: 
+Printing to files:
+Std Out: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/blastp_cinerea_unfiltered_final_plant.out_std.out
+Std Err: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/blastp_cinerea_unfiltered_final_plant.out_std.err
+Wed Oct 23 14:00:32 2024: Success! Results written to: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/blastp_cinerea_unfiltered_final_plant.out
+Wed Oct 23 14:00:32 2024: Beginning to filter individual DIAMOND files...
+Wed Oct 23 14:00:32 2024: DIAMOND file located at /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/blastp_cinerea_unfiltered_final_plant.out being parsed
+Wed Oct 23 14:00:40 2024: File parsed, calculating statistics and writing output...
+Wed Oct 23 14:00:40 2024: Alignment file started: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/processed//plant/diamond_annotated
+Wed Oct 23 14:00:40 2024: Alignment file started: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/processed//plant/diamond_annotated_without_contam
+Wed Oct 23 14:00:40 2024: Alignment file started: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/processed//plant/diamond_unselected_hits
+Wed Oct 23 14:00:40 2024: Alignment file started: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/processed//plant/unannotated
+Wed Oct 23 14:00:43 2024: Alignment file ended: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/processed//plant/diamond_annotated
+Wed Oct 23 14:00:44 2024: Alignment file ended: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/processed//plant/diamond_annotated_without_contam
+Wed Oct 23 14:00:44 2024: Alignment file ended: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/processed//plant/diamond_unselected_hits
+Wed Oct 23 14:00:44 2024: Alignment file ended: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/processed//plant/unannotated
+Wed Oct 23 14:00:44 2024: Success!
+Wed Oct 23 14:00:44 2024: Calculating overall Similarity Searching statistics...
+Wed Oct 23 14:00:44 2024: Alignment file started: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/overall_results/diamond_annotated
+Wed Oct 23 14:00:44 2024: Alignment file started: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/overall_results/diamond_annotated_without_contam
+Wed Oct 23 14:00:44 2024: Alignment file started: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/overall_results/diamond_unselected_hits
+Wed Oct 23 14:00:44 2024: Alignment file started: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/overall_results/unannotated
+Wed Oct 23 14:00:46 2024: Alignment file ended: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/overall_results/diamond_annotated
+Wed Oct 23 14:00:47 2024: Alignment file ended: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/overall_results/diamond_annotated_without_contam
+Wed Oct 23 14:00:47 2024: Alignment file ended: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/overall_results/diamond_unselected_hits
+Wed Oct 23 14:00:47 2024: Alignment file ended: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/overall_results/unannotated
+Wed Oct 23 14:00:47 2024: Success!
+Wed Oct 23 14:00:47 2024: verifying state...
+Wed Oct 23 14:00:47 2024: STATE - GENE ONTOLOGY
+Wed Oct 23 14:00:47 2024: Spawn Object - Ontology
+Wed Oct 23 14:00:47 2024: opendir: Path could not be read: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/gene_family//EggNOG/processed/
+Wed Oct 23 14:00:47 2024: Overwrite was unselected, verifying output files...
+Wed Oct 23 14:00:47 2024: No Eggnog-mapper output files found, running...
+Wed Oct 23 14:00:47 2024: Running EggNOG-mapper from beginning...
+Wed Oct 23 14:00:47 2024: Executing command: 
+emapper.py --cpu 16 --dmnd_db /core/labs/Wegrzyn/databases/entap/bin/eggnog_proteins.dmnd --no_file_comments -i /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/transcriptomes//cinerea_unfiltered_final.fasta --sensmode more-sensitive --dbmem --output_dir /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/gene_family//EggNOG --data_dir /core/labs/Wegrzyn/databases/entap/databases -o blastp_cinerea_unfiltered -m diamond 
+Wed Oct 23 14:23:55 2024: 
+Std Err:
+[1;32mFunctional annotation of hits...[0m
+[1;34mTime to load the DB into memory: 132.01968145370483[0m
+500 132.6787302494049 3.77 q/s (% mem usage: 14.70, % mem avail: 85.29)
+1000 133.35396885871887 7.50 q/s (% mem usage: 14.80, % mem avail: 85.21)
+1500 133.98635506629944 11.20 q/s (% mem usage: 14.80, % mem avail: 85.22)
+2000 134.64641284942627 14.85 q/s (% mem usage: 14.80, % mem avail: 85.20)
+2500 135.33730840682983 18.47 q/s (% mem usage: 14.80, % mem avail: 85.22)
+3000 135.9991762638092 22.06 q/s (% mem usage: 14.80, % mem avail: 85.22)
+3500 136.6329538822174 25.62 q/s (% mem usage: 14.80, % mem avail: 85.21)
+4000 137.30836749076843 29.13 q/s (% mem usage: 14.80, % mem avail: 85.22)
+4500 137.9300832748413 32.63 q/s (% mem usage: 14.80, % mem avail: 85.21)
+5000 138.6000165939331 36.08 q/s (% mem usage: 15.10, % mem avail: 84.86)
+5500 139.23115849494934 39.50 q/s (% mem usage: 15.30, % mem avail: 84.69)
+6000 139.89108395576477 42.89 q/s (% mem usage: 15.30, % mem avail: 84.67)
+6500 140.5982632637024 46.23 q/s (% mem usage: 15.40, % mem avail: 84.65)
+7000 141.24335527420044 49.56 q/s (% mem usage: 15.40, % mem avail: 84.59)
+7500 141.90140628814697 52.85 q/s (% mem usage: 15.40, % mem avail: 84.59)
+8000 142.5686559677124 56.11 q/s (% mem usage: 15.40, % mem avail: 84.63)
+8500 143.25496172904968 59.33 q/s (% mem usage: 15.40, % mem avail: 84.61)
+9000 143.93535566329956 62.53 q/s (% mem usage: 15.40, % mem avail: 84.60)
+9500 144.6245448589325 65.69 q/s (% mem usage: 15.40, % mem avail: 84.61)
+10000 145.27033853530884 68.84 q/s (% mem usage: 15.40, % mem avail: 84.60)
+10500 146.02244114875793 71.91 q/s (% mem usage: 15.40, % mem avail: 84.59)
+11000 146.68493008613586 74.99 q/s (% mem usage: 15.40, % mem avail: 84.59)
+11500 147.3815426826477 78.03 q/s (% mem usage: 15.40, % mem avail: 84.58)
+12000 148.03879284858704 81.06 q/s (% mem usage: 15.40, % mem avail: 84.55)
+12500 148.73002123832703 84.04 q/s (% mem usage: 15.40, % mem avail: 84.57)
+13000 149.41829919815063 87.00 q/s (% mem usage: 15.50, % mem avail: 84.55)
+13500 150.08255910873413 89.95 q/s (% mem usage: 15.40, % mem avail: 84.56)
+14000 150.73708653450012 92.88 q/s (% mem usage: 15.40, % mem avail: 84.56)
+14500 151.3953893184662 95.78 q/s (% mem usage: 15.50, % mem avail: 84.55)
+15000 152.0398633480072 98.66 q/s (% mem usage: 15.50, % mem avail: 84.55)
+15500 152.7286126613617 101.49 q/s (% mem usage: 15.50, % mem avail: 84.54)
+16000 153.4092915058136 104.30 q/s (% mem usage: 15.50, % mem avail: 84.53)
+16500 154.09576749801636 107.08 q/s (% mem usage: 15.50, % mem avail: 84.53)
+17000 154.79330110549927 109.82 q/s (% mem usage: 15.50, % mem avail: 84.51)
+17500 155.48211812973022 112.55 q/s (% mem usage: 15.50, % mem avail: 84.52)
+18000 156.11912727355957 115.30 q/s (% mem usage: 15.50, % mem avail: 84.51)
+18500 156.79323387145996 117.99 q/s (% mem usage: 15.50, % mem avail: 84.50)
+19000 157.45964646339417 120.67 q/s (% mem usage: 15.50, % mem avail: 84.51)
+19500 158.130788564682 123.32 q/s (% mem usage: 15.50, % mem avail: 84.51)
+20000 158.80853271484375 125.94 q/s (% mem usage: 15.50, % mem avail: 84.50)
+20500 159.50167775154114 128.53 q/s (% mem usage: 15.50, % mem avail: 84.50)
+21000 160.1534025669098 131.12 q/s (% mem usage: 15.50, % mem avail: 84.50)
+21500 160.84528350830078 133.67 q/s (% mem usage: 15.50, % mem avail: 84.49)
+22000 161.5033402442932 136.22 q/s (% mem usage: 15.50, % mem avail: 84.49)
+22500 162.16159987449646 138.75 q/s (% mem usage: 15.50, % mem avail: 84.49)
+23000 162.83273696899414 141.25 q/s (% mem usage: 15.50, % mem avail: 84.48)
+23500 163.53420615196228 143.70 q/s (% mem usage: 15.50, % mem avail: 84.47)
+24000 164.20378422737122 146.16 q/s (% mem usage: 15.50, % mem avail: 84.48)
+24500 164.8569393157959 148.61 q/s (% mem usage: 15.50, % mem avail: 84.49)
+25000 165.56473970413208 151.00 q/s (% mem usage: 15.50, % mem avail: 84.48)
+25500 166.2529993057251 153.38 q/s (% mem usage: 15.50, % mem avail: 84.47)
+26000 166.98180174827576 155.71 q/s (% mem usage: 15.50, % mem avail: 84.49)
+26500 167.66956877708435 158.05 q/s (% mem usage: 15.50, % mem avail: 84.49)
+27000 168.3597264289856 160.37 q/s (% mem usage: 15.50, % mem avail: 84.49)
+27500 169.03226590156555 162.69 q/s (% mem usage: 15.50, % mem avail: 84.49)
+28000 169.68633484840393 165.01 q/s (% mem usage: 15.50, % mem avail: 84.49)
+28500 170.37389039993286 167.28 q/s (% mem usage: 15.50, % mem avail: 84.49)
+29000 171.05978631973267 169.53 q/s (% mem usage: 15.50, % mem avail: 84.49)
+29500 171.74761819839478 171.76 q/s (% mem usage: 15.50, % mem avail: 84.49)
+30000 172.39239597320557 174.02 q/s (% mem usage: 15.50, % mem avail: 84.47)
+30500 173.11399054527283 176.18 q/s (% mem usage: 15.50, % mem avail: 84.48)
+31000 173.78861284255981 178.38 q/s (% mem usage: 15.60, % mem avail: 84.42)
+31500 174.46544289588928 180.55 q/s (% mem usage: 15.50, % mem avail: 84.49)
+32000 175.14226770401 182.71 q/s (% mem usage: 15.50, % mem avail: 84.49)
+32500 175.8261308670044 184.84 q/s (% mem usage: 15.50, % mem avail: 84.49)
+33000 176.51789617538452 186.95 q/s (% mem usage: 15.50, % mem avail: 84.49)
+33500 177.18521928787231 189.07 q/s (% mem usage: 15.50, % mem avail: 84.49)
+34000 177.89050841331482 191.13 q/s (% mem usage: 15.50, % mem avail: 84.48)
+34500 178.87554359436035 192.87 q/s (% mem usage: 15.50, % mem avail: 84.49)
+35000 179.5677194595337 194.91 q/s (% mem usage: 15.50, % mem avail: 84.49)
+35500 180.2428777217865 196.96 q/s (% mem usage: 15.50, % mem avail: 84.49)
+36000 180.92455172538757 198.98 q/s (% mem usage: 15.50, % mem avail: 84.48)
+36500 181.61459684371948 200.98 q/s (% mem usage: 15.50, % mem avail: 84.48)
+37000 182.28661584854126 202.98 q/s (% mem usage: 15.50, % mem avail: 84.48)
+37500 183.00462985038757 204.91 q/s (% mem usage: 15.50, % mem avail: 84.49)
+38000 183.6513638496399 206.91 q/s (% mem usage: 15.50, % mem avail: 84.48)
+38500 184.34161114692688 208.85 q/s (% mem usage: 15.50, % mem avail: 84.47)
+39000 185.02368879318237 210.78 q/s (% mem usage: 15.50, % mem avail: 84.48)
+39500 185.7123317718506 212.69 q/s (% mem usage: 15.50, % mem avail: 84.49)
+40000 186.4052278995514 214.59 q/s (% mem usage: 15.50, % mem avail: 84.49)
+40500 187.08971238136292 216.47 q/s (% mem usage: 15.50, % mem avail: 84.49)
+41000 187.76531982421875 218.36 q/s (% mem usage: 15.50, % mem avail: 84.49)
+41500 188.44897389411926 220.22 q/s (% mem usage: 15.50, % mem avail: 84.49)
+42000 189.12065768241882 222.08 q/s (% mem usage: 15.50, % mem avail: 84.49)
+42500 189.85885381698608 223.85 q/s (% mem usage: 15.00, % mem avail: 85.01)
+43000 190.56378817558289 225.65 q/s (% mem usage: 15.10, % mem avail: 84.86)
+43500 191.24088621139526 227.46 q/s (% mem usage: 15.20, % mem avail: 84.80)
+44000 191.92363142967224 229.26 q/s (% mem usage: 15.30, % mem avail: 84.73)
+44500 192.5785117149353 231.07 q/s (% mem usage: 15.30, % mem avail: 84.68)
+45000 193.2467691898346 232.86 q/s (% mem usage: 15.40, % mem avail: 84.56)
+45500 193.89173889160156 234.67 q/s (% mem usage: 15.50, % mem avail: 84.50)
+46000 194.5679407119751 236.42 q/s (% mem usage: 15.60, % mem avail: 84.41)
+46500 195.26003503799438 238.14 q/s (% mem usage: 15.70, % mem avail: 84.32)
+47000 196.03228569030762 239.76 q/s (% mem usage: 15.80, % mem avail: 84.25)
+47500 196.7044153213501 241.48 q/s (% mem usage: 15.80, % mem avail: 84.20)
+48000 197.4341220855713 243.12 q/s (% mem usage: 15.80, % mem avail: 84.18)
+48500 198.1595482826233 244.75 q/s (% mem usage: 15.90, % mem avail: 84.14)
+49000 198.82217979431152 246.45 q/s (% mem usage: 15.80, % mem avail: 84.19)
+49500 199.49096870422363 248.13 q/s (% mem usage: 15.80, % mem avail: 84.18)
+50000 200.17240524291992 249.78 q/s (% mem usage: 15.80, % mem avail: 84.16)
+50500 200.87467217445374 251.40 q/s (% mem usage: 15.80, % mem avail: 84.19)
+51000 201.52790331840515 253.07 q/s (% mem usage: 15.80, % mem avail: 84.19)
+51500 202.20102334022522 254.70 q/s (% mem usage: 15.80, % mem avail: 84.18)
+52000 202.84551429748535 256.35 q/s (% mem usage: 15.80, % mem avail: 84.18)
+52500 203.53930854797363 257.94 q/s (% mem usage: 15.80, % mem avail: 84.19)
+53000 204.2597951889038 259.47 q/s (% mem usage: 15.80, % mem avail: 84.16)
+53500 204.97020554542542 261.01 q/s (% mem usage: 15.80, % mem avail: 84.19)
+54000 205.6255943775177 262.61 q/s (% mem usage: 15.80, % mem avail: 84.19)
+54500 206.3362374305725 264.13 q/s (% mem usage: 15.80, % mem avail: 84.19)
+55000 207.0010368824005 265.70 q/s (% mem usage: 15.90, % mem avail: 84.14)
+55500 207.6720485687256 267.25 q/s (% mem usage: 15.80, % mem avail: 84.16)
+56000 208.34458541870117 268.79 q/s (% mem usage: 15.80, % mem avail: 84.17)
+56500 209.0287322998047 270.30 q/s (% mem usage: 15.90, % mem avail: 84.15)
+57000 209.6710295677185 271.85 q/s (% mem usage: 15.80, % mem avail: 84.16)
+57500 210.3602032661438 273.34 q/s (% mem usage: 15.80, % mem avail: 84.17)
+58000 211.01503133773804 274.86 q/s (% mem usage: 15.80, % mem avail: 84.19)
+58500 211.68774962425232 276.35 q/s (% mem usage: 15.80, % mem avail: 84.18)
+59000 212.3654808998108 277.82 q/s (% mem usage: 15.80, % mem avail: 84.19)
+59500 213.03672170639038 279.29 q/s (% mem usage: 15.90, % mem avail: 84.15)
+60000 213.69301342964172 280.78 q/s (% mem usage: 15.80, % mem avail: 84.18)
+60500 214.38566732406616 282.20 q/s (% mem usage: 15.80, % mem avail: 84.16)
+61000 215.06907200813293 283.63 q/s (% mem usage: 15.80, % mem avail: 84.18)
+61500 215.7367353439331 285.07 q/s (% mem usage: 15.80, % mem avail: 84.19)
+62000 216.38769102096558 286.52 q/s (% mem usage: 15.80, % mem avail: 84.18)
+62500 217.09009313583374 287.90 q/s (% mem usage: 15.80, % mem avail: 84.16)
+63000 217.7241246700287 289.36 q/s (% mem usage: 15.80, % mem avail: 84.19)
+63500 218.3713481426239 290.79 q/s (% mem usage: 15.80, % mem avail: 84.17)
+64000 219.04516005516052 292.18 q/s (% mem usage: 15.80, % mem avail: 84.18)
+64500 219.68666315078735 293.60 q/s (% mem usage: 15.80, % mem avail: 84.19)
+65000 220.3447036743164 294.99 q/s (% mem usage: 15.80, % mem avail: 84.19)
+65500 221.02971935272217 296.34 q/s (% mem usage: 15.80, % mem avail: 84.19)
+66000 221.6843285560608 297.72 q/s (% mem usage: 15.80, % mem avail: 84.19)
+66500 222.37218475341797 299.05 q/s (% mem usage: 15.80, % mem avail: 84.19)
+67000 223.0291669368744 300.41 q/s (% mem usage: 15.80, % mem avail: 84.19)
+67066 225.12775564193726 297.90 q/s (% mem usage: 7.60, % mem avail: 92.36)
+
+Wed Oct 23 14:23:55 2024: 
+Printing to files:
+Std Out: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/gene_family//EggNOG/blastp_cinerea_unfiltered__std.out
+Std Err: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/gene_family//EggNOG/blastp_cinerea_unfiltered__std.err
+Wed Oct 23 14:23:55 2024: Success! EggNOG execution complete
+Wed Oct 23 14:23:55 2024: Beginning to parse eggnog mapper results...
+Wed Oct 23 14:23:55 2024: Eggnog file located at /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/gene_family//EggNOG/blastp_cinerea_unfiltered.emapper.annotations being filtered
+Wed Oct 23 14:23:55 2024: Alignment file started: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/gene_family//EggNOG/processed//eggnog_annotated
+Wed Oct 23 14:24:11 2024: Killing object - EggNOG Database
+Wed Oct 23 14:24:11 2024: Alignment file ended: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/gene_family//EggNOG/processed//eggnog_annotated
+Wed Oct 23 14:24:11 2024: Success! Printing output files
+Wed Oct 23 14:24:12 2024: Success! Computing overall statistics...
+Wed Oct 23 14:24:12 2024: Success! EggNOG results parsed
+Wed Oct 23 14:24:12 2024: Killing object - ModEggnog
+Wed Oct 23 14:24:12 2024: verifying state...
+Wed Oct 23 14:24:12 2024: STATE - HORIZONTAL GENE TRANSFER
+Wed Oct 23 14:24:12 2024: Determining if we want to run horizontal gene transfer analysis...
+Wed Oct 23 14:24:12 2024:     No, INPUT_FLAG_HGT_DONOR_DATABASES not input
+Wed Oct 23 14:24:12 2024:     No, INPUT_FLAG_HGT_RECIPIENT_DATABASES not input
+Wed Oct 23 14:24:12 2024:     No, INPUT_FLAG_HGT_GFF not input
+Wed Oct 23 14:24:12 2024: User has not input required flags for HGT analysis, skipping...
+Wed Oct 23 14:24:12 2024: verifying state...
+Wed Oct 23 14:24:12 2024: Pipeline finished! Calculating final statistics...
+Wed Oct 23 14:24:12 2024: Alignment file started: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/final_results//annotated
+Wed Oct 23 14:24:12 2024: Alignment file started: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/final_results//unannotated
+Wed Oct 23 14:24:12 2024: Alignment file started: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/final_results//entap_results
+Wed Oct 23 14:24:23 2024: Alignment file ended: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/final_results//annotated
+Wed Oct 23 14:24:23 2024: Alignment file ended: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/final_results//entap_results
+Wed Oct 23 14:24:23 2024: Alignment file ended: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/final_results//unannotated
+Wed Oct 23 14:24:23 2024: Killing Object - QueryData
+Wed Oct 23 14:24:24 2024: QuerySequence data freed
+Wed Oct 23 14:24:24 2024: Killing Object - GraphingManager
+Wed Oct 23 14:24:24 2024: Killing Object - EntapDatabase
+Wed Oct 23 14:24:28 2024: End - EnTAP
+Wed Oct 23 14:24:28 2024: Killing object - FileSystem
+Wed Oct 23 14:24:28 2024: Killing object - UserInput

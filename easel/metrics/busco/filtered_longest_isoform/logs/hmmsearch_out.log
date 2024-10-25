@@ -1,0 +1,226 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/78/770c4a3e6446e8e16d5a3374ba6dac/busco_downloads/lineages/embryophyta_odb10/hmms/8939at3193.hmm
+# target sequence database:        /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/78/770c4a3e6446e8e16d5a3374ba6dac/cinerea_filtered_longest_isoform.pep
+# per-dom hits tabular output:     /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/78/770c4a3e6446e8e16d5a3374ba6dac/cinerea_filtered_longest_isoform/run_embryophyta_odb10/hmmer_output/initial_run_results/8939at3193.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       8939at3193  [M=861]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+          0 1502.9  10.9   9.8e-240  798.6   1.5    3.4  3  cinerea_mrna-743415  gene=cinerea_gene-31827 seq_id=Chr10 typ
+    1.4e-11   43.7   0.0      2e-11   43.2   0.0    1.1  1  cinerea_mrna-460544  gene=cinerea_gene-18952 seq_id=Chr6 type
+    2.2e-10   39.8   0.0    3.4e-10   39.2   0.0    1.2  1  cinerea_mrna-186593  gene=cinerea_gene-6303 seq_id=Chr2 type=
+    4.8e-06   25.4   0.2      0.024   13.2   0.0    2.1  2  cinerea_mrna-732471  gene=cinerea_gene-31368 seq_id=Chr10 typ
+    1.2e-05   24.1   0.0    1.5e-05   23.7   0.0    1.1  1  cinerea_mrna-369059  gene=cinerea_gene-14795 seq_id=Chr5 type
+    0.00037   19.2   0.1       0.27    9.7   0.0    2.1  2  cinerea_mrna-76281   gene=cinerea_gene-32767 seq_id=Chr1 type
+
+
+Domain annotation for each sequence (and alignments):
+>> cinerea_mrna-743415  gene=cinerea_gene-31827 seq_id=Chr10 type=cds
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  140.1   0.4   2.7e-44     1e-40       1      87 [.     135     221 ..     135     236 .. 0.95
+   2 !  798.6   1.5  2.6e-243  9.8e-240      79     562 ..     245     816 ..     228     820 .. 0.90
+   3 !  569.0   0.1  6.4e-174  2.4e-170     560     861 .]     848    1185 ..     843    1185 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 140.1 bits;  conditional E-value: 2.7e-44
+           8939at3193   1 lrkswyrlrlsvrhpsrvptwdaivltaaspeqaelyelqlkrakrlgriakstvtlavpdpegkrigsgaatlnaiaalakhlakk 87 
+                          lrkswyrlrlsvrhp rvptwdaivltaasp+qa+ly++ql+rakr+gri++st+tlavpdp+g+rigsgaatl+ai+ala h +k 
+  cinerea_mrna-743415 135 LRKSWYRLRLSVRHPDRVPTWDAIVLTAASPQQAQLYDWQLSRAKRMGRISSSTITLAVPDPDGQRIGSGAATLHAIHALAAHYHKL 221
+                          79*********************************************************************************9875 PP
+
+  == domain 2  score: 798.6 bits;  conditional E-value: 2.6e-243
+           8939at3193  79 alakhlakkhvlllhaGGdskrvpwanplGkvflplpylaaddpdgpvpllfdhilaisssarqafkneGGllimtGdvlpcfdastlvl 168
+                           +++ lak+h+lllhaGGdskrvpwanp+Gkvflplpy+ addpdgpvpllf+h+lai+s+arqafkneGGl+imtGdvlpcfdast++l
+  cinerea_mrna-743415 245 PMVSFLAKRHILLLHAGGDSKRVPWANPMGKVFLPLPYMGADDPDGPVPLLFEHVLAIASCARQAFKNEGGLFIMTGDVLPCFDASTMIL 334
+                          467789************************************************************************************ PP
+
+           8939at3193 169 pedasciitvpitldiasnhGvivask.........lslvenllqkpsveelv...ailddgrtlldtGiiavrGkaweelvklals.qs 245
+                          pedasciitvpitldiasnhGvivas+         +slv+nllqkps+eelv   ailddgrtlldtGiia+rG+aw+elvkl++s ++
+  cinerea_mrna-743415 335 PEDASCIITVPITLDIASNHGVIVASQseimaksysVSLVDNLLQKPSIEELVknnAILDDGRTLLDTGIIAARGQAWVELVKLSCScEP 424
+                          *************************86444444555899*************87779****************************98467 PP
+
+           8939at3193 246 lisell.....lslyedlvaawvpakhewlkkrplgkelvnalg..klfsycaydlsflhfGtssevldhls...sglvgrrhlcsipat 325
+                          li ell     +slyedlvaawvpakhewl++rplg+elv+ lg  k+fsy a+dl+flhfGtssevldhls   s+lv rrhlcsipat
+  cinerea_mrna-743415 425 LILELLksrkeMSLYEDLVAAWVPAKHEWLQQRPLGQELVSGLGktKMFSYFAFDLLFLHFGTSSEVLDHLSgasSRLVDRRHLCSIPAT 514
+                          999**98888899******************************9445************************644489************* PP
+
+           8939at3193 326 tvsdiaasavilsskiapgvsigedslvydsslsggiqiGsqsivvgvnv.............fvlpdrhclwevplv....rvivycGl 398
+                          tvsdiaasav+lsskiapgvs+gedsl+ydss+ +g+qiGsq+ivvg+nv             f+lpdrhclwevplv    rvivycGl
+  cinerea_mrna-743415 515 TVSDIAASAVVLSSKIAPGVSVGEDSLIYDSSIFSGVQIGSQCIVVGINVpgdngktaedsfrFMLPDRHCLWEVPLVgcieRVIVYCGL 604
+                          ************************************************9877777777888789************9777779******* PP
+
+           8939at3193 399 hdnpk.....dgtfcgkpwkkvledlgi.esdlwss....ekclwnaklfpvl...emlklalwlmG............wkkskrvslee 463
+                          hdnpk     dgtfcg+pwkkvl+dlgi e+dlwss    +kclwna++f++l   eml+la+wlmG            wk+++rvslee
+  cinerea_mrna-743415 605 HDNPKnslsnDGTFCGRPWKKVLHDLGIqETDLWSStvmqDKCLWNANIFAILpyfEMLTLATWLMGlsdqktnyllplWKNARRVSLEE 694
+                          ****95555569****************558***9655559*********8865558*********9999999999999*********** PP
+
+           8939at3193 464 lhrsidfsklclessnhqadlaagiakaclnyGllGrnlsqlceeilqke..gveicke..............ilpksrayqvkvdllra 537
+                          lhrsidf+klc++ssnhqadlaagiakac+nyG+lGrnlsqlceeilq++  gv++ck+              ilpksrayqv+vdllra
+  cinerea_mrna-743415 695 LHRSIDFTKLCIGSSNHQADLAAGIAKACINYGMLGRNLSQLCEEILQNDvsGVDMCKDfldlcpklqeqnskILPKSRAYQVHVDLLRA 784
+                          ************************************************9755899999744444444444444689************** PP
+
+           8939at3193 538 cgde.......ekvwaavaeetasavkyglve 562
+                          c+de       +kvwaava+etasavkyg+ e
+  cinerea_mrna-743415 785 CNDEakaceleHKVWAAVADETASAVKYGFKE 816
+                          9996333333379****************976 PP
+
+  == domain 3  score: 569.0 bits;  conditional E-value: 6.4e-174
+           8939at3193  560 lvelpvrvdfvGGwsdtppwsleraGcvlnmaislegslpigtiiett..............lsiedlssiaapfd...pfrlvksal 630 
+                            velpvrvdfvGGwsdtppwsleraGcvlnmai+legslpigtiiett              l+ied++sia+pfd   pfrlvksal
+  cinerea_mrna-743415  848 KVELPVRVDFVGGWSDTPPWSLERAGCVLNMAINLEGSLPIGTIIETTktagvlisddagnqLHIEDVTSIATPFDsndPFRLVKSAL 935 
+                           69********************************************864444444444444479***********64448******** PP
+
+           8939at3193  631 lvtgi........iglkiktwanvprGsGlGtssilaaavvkgllqitdgdesnenvarlvlvleqlmGtGGGwqdqiGGlypGikft 710 
+                           lvtgi        igl i+twanvprGsGlGtssilaaavvkgllqit+gde+nenvarlvlvleqlmGtGGGwqdqiGGlypGikft
+  cinerea_mrna-743415  936 LVTGIvhdnslesIGLLIRTWANVPRGSGLGTSSILAAAVVKGLLQITKGDENNENVARLVLVLEQLMGTGGGWQDQIGGLYPGIKFT 1023
+                           ****9444444445899*********************************************************************** PP
+
+           8939at3193  711 ssfpGiplrlqvvpllaspqlikeleqrllvvftGqvrlahkvlqkvvtrylrrdnllissikrlaelakigrealmngdidelGeil 798 
+                           +sfpGiplrlqv+pllaspqli el+qrllv+ftGqvrlah+vl+kvvtryl+rdnll+ssikrlaelakigrealmn++i+e+Gei+
+  cinerea_mrna-743415 1024 ASFPGIPLRLQVIPLLASPQLILELQQRLLVIFTGQVRLAHQVLHKVVTRYLQRDNLLVSSIKRLAELAKIGREALMNCEINEMGEIM 1111
+                           **************************************************************************************** PP
+
+           8939at3193  799 leawrlhqeldpycsnefvdklfafadkyccGyklvGaGGGGfalllak....akelrk.......fdvkvyew 861 
+                           leawrlhqeldp+csnefvd+lf+fad+yc+GyklvGaGGGGfal+lak    akelr+       fdvk+y+w
+  cinerea_mrna-743415 1112 LEAWRLHQELDPHCSNEFVDRLFSFADPYCSGYKLVGAGGGGFALVLAKdadcAKELRQsleadssFDVKIYDW 1185
+                           ************************************************97666789986555555589999999 PP
+
+>> cinerea_mrna-460544  gene=cinerea_gene-18952 seq_id=Chr6 type=cds
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.2   0.0   5.4e-15     2e-11     643     842 ..     120     319 ..     108     332 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 43.2 bits;  conditional E-value: 5.4e-15
+           8939at3193 643 wanvprGsGlGtssilaaavvkgllqitdgde..snenvarlvlvleqlmGtGGGwqdqiGGlypGikftssfpGiplrlqvvpllaspq 730
+                           +n+pr +Gl  ss + +a + +ll   +  +    e   +lvl  eq +G   G qd++  +y G+ + + f    +      + +   
+  cinerea_mrna-460544 120 DTNIPRQTGLSGSSAIVCAALSCLLDFYEVRHliKVEVRPNLVLAAEQELGIIAGLQDRVAQVYGGLVY-MDFSKEYMDAFGHGIYT--P 206
+                          479*******9999999999******9997762244556789************************976.46777776665555554..4 PP
+
+           8939at3193 731 likeleqrllvvftGqvrlahkvlqkvvtrylrrdnllissikrlaelakigrealmngdidelGeilleawrlhqel.dpycsnefvdk 819
+                          +   l   l ++++ +   + kv   v +r+l+ d+ +iss+  +a++ak gr al++ d  +l +++   + l++ +       ++  k
+  cinerea_mrna-460544 207 MDISLLPPLYLIYAENPSDSGKVHSTVRQRWLNGDKFIISSMLEVANVAKEGRTALLEKDHSKLAKLMDCNFDLRRSMfGDDALGDLNIK 296
+                          5557888999****************************************************************9987333455667779 PP
+
+           8939at3193 820 lfafadkyccGyklvGaGGGGfa 842
+                          + ++a+k  +  k+ G+GG   a
+  cinerea_mrna-460544 297 MVEVARKVGAASKFTGSGGAVIA 319
+                          99999999999999999998766 PP
+
+>> cinerea_mrna-186593  gene=cinerea_gene-6303 seq_id=Chr2 type=cds
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.2   0.0   9.1e-14   3.4e-10     644     843 ..     121     320 ..     109     333 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 39.2 bits;  conditional E-value: 9.1e-14
+           8939at3193 644 anvprGsGlGtssilaaavvkgllqitdgde..snenvarlvlvleqlmGtGGGwqdqiGGlypGikftssfpGiplrlqvvpllaspql 731
+                          +n+pr +Gl  ss + +a + +ll   +  +    e   +lvl  e+ +G   G qd++  +y G+ +   f    +      + +   +
+  cinerea_mrna-186593 121 TNIPRQTGLSGSSAIVCAALSCLLDFYRVRHliKVEVRPNLVLAAEKELGIVAGLQDRVAQVYGGLVYM-DFSKEYMDDLGHGIYT--PM 207
+                          79*******99999999999****99876652145566789************************9775.5666665544455544..34 PP
+
+           8939at3193 732 ikeleqrllvvftGqvrlahkvlqkvvtrylrrdnllissikrlaelakigrealmngdidelGeilleawrlhqel.dpycsnefvdkl 820
+                             l   l ++++ +   + kv   v +r+l  d+ +i s+  +a++ak gr++l++ d  el +++   + l++ +        +  k+
+  cinerea_mrna-186593 208 DISLLPPLYLIYAENPSDSGKVHSTVRQRWLSGDEFIILSMIEVANIAKEGRKTLLEKDYSELAKLMNHNFDLRRSMfGDDALGALNIKM 297
+                          4567789999***************************************************************99873333445666799 PP
+
+           8939at3193 821 fafadkyccGyklvGaGGGGfal 843
+                           ++a+k  +  k+ G+GG   a+
+  cinerea_mrna-186593 298 VEVARKVGAASKFTGSGGAVVAF 320
+                          99999999999999999987665 PP
+
+>> cinerea_mrna-732471  gene=cinerea_gene-31368 seq_id=Chr10 type=cds
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.4   0.1   4.4e-05      0.16     632     706 ..     147     221 ..     135     251 .. 0.85
+   2 !   13.2   0.0   6.5e-06     0.024     760     851 ..     363     455 ..     304     464 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 4.4e-05
+           8939at3193 632 vtgiiglkiktwanvprGsGlGtssilaaavvkgllqitdgdesnenvarlvlvleqlmGtGGGwqdqiGGlypG 706
+                          v + +gl++     vp GsGl +s+ + ++   +++   + +  +++va+l    e+ +Gt  G  dq   + + 
+  cinerea_mrna-732471 147 VGSTVGLDVLVDGTVPTGSGLSSSAAFVCSSTIAIMAALNVNFPKKEVAQLTCECERHIGTQSGGMDQAISVMAK 221
+                          667899******************99999999999999999********************99999997666655 PP
+
+  == domain 2  score: 13.2 bits;  conditional E-value: 6.5e-06
+           8939at3193 760 rylrrdnllissikrlaelakigrealmngd.idelGeilleawrlhqeldpycsnefvdklfafadky.ccGyklvGaGGGGfalllak 847
+                          +  +r + + s  kr+ ++  i    l + d +++lG+++ e+     ++   cs   +++l ++++++ + G +l GaG GG a+ l k
+  cinerea_mrna-732471 363 KLHQRASHVYSEAKRVHAFKDIVASELSEEDkLKKLGDLMNESHY-SCNVFYECSCPELEELVNICREHgALGARLTGAGWGGCAVALVK 451
+                          4458889999999*****999988888766549*********965.5677789***********99877257**************9999 PP
+
+           8939at3193 848 akel 851
+                           + +
+  cinerea_mrna-732471 452 ESIV 455
+                          7655 PP
+
+>> cinerea_mrna-369059  gene=cinerea_gene-14795 seq_id=Chr5 type=cds
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.7   0.0   4.2e-09   1.5e-05     633     846 ..     159     380 ..      97     390 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 23.7 bits;  conditional E-value: 4.2e-09
+           8939at3193 633 tgiiglkiktwanvprGsGlGtssilaaavvkgllqitdgdesnenvarlvlvleqlmGtGGGw....qdqiGGlypGikftssfpGipl 718
+                           g    ++   +++p GsGlG+s+ l++a+  +ll  +d  + + +     ++ e  +     w    +  i G  +Gi  t s  G  +
+  cinerea_mrna-369059 159 QGYKPATVVVTSELPLGSGLGSSAALSVALSAALLAFSDSVSLDMSRQEWSVFGESDLELVNKWafegERIIHGKPSGIDNTVSTYGNMI 248
+                          3444455667899************************998777777777777777767666666222245699***************** PP
+
+           8939at3193 719 rlqvvpllaspqlikeleqrllvvftGqvrlahkvlqkvvtrylrrdnll...issikrla.elakigr.ealmngdidelGeilleawr 803
+                          +++  +l+   +l +++  r+l+  t   r ++ ++  v  r lr+ + +    +++  ++ +l+ i +  a     i e  e + e  +
+  cinerea_mrna-369059 249 KFRSGSLT---RLKSNMPLRMLITNTNVGRNTKALVAGVSERALRHPDAMsfvFNAVDSISkDLSIIIQsPAPDDLSITEKEEKIEELME 335
+                          ***99885...799*******************************965441114455544413333333134444556666777777778 PP
+
+           8939at3193 804 lhqeldpy..csnefvdklfafadkyccGyklvGaGGGGfallla 846
+                          ++q l      s + ++ +++ + ky    kl GaGGGG  l l 
+  cinerea_mrna-369059 336 MNQGLLQCmgVSHSAIETVLRTTLKYKLASKLTGAGGGGCVLTLL 380
+                          888775431268999************************998775 PP
+
+>> cinerea_mrna-76281  gene=cinerea_gene-32767 seq_id=Chr1 type=cds
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.5   0.1   0.00034       1.3     636     703 ..     152     219 ..     145     249 .. 0.87
+   2 !    9.7   0.0   7.2e-05      0.27     761     851 ..     365     456 ..     328     465 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 7.5 bits;  conditional E-value: 0.00034
+          8939at3193 636 iglkiktwanvprGsGlGtssilaaavvkgllqitdgdesnenvarlvlvleqlmGtGGGwqdqiGGl 703
+                         +gl++     vp GsGl +s+ + ++   +++   d +  ++++a+l    e+ +Gt  G  dq   +
+  cinerea_mrna-76281 152 VGLDVLVDGTVPTGSGLSSSAAFVCSSTIAIMAAFDVNFPKKEIAQLTCECERHIGTQSGGMDQAISV 219
+                         6889999999**********999999999999999**********************99999996555 PP
+
+  == domain 2  score: 9.7 bits;  conditional E-value: 7.2e-05
+          8939at3193 761 ylrrdnllissikrlaelakigrealmn.gdidelGeilleawrlhqeldpycsnefvdklfafadky.ccGyklvGaGGGGfalllakak 849
+                           +r + + s  +r+ ++  +    l +  ++++lG+++ e+      l   cs   +++l ++++++ + G +l GaG GG ++ l k +
+  cinerea_mrna-76281 365 LHQRAAHVYSEARRVYAFKDTVASELSEeDKLKKLGDLMNESHYSCSVL-YECSCPELEELVNLCREHgAFGARLTGAGWGGCSVALVKES 454
+                         44677778888888888877666666551569*********98766655.68***********99877257*************9999876 PP
+
+          8939at3193 850 el 851
+                          +
+  cinerea_mrna-76281 455 IV 456
+                         55 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (861 nodes)
+Target sequences:                        22211  (10755940 residues searched)
+Passed MSV filter:                       559  (0.0251677); expected 444.2 (0.02)
+Passed bias filter:                      461  (0.0207555); expected 444.2 (0.02)
+Passed Vit filter:                        41  (0.00184593); expected 22.2 (0.001)
+Passed Fwd filter:                         6  (0.000270136); expected 0.2 (1e-05)
+Initial search space (Z):              22211  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.43u 0.02s 00:00:00.45 Elapsed: 00:00:00.35
+# Mc/sec: 26459.61
+//
+[ok]

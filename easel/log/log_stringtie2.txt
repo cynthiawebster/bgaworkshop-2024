@@ -1,0 +1,5 @@
+##### StringTie2 #####
+Total number of genes: 18834
+Total number of transcripts: 25721
+Mono-exonic/multi-exonic rate: .13 
+BUSCO (embryophyta_odb10): C:88.0%[S:71.2%,D:16.8%],F:4.7%,M:7.3%,n:1614	   

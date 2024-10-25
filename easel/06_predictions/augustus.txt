@@ -1,0 +1,4 @@
+/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/03/7ad8fd602ed3942627be22c1620db7/orthodb_psiclass.gff
+/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/03/7ad8fd602ed3942627be22c1620db7/orthodb_stringtie2.gff
+/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/b0/2290ce50d9eff83023663bbc280395/td_psiclass.gff
+/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/b0/2290ce50d9eff83023663bbc280395/td_stringtie2.gff

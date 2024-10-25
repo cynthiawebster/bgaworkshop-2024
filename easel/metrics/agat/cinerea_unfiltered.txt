@@ -1,0 +1,109 @@
+--------------------------------------------------------------------------------
+
+---------------------------------- transcript ----------------------------------
+Number of gene                               33952
+Number of transcript                         73934
+Number of cds                                73934
+Number of exon                               400356
+Number of start_codon                        73934
+Number of stop_codon                         73934
+Number of exon in cds                        400356
+Number of intron in cds                      326422
+Number of intron in exon                     326422
+Number gene overlapping                      798
+Number of single exon gene                   9471
+Number of single exon transcript             14793
+mean transcripts per gene                    2.2
+mean cdss per transcript                     1.0
+mean exons per transcript                    5.4
+mean start_codons per transcript             1.0
+mean stop_codons per transcript              1.0
+mean exons per cds                           5.4
+mean introns in cdss per transcript          4.4
+mean introns in exons per transcript         4.4
+Total gene length (bp)                       151655234
+Total transcript length (bp)                 341317149
+Total cds length (bp)                        89237088
+Total exon length (bp)                       89237088
+Total start_codon length (bp)                221802
+Total stop_codon length (bp)                 221802
+Total intron length per cds (bp)             252080061
+Total intron length per exon (bp)            252080061
+mean gene length (bp)                        4466
+mean transcript length (bp)                  4616
+mean cds length (bp)                         1206
+mean exon length (bp)                        222
+mean start_codon length (bp)                 3
+mean stop_codon length (bp)                  3
+mean cds piece length (bp)                   222
+mean intron in cds length (bp)               772
+mean intron in exon length (bp)              772
+Longest gene (bp)                            219555
+Longest transcript (bp)                      219555
+Longest cds (bp)                             17868
+Longest exon (bp)                            7992
+Longest start_codon (bp)                     3
+Longest stop_codon (bp)                      3
+Longest cds piece (bp)                       7992
+Longest intron into cds part (bp)            155421
+Longest intron into exon part (bp)           155421
+Shortest gene (bp)                           201
+Shortest transcript (bp)                     201
+Shortest cds piece (bp)                      3
+Shortest intron into cds part (bp)           21
+Shortest intron into exon part (bp)          21
+
+transcript have isoforms! Here are the statistics without isoforms shortest isoforms excluded):
+
+Number of gene                               33952
+Number of transcript                         33952
+Number of cds                                33952
+Number of exon                               161022
+Number of start_codon                        33952
+Number of stop_codon                         33952
+Number of exon in cds                        161022
+Number of intron in cds                      127070
+Number of intron in exon                     127070
+Number gene overlapping                      690
+Number of single exon gene                   9802
+Number of single exon transcript             9802
+mean transcripts per gene                    1.0
+mean cdss per transcript                     1.0
+mean exons per transcript                    4.7
+mean start_codons per transcript             1.0
+mean stop_codons per transcript              1.0
+mean exons per cds                           4.7
+mean introns in cdss per transcript          3.7
+mean introns in exons per transcript         3.7
+Total gene length (bp)                       151655234
+Total transcript length (bp)                 141787074
+Total cds length (bp)                        40690605
+Total exon length (bp)                       40690605
+Total start_codon length (bp)                101856
+Total stop_codon length (bp)                 101856
+Total intron length per cds (bp)             101096469
+Total intron length per exon (bp)            101096469
+mean gene length (bp)                        4466
+mean transcript length (bp)                  4176
+mean cds length (bp)                         1198
+mean exon length (bp)                        252
+mean start_codon length (bp)                 3
+mean stop_codon length (bp)                  3
+mean cds piece length (bp)                   252
+mean intron in cds length (bp)               795
+mean intron in exon length (bp)              795
+Longest gene (bp)                            219555
+Longest transcript (bp)                      126147
+Longest cds (bp)                             17868
+Longest exon (bp)                            7992
+Longest start_codon (bp)                     3
+Longest stop_codon (bp)                      3
+Longest cds piece (bp)                       7992
+Longest intron into cds part (bp)            115274
+Longest intron into exon part (bp)           115274
+Shortest gene (bp)                           201
+Shortest transcript (bp)                     201
+Shortest cds piece (bp)                      3
+Shortest intron into cds part (bp)           30
+Shortest intron into exon part (bp)          30
+

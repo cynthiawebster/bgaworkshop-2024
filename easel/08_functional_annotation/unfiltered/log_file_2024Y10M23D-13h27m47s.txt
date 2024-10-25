@@ -1,0 +1,232 @@
+------------------------------------------------------
+EnTAP Run Information - Execution
+------------------------------------------------------
+Current EnTAP Version: 1.4.0
+Start time: Wed Oct 23 13:27:47 2024
+
+Working directory has been set to: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered
+User Inputs:
+out-dir: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered
+config: false
+runP: true
+runN: false
+overwrite: false
+run-ini: entap_run.params
+entap-ini: entap_config.ini
+input: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/a8/a68a0891d7afddae402e1afeaa976d/cinerea_unfiltered.pep
+database: /isg/shared/databases/Diamond/RefSeq/plant.protein.faa.208.dmnd,
+graph: false
+no-trim: false
+threads: 16
+state: +
+no-check: false
+output-format: 1,3,4,7,
+api-taxon: 
+entap-db-bin: /core/labs/Wegrzyn/databases/entap/bin/entap_database.bin
+entap-db-sql: /usr/local/bin//databases/entap_database.db
+entap-graph: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/bin/entap_graphing.py
+data-generate: false
+data-type: 0,
+fpkm: 0.500000
+align: 
+single-end: false
+rsem-calculate-expression: rsem-calculate-expression
+rsem-sam-validator: rsem-sam-validator
+rsem-prepare-reference: rsem-prepare-reference
+convert-sam-for-rsem: convert-sam-for-rsem
+transdecoder-long-exe: /TransDecoder/TransDecoder.LongOrfs
+transdecoder-predict-exe: /TransDecoder/TransDecoder.Predict
+transdecoder-m: 100
+transdecoder-no-refine-starts: false
+diamond-exe: diamond
+taxon: juglans
+qcoverage: 70.000000
+tcoverage: 70.000000
+contam: 
+e-value: 0.000010
+uninformative: conserved,predicted,unknown,unnamed,hypothetical,putative,unidentified,uncharacterized,uncultured,uninformative,
+diamond-sensitivity: very-sensitive
+ontology_source: 0,
+eggnog-map-exe: emapper.py
+eggnog-map-data: /core/labs/Wegrzyn/databases/entap/databases
+eggnog-map-dmnd: /core/labs/Wegrzyn/databases/entap/bin/eggnog_proteins.dmnd
+eggnog-contaminant: false
+eggnog-dbmem: true
+eggnog-sensitivity: more-sensitive
+interproscan-exe: interproscan.sh
+interproscan-db: 
+hgt-donor: 
+hgt-recipient: 
+hgt-gff: 
+
+------------------------------------------------------
+Transcriptome Statistics
+------------------------------------------------------
+Protein sequences found
+Total sequences: 73934
+Total length of transcriptome(bp): 92774535
+Average sequence length(bp): 1254.00
+n50: 1605
+n90: 633
+Longest sequence(bp): 17916 (cinerea_mrna-255743)
+Shortest sequence(bp): 246 (cinerea_mrna-6664)
+------------------------------------------------------
+Similarity Search - DIAMOND - plant
+------------------------------------------------------
+Search results:
+/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/blastp_cinerea_unfiltered_final_plant.out
+	Total alignments: 173384
+	Total unselected results: 113913
+		Written to: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/processed//plant/diamond_unselected_hits
+	Total unique transcripts with an alignment: 59471
+		Reference transcriptome sequences with an alignment (FASTA):
+			/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/processed//plant/diamond_annotated
+		Search results (TSV):
+			/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/processed//plant/diamond_annotated
+	Total unique transcripts without an alignment: 14463
+		Reference transcriptome sequences without an alignment (FASTA):
+			/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/processed//plant/unannotated
+	Total unique informative alignments: 46264
+	Total unique uninformative alignments: 13207
+	Top 10 alignments by species:
+			1)juglans microcarpa x juglans regia: 39132(52.93% of total retained sequences)
+			2)juglans regia: 7582(10.26% of total retained sequences)
+			3)carya illinoinensis: 2192(2.96% of total retained sequences)
+			4)quercus suber: 656(0.89% of total retained sequences)
+			5)quercus lobata: 421(0.57% of total retained sequences)
+			6)ziziphus jujuba: 387(0.52% of total retained sequences)
+			7)camellia sinensis: 299(0.40% of total retained sequences)
+			8)hevea brasiliensis: 288(0.39% of total retained sequences)
+			9)hibiscus syriacus: 278(0.38% of total retained sequences)
+			10)nicotiana tabacum: 260(0.35% of total retained sequences)
+
+------------------------------------------------------
+Compiled Similarity Search - DIAMOND - Best Overall
+------------------------------------------------------
+
+	Total unique transcripts with an alignment: 59471
+		Reference transcriptome sequences with an alignment (FASTA):
+			/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/overall_results/diamond_annotated
+		Search results (TSV):
+			/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/overall_results/diamond_annotated
+	Total unique transcripts without an alignment: 14463
+		Reference transcriptome sequences without an alignment (FASTA):
+			/core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/similarity_search/DIAMOND/overall_results/unannotated
+	Total unique informative alignments: 46657
+	Total unique uninformative alignments: 12814
+	Top 10 alignments by species:
+			1)juglans microcarpa x juglans regia: 40474(54.74% of total retained sequences)
+			2)juglans regia: 6634(8.97% of total retained sequences)
+			3)carya illinoinensis: 1677(2.27% of total retained sequences)
+			4)quercus suber: 672(0.91% of total retained sequences)
+			5)quercus lobata: 440(0.60% of total retained sequences)
+			6)ziziphus jujuba: 393(0.53% of total retained sequences)
+			7)hibiscus syriacus: 303(0.41% of total retained sequences)
+			8)hevea brasiliensis: 285(0.39% of total retained sequences)
+			9)camellia sinensis: 265(0.36% of total retained sequences)
+			10)olea europaea var. sylvestris: 245(0.33% of total retained sequences)
+
+------------------------------------------------------
+Gene Family - Gene Ontology and Pathway - EggNOG
+------------------------------------------------------
+Statistics for overall Eggnog results: 
+Total unique sequences with family assignment: 67066
+	Written to: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/gene_family//EggNOG/processed//eggnog_annotated
+Total unique sequences without family assignment: 6868
+	Written to: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered/gene_family//EggNOG/processed//eggnog_unannotated
+Top 10 Taxonomic Scopes Assigned:
+	1)35493|Streptophyta: 65954(89.21% of total retained sequences)
+	2)2759|Eukaryota: 592(0.80% of total retained sequences)
+	3)33090|Viridiplantae: 353(0.48% of total retained sequences)
+	4)33208|Metazoa: 30(0.04% of total retained sequences)
+	5)4751|Fungi: 8(0.01% of total retained sequences)
+	6)121069|Pythiales: 6(0.01% of total retained sequences)
+	7)2|Bacteria: 6(0.01% of total retained sequences)
+	8)1117|Cyanobacteria: 5(0.01% of total retained sequences)
+	9)4113.PGSC0003DMT400096324|: 5(0.01% of total retained sequences)
+	10)29760.VIT_00s0199g00250.t01|: 4(0.01% of total retained sequences)
+Total unique sequences with at least one GO term: 37633
+Total unique sequences without GO terms: 29433
+Total GO terms assigned: 2210209
+Total biological_process terms: 1350383
+Total unique biological_process terms: 7652
+Top 10 biological_process terms assigned: 
+	1)GO:0008150: 32477(2.41% of total GO terms)
+	2)GO:0009987: 24203(1.79% of total GO terms)
+	3)GO:0008152: 19436(1.44% of total GO terms)
+	4)GO:0071704: 17545(1.30% of total GO terms)
+	5)GO:0044237: 17369(1.29% of total GO terms)
+	6)GO:0044238: 16158(1.20% of total GO terms)
+	7)GO:0065007: 15038(1.11% of total GO terms)
+	8)GO:0006807: 14366(1.06% of total GO terms)
+	9)GO:0050896: 14089(1.04% of total GO terms)
+	10)GO:0050789: 13365(0.99% of total GO terms)
+Total cellular_component terms: 567759
+Total unique cellular_component terms: 1185
+Top 10 cellular_component terms assigned: 
+	1)GO:0005575: 32878(5.79% of total GO terms)
+	2)GO:0005623: 31999(5.64% of total GO terms)
+	3)GO:0044464: 31999(5.64% of total GO terms)
+	4)GO:0005622: 28012(4.93% of total GO terms)
+	5)GO:0044424: 27901(4.91% of total GO terms)
+	6)GO:0043226: 24542(4.32% of total GO terms)
+	7)GO:0043229: 24446(4.31% of total GO terms)
+	8)GO:0043227: 23612(4.16% of total GO terms)
+	9)GO:0043231: 23142(4.08% of total GO terms)
+	10)GO:0005737: 20947(3.69% of total GO terms)
+Total overall terms: 2210209
+Total unique overall terms: 11452
+Top 10 overall terms assigned: 
+	1)GO:0005575: 32878(1.49% of total GO terms)
+	2)GO:0008150: 32477(1.47% of total GO terms)
+	3)GO:0044464: 31999(1.45% of total GO terms)
+	4)GO:0005623: 31999(1.45% of total GO terms)
+	5)GO:0003674: 28256(1.28% of total GO terms)
+	6)GO:0005622: 28012(1.27% of total GO terms)
+	7)GO:0044424: 27901(1.26% of total GO terms)
+	8)GO:0043226: 24542(1.11% of total GO terms)
+	9)GO:0043229: 24446(1.11% of total GO terms)
+	10)GO:0009987: 24203(1.10% of total GO terms)
+Total molecular_function terms: 292067
+Total unique molecular_function terms: 2615
+Top 10 molecular_function terms assigned: 
+	1)GO:0003674: 28256(9.67% of total GO terms)
+	2)GO:0003824: 16631(5.69% of total GO terms)
+	3)GO:0005488: 13147(4.50% of total GO terms)
+	4)GO:0016740: 7176(2.46% of total GO terms)
+	5)GO:0097159: 7076(2.42% of total GO terms)
+	6)GO:1901363: 7026(2.41% of total GO terms)
+	7)GO:0016787: 6325(2.17% of total GO terms)
+	8)GO:0003676: 5925(2.03% of total GO terms)
+	9)GO:0005515: 5610(1.92% of total GO terms)
+	10)GO:0140096: 5396(1.85% of total GO terms)
+Total unique sequences with at least one KEGG assignment: 21556
+Total unique sequences without KEGG assignment: 45510
+------------------------------------------------------
+Final Annotation Statistics
+------------------------------------------------------
+Total Input Sequences: 73934
+Similarity Search
+	Total unique sequences with an alignment: 59471 (80.44% of total input sequences)
+		No contaminants were selected by user
+	Total unique sequences without an alignment: 14463 (19.56% of total input sequences)
+Gene Families
+	Total unique sequences with family assignment: 67066 (90.71% of total input sequences)
+	Total unique sequences without family assignment: 6868 (9.29% of total input sequences)
+	Total unique sequences with at least one GO term: 37633 (50.90% of total input sequences)
+	Total unique sequences with at least one pathway (KEGG) assignment: 21556 (29.16% of total input sequences)
+		EggNOG contaminant analysis turned off
+Totals
+EnTAP files written to: /core/labs/Wegrzyn/easel/easel-nf/v_1.6.1/work/5c/f268bb9b8158b1e50bcc625dee1434/unfiltered
+	Total retained sequences (after filtering and/or frame selection): 73934
+		Final transcriptome written to directory: transcriptomes/
+	Total unique sequences annotated (similarity search alignments only): 255 (0.34% of total retained)
+	Total unique sequences annotated (gene family assignment only): 7850 (10.62% of total retained)
+	Total unique sequences annotated (gene family and/or similarity search): 67321 (91.06% of total retained)
+		Written to: final_results//annotated
+		No contaminants were selected by user
+	Total unique sequences unannotated (gene family and/or similarity search): 6613 (8.94% of total retained)
+		Written to: final_results//unannotated
+
+EnTAP has completed!
+Total runtime (minutes): 56

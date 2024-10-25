@@ -1,0 +1,59 @@
+######## Genome ########
+56.07 % of jcinerea_folded.fasta is masked
+Number of scaffolds: 16
+Number of contigs: 303
+Total length: 539433174
+Percent gaps: 0.005%
+Scaffold N50: 34 MB
+Contigs N50: 3 MB
+BUSCO (embryophyta_odb10): C:98.7%[S:90.0%,D:8.7%],F:1.0%,M:0.3%,n:1614,E:3.0%	   
+
+##### RNA Reads #####
+Passed:
+library total_bases read_mean_length gc_content
+SRR6134108 42901952 99 0.459747
+
+Failed:
+None.
+All libraries have more than 15000000 total bases and a mean read length greater than 70
+
+##### Alignment Rates #####
+Passed:
+library rate
+SRR6134108 92.00
+
+Failed:
+None.
+All libraries have a mapping rate greater than 85%
+
+##### PsiCLASS #####
+Total number of genes: 20948
+Total number of transcripts: 28996
+Mono-exonic/multi-exonic rate: .22 
+BUSCO (embryophyta_odb10): C:88.6%[S:71.3%,D:17.3%],F:5.3%,M:6.1%,n:1614	   
+
+##### StringTie2 #####
+Total number of genes: 18834
+Total number of transcripts: 25721
+Mono-exonic/multi-exonic rate: .13 
+BUSCO (embryophyta_odb10): C:88.0%[S:71.2%,D:16.8%],F:4.7%,M:7.3%,n:1614	   
+
+##### Unfiltered #####
+Total number of genes: 33952
+Total number of transcripts: 73934
+EnTAP alignment rate: 80.4%
+Mono-exonic/multi-exonic ratio: .386 
+BUSCO (embryophyta_odb10): C:97.9%[S:40.5%,D:57.4%],F:1.3%,M:0.8%,n:1614	   
+
+##### Filtered #####
+Total number of genes: 23202
+Total number of transcripts: 45834
+EnTAP alignment rate: 97.9%
+Mono-exonic/multi-exonic ratio: .221 
+BUSCO (embryophyta_odb10): C:96.0%[S:44.6%,D:51.4%],F:1.2%,M:2.8%,n:1614	   
+
+##### Filtered (Longest Isoform)  #####
+Total number of genes: 23202
+EnTAP alignment rate: 98.0%
+Mono-exonic/multi-exonic ratio: .229 
+BUSCO (embryophyta_odb10): C:93.7%[S:86.3%,D:7.4%],F:2.5%,M:3.8%,n:1614	   
